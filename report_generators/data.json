@@ -1,0 +1,10 @@
+{
+    "test": {
+        "test.js": [
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            }
+        ]
+    }
+}
