@@ -49,11 +49,11 @@ class JscefrWalker(ParseTreeWalker):
         # print(f'{layer} {JavaScriptParser.ruleNames[ctx.getRuleIndex()]}')
         # print(f'  start at line {ctx.start.line}, column {ctx.start.column}')
         # print(f'  stop at line {ctx.stop.line}, column {ctx.stop.column}')
-        # print(f'  text: {ctx.start.text}')
+        # print(f'  start text: {ctx.start.text}, stop text: {ctx.stop.text}')
 
         code_construct = JavaScriptParser.ruleNames[ctx.getRuleIndex()]
         for match in self.data:
-            if (code_construct == 'identifier' and ctx.start.text == match['Class']) or code_construct == match['Class']:
+            if code_construct == match['Class'] or (code_construct == 'identifier' and ctx.start.text == match['Class']) or (code_construct == 'singleExpression' and (ctx.start.text == match['Class'].split('.')[0] and ctx.stop.text == match['Class'].split('.')[-1])):
                 listener.insert_values(list(match.values()))
     
     def exitRule(self, listener:JavaScriptParserListener, r:RuleNode):

@@ -132,3 +132,13 @@ THREE,B2
 cookie,B2
 sessionStorage,B2
 indexedDB,B2
+appendChild,B2
+remove,B2
+Reflect,B2
+Array.prototype,A2
+Promise.all,B2
+Object.is,C1
+Proxy.revocable,C2
+FileReader.prototype.readAsArrayBuffer,C2
+XMLHttpRequest.prototype.send,C2
+ImageData.data,C2

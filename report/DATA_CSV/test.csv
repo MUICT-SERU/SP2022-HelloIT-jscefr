@@ -1,3 +1,2 @@
 Repository,File Name,Class,Start Line,End Line,Displacement,Level
-test,test,alert,A1
-test,test,arguments,A2
+test,test,Array.prototype,A2

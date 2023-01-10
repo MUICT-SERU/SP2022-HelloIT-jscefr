@@ -1,3 +1,10 @@
 {
-    "test": {}
+    "test": {
+        "Levels": {
+            "A2": 1
+        },
+        "Class": {
+            "Array.prototype": 1
+        }
+    }
 }

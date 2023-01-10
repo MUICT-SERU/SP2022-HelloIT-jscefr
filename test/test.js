@@ -1,1 +1,1 @@
-alert('')
+a = Array.prototype;
