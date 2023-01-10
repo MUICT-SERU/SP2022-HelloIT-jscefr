@@ -1,1 +1,10 @@
-{}
+{
+    "Levels": {
+        "A1": 1,
+        "A2": 1
+    },
+    "Class": {
+        "alert": 1,
+        "arguments": 1
+    }
+}
