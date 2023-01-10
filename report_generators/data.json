@@ -1,10 +1,3 @@
 {
-    "test": {
-        "test.js": [
-            {
-                "Class": "arguments",
-                "Level": "A2"
-            }
-        ]
-    }
+    "test": {}
 }

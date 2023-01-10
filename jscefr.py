@@ -100,5 +100,5 @@ if __name__ == '__main__':
         sys.exit("Usage: python3 file.js type-option('directory', " +
                  "'repo-url', 'user') option(directory, url, user)")
     data = choose_option()
-    # write_to_file(data)
-    # summary_Levels()
+    write_to_file(data)
+    summary_Levels()
