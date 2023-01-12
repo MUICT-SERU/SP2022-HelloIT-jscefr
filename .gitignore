@@ -1,3 +1,4 @@
 test/node_modules/*
 report_generators/__pycache__/*
-antlr_packages/python/__pycache__
+antlr_packages/python/__pycache__/*
+test/bestbags-nodejs-ecommerce/*

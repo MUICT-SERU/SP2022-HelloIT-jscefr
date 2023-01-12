@@ -1,8 +1,962 @@
 {
-    "10": {
-        "zzarcon_749150a2b9b9f61b50ec1337a86ee55ef29028b0_2016-10-12_09:18:54_mutation-observer.js_0.js": [
+    "bestbags-nodejs-ecommerce": {
+        "products.js": [
             {
-                "Class": "Array.prototype",
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "anonymousFunction",
+                "Level": "A1"
+            },
+            {
+                "Class": "arrowFunctionParameters",
+                "Level": "A1"
+            },
+            {
+                "Class": "formalParameterList",
+                "Level": "A1"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "parseInt",
+                "Level": "A2"
+            },
+            {
+                "Class": "parseInt",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "tryStatement",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "Math",
+                "Level": "A1"
+            },
+            {
+                "Class": "Math",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "anonymousFunction",
+                "Level": "A1"
+            },
+            {
+                "Class": "arrowFunctionParameters",
+                "Level": "A1"
+            },
+            {
+                "Class": "formalParameterList",
+                "Level": "A1"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "parseInt",
+                "Level": "A2"
+            },
+            {
+                "Class": "parseInt",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "tryStatement",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "Math",
+                "Level": "A1"
+            },
+            {
+                "Class": "Math",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "anonymousFunction",
+                "Level": "A1"
+            },
+            {
+                "Class": "arrowFunctionParameters",
+                "Level": "A1"
+            },
+            {
+                "Class": "formalParameterList",
+                "Level": "A1"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "parseInt",
+                "Level": "A2"
+            },
+            {
+                "Class": "parseInt",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "tryStatement",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "toString",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "Math",
+                "Level": "A1"
+            },
+            {
+                "Class": "Math",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "returnStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "anonymousFunction",
+                "Level": "A1"
+            },
+            {
+                "Class": "arrowFunctionParameters",
+                "Level": "A1"
+            },
+            {
+                "Class": "formalParameterList",
+                "Level": "A1"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "tryStatement",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "returnStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            }
+        ],
+        "user.js": [
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "anonymousFunction",
+                "Level": "A1"
+            },
+            {
+                "Class": "arrowFunctionParameters",
+                "Level": "A1"
+            },
+            {
+                "Class": "formalParameterList",
+                "Level": "A1"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arrayLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "anonymousFunction",
+                "Level": "A1"
+            },
+            {
+                "Class": "arrowFunctionParameters",
+                "Level": "A1"
+            },
+            {
+                "Class": "formalParameterList",
+                "Level": "A1"
+            },
+            {
+                "Class": "tryStatement",
+                "Level": "A2"
+            },
+            {
+                "Class": "ifStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "ifStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "message",
+                "Level": "A2"
+            },
+            {
+                "Class": "returnStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "anonymousFunction",
+                "Level": "A1"
+            },
+            {
+                "Class": "arrowFunctionParameters",
+                "Level": "A1"
+            },
+            {
+                "Class": "formalParameterList",
+                "Level": "A1"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arrayLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "anonymousFunction",
+                "Level": "A1"
+            },
+            {
+                "Class": "arrowFunctionParameters",
+                "Level": "A1"
+            },
+            {
+                "Class": "formalParameterList",
+                "Level": "A1"
+            },
+            {
+                "Class": "tryStatement",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "ifStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "ifStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "ifStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "message",
+                "Level": "A2"
+            },
+            {
+                "Class": "returnStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "anonymousFunction",
+                "Level": "A1"
+            },
+            {
+                "Class": "arrowFunctionParameters",
+                "Level": "A1"
+            },
+            {
+                "Class": "formalParameterList",
+                "Level": "A1"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "tryStatement",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "returnStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "anonymousFunction",
+                "Level": "A1"
+            },
+            {
+                "Class": "arrowFunctionParameters",
+                "Level": "A1"
+            },
+            {
+                "Class": "formalParameterList",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
                 "Level": "A2"
             },
             {
@@ -10,6 +964,2161 @@
                 "Level": "A2"
             }
         ],
-        "zzarcon_749150a2b9b9f61b50ec1337a86ee55ef29028b0_2016-10-12_09:18:54_mutation-observer.js_1.js": []
+        "index.js": [
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "anonymousFunction",
+                "Level": "A1"
+            },
+            {
+                "Class": "arrowFunctionParameters",
+                "Level": "A1"
+            },
+            {
+                "Class": "formalParameterList",
+                "Level": "A1"
+            },
+            {
+                "Class": "tryStatement",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "anonymousFunction",
+                "Level": "A1"
+            },
+            {
+                "Class": "arrowFunctionParameters",
+                "Level": "A1"
+            },
+            {
+                "Class": "formalParameterList",
+                "Level": "A1"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "tryStatement",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "ifStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "ifStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "ifStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "anonymousFunction",
+                "Level": "A1"
+            },
+            {
+                "Class": "arrowFunctionParameters",
+                "Level": "A1"
+            },
+            {
+                "Class": "formalParameterList",
+                "Level": "A1"
+            },
+            {
+                "Class": "ifStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "assignmentOperator",
+                "Level": "A1"
+            },
+            {
+                "Class": "push",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "assignmentOperator",
+                "Level": "A1"
+            },
+            {
+                "Class": "ifStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "message",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "anonymousFunction",
+                "Level": "A1"
+            },
+            {
+                "Class": "arrowFunctionParameters",
+                "Level": "A1"
+            },
+            {
+                "Class": "formalParameterList",
+                "Level": "A1"
+            },
+            {
+                "Class": "tryStatement",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "ifStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "ifStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "returnStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "ifStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "returnStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "returnStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "message",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "anonymousFunction",
+                "Level": "A1"
+            },
+            {
+                "Class": "formalParameterList",
+                "Level": "A1"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "tryStatement",
+                "Level": "A2"
+            },
+            {
+                "Class": "ifStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "ifStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "anonymousFunction",
+                "Level": "A1"
+            },
+            {
+                "Class": "arrowFunctionParameters",
+                "Level": "A1"
+            },
+            {
+                "Class": "formalParameterList",
+                "Level": "A1"
+            },
+            {
+                "Class": "ifStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "assignmentOperator",
+                "Level": "A1"
+            },
+            {
+                "Class": "assignmentOperator",
+                "Level": "A1"
+            },
+            {
+                "Class": "ifStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "remove",
+                "Level": "B2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "ifStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "ifStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "message",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "anonymousFunction",
+                "Level": "A1"
+            },
+            {
+                "Class": "formalParameterList",
+                "Level": "A1"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "tryStatement",
+                "Level": "A2"
+            },
+            {
+                "Class": "ifStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "ifStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "anonymousFunction",
+                "Level": "A1"
+            },
+            {
+                "Class": "arrowFunctionParameters",
+                "Level": "A1"
+            },
+            {
+                "Class": "formalParameterList",
+                "Level": "A1"
+            },
+            {
+                "Class": "ifStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "assignmentOperator",
+                "Level": "A1"
+            },
+            {
+                "Class": "assignmentOperator",
+                "Level": "A1"
+            },
+            {
+                "Class": "remove",
+                "Level": "B2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "ifStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "ifStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "message",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "anonymousFunction",
+                "Level": "A1"
+            },
+            {
+                "Class": "arrowFunctionParameters",
+                "Level": "A1"
+            },
+            {
+                "Class": "formalParameterList",
+                "Level": "A1"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "ifStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "returnStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "anonymousFunction",
+                "Level": "A1"
+            },
+            {
+                "Class": "arrowFunctionParameters",
+                "Level": "A1"
+            },
+            {
+                "Class": "formalParameterList",
+                "Level": "A1"
+            },
+            {
+                "Class": "ifStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "returnStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "anonymousFunction",
+                "Level": "A1"
+            },
+            {
+                "Class": "formalParameterList",
+                "Level": "A1"
+            },
+            {
+                "Class": "ifStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "message",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "returnStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "anonymousFunction",
+                "Level": "A1"
+            },
+            {
+                "Class": "arrowFunctionParameters",
+                "Level": "A1"
+            },
+            {
+                "Class": "formalParameterList",
+                "Level": "A1"
+            },
+            {
+                "Class": "ifStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "returnStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "anonymousFunction",
+                "Level": "A1"
+            },
+            {
+                "Class": "formalParameterList",
+                "Level": "A1"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arrayLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "iterationStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "push",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "returnStatement",
+                "Level": "A1"
+            }
+        ],
+        "admin.js": [
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "arrayLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "arrayLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "filter",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "filter",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "filter",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "filter",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "filter",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "filter",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "filter",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "filter",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "filter",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "filter",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "filter",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "filter",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "filter",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "filter",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "anonymousFunction",
+                "Level": "A1"
+            },
+            {
+                "Class": "arrowFunctionParameters",
+                "Level": "A1"
+            },
+            {
+                "Class": "formalParameterList",
+                "Level": "A1"
+            },
+            {
+                "Class": "ifStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "returnStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "returnStatement",
+                "Level": "A1"
+            }
+        ],
+        "pages.js": [
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "anonymousFunction",
+                "Level": "A1"
+            },
+            {
+                "Class": "arrowFunctionParameters",
+                "Level": "A1"
+            },
+            {
+                "Class": "formalParameterList",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "anonymousFunction",
+                "Level": "A1"
+            },
+            {
+                "Class": "arrowFunctionParameters",
+                "Level": "A1"
+            },
+            {
+                "Class": "formalParameterList",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "anonymousFunction",
+                "Level": "A1"
+            },
+            {
+                "Class": "arrowFunctionParameters",
+                "Level": "A1"
+            },
+            {
+                "Class": "formalParameterList",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "anonymousFunction",
+                "Level": "A1"
+            },
+            {
+                "Class": "arrowFunctionParameters",
+                "Level": "A1"
+            },
+            {
+                "Class": "formalParameterList",
+                "Level": "A1"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arrayLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "anonymousFunction",
+                "Level": "A1"
+            },
+            {
+                "Class": "arrowFunctionParameters",
+                "Level": "A1"
+            },
+            {
+                "Class": "formalParameterList",
+                "Level": "A1"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "reservedWord",
+                "Level": "B1"
+            },
+            {
+                "Class": "message",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "anonymousFunction",
+                "Level": "A1"
+            },
+            {
+                "Class": "arrowFunctionParameters",
+                "Level": "A1"
+            },
+            {
+                "Class": "formalParameterList",
+                "Level": "A1"
+            },
+            {
+                "Class": "ifStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "returnStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "returnStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            }
+        ],
+        "app.js": [
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "join",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "join",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "cookie",
+                "Level": "B2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "anonymousFunction",
+                "Level": "A1"
+            },
+            {
+                "Class": "arrowFunctionParameters",
+                "Level": "A1"
+            },
+            {
+                "Class": "formalParameterList",
+                "Level": "A1"
+            },
+            {
+                "Class": "tryStatement",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "anonymousFunction",
+                "Level": "A1"
+            },
+            {
+                "Class": "formalParameterList",
+                "Level": "A1"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arrayLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "split",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "iterationStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "length",
+                "Level": "A1"
+            },
+            {
+                "Class": "length",
+                "Level": "A1"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "toUpperCase",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "slice",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "returnStatement",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "anonymousFunction",
+                "Level": "A1"
+            },
+            {
+                "Class": "formalParameterList",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "anonymousFunction",
+                "Level": "A1"
+            },
+            {
+                "Class": "formalParameterList",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "anonymousFunction",
+                "Level": "A1"
+            },
+            {
+                "Class": "formalParameterList",
+                "Level": "A1"
+            },
+            {
+                "Class": "message",
+                "Level": "A2"
+            },
+            {
+                "Class": "message",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "objectLiteral",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "varModifier",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            },
+            {
+                "Class": "anonymousFunction",
+                "Level": "A1"
+            },
+            {
+                "Class": "arrowFunctionParameters",
+                "Level": "A1"
+            },
+            {
+                "Class": "arguments",
+                "Level": "A2"
+            }
+        ]
     }
 }

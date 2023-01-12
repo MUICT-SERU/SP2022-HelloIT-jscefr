@@ -1,10 +1,38 @@
 {
-    "10": {
+    "bestbags-nodejs-ecommerce": {
         "Levels": {
-            "A2": 1
+            "A1": 415,
+            "A2": 358,
+            "B2": 3,
+            "B1": 1
         },
         "Class": {
-            "Array.prototype": 1
+            "varModifier": 122,
+            "arguments": 315,
+            "anonymousFunction": 36,
+            "arrowFunctionParameters": 28,
+            "formalParameterList": 35,
+            "parseInt": 6,
+            "tryStatement": 13,
+            "objectLiteral": 115,
+            "Math": 6,
+            "toString": 1,
+            "returnStatement": 18,
+            "arrayLiteral": 7,
+            "ifStatement": 30,
+            "message": 10,
+            "assignmentOperator": 6,
+            "push": 2,
+            "remove": 2,
+            "iterationStatement": 2,
+            "filter": 14,
+            "reservedWord": 1,
+            "join": 2,
+            "cookie": 1,
+            "split": 1,
+            "length": 2,
+            "toUpperCase": 1,
+            "slice": 1
         }
     }
 }
