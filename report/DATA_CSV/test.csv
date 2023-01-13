@@ -1,2 +1,3 @@
 Repository,File Name,Class,Start Line,End Line,Displacement,Level
-test,test,Array.prototype,A2
+test,test,importStatement,B1
+test,test,aggregatingModuleExpression,B1

@@ -2,7 +2,8 @@ import os, json
 from antlr4 import *
 from antlr4.tree.Tree import ParseTree
 from .JavaScriptParserListener import JavaScriptParserListener
-from .JavaScriptParser import JavaScriptParser
+from .JscefrParser import JscefrParser
+# from .JavaScriptParser import JavaScriptParser
 
 class JscefrWalker(ParseTreeWalker):
 
@@ -46,14 +47,15 @@ class JscefrWalker(ParseTreeWalker):
         ctx = r.getRuleContext()
         listener.enterEveryRule(ctx)
         ctx.enterRule(listener)
-        # print(f'{layer} {JavaScriptParser.ruleNames[ctx.getRuleIndex()]}')
-        # print(f'  start at line {ctx.start.line}, column {ctx.start.column}')
-        # print(f'  stop at line {ctx.stop.line}, column {ctx.stop.column}')
-        # print(f'  start text: {ctx.start.text}, stop text: {ctx.stop.text}')
 
-        code_construct = JavaScriptParser.ruleNames[ctx.getRuleIndex()]
+        # code_construct = JavaScriptParser.ruleNames[ctx.getRuleIndex()]
+        # code_construct = JscefrParser.ruleNames[ctx.getRuleIndex()]
+        
+        listener.add_to_traverse_result([layer, JscefrParser.ruleNames[ctx.getRuleIndex()], ctx.start.line, ctx.start.column, ctx.stop.line, ctx.stop.column, ctx.start.text, ctx.stop.text, [JscefrParser.ruleNames[child.getRuleIndex()] for child in (ctx.children or []) if child.__class__.__name__ != 'TerminalNodeImpl'], ctx.__class__.__name__])
+
         for match in self.data:
-            if code_construct == match['Class'] or (code_construct == 'identifier' and ctx.start.text == match['Class']) or (code_construct == 'singleExpression' and (ctx.start.text == match['Class'].split('.')[0] and ctx.stop.text == match['Class'].split('.')[-1])):
+            name = match['Class']
+            if JscefrParser.ruleNames[ctx.getRuleIndex()].lower() == name.lower() or JscefrParser.isSpecialRule(ctx, match, match['Class'], listener):
                 listener.insert_values(list(match.values()))
     
     def exitRule(self, listener:JavaScriptParserListener, r:RuleNode):

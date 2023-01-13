@@ -1,10 +1,11 @@
 {
     "test": {
         "Levels": {
-            "A2": 1
+            "B1": 2
         },
         "Class": {
-            "Array.prototype": 1
+            "importStatement": 1,
+            "aggregatingModuleExpression": 1
         }
     }
 }

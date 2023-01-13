@@ -2,8 +2,12 @@
     "test": {
         "test.js": [
             {
-                "Class": "Array.prototype",
-                "Level": "A2"
+                "Class": "importStatement",
+                "Level": "B1"
+            },
+            {
+                "Class": "aggregatingModuleExpression",
+                "Level": "B1"
             }
         ]
     }

@@ -1,7 +1,8 @@
 import sys, os, json, csv
 from antlr4 import *
 from antlr_packages.python.JavaScriptLexer import JavaScriptLexer
-from antlr_packages.python.JavaScriptParser import JavaScriptParser
+# from antlr_packages.python.JavaScriptParser import JavaScriptParser
+from antlr_packages.python.JscefrParser import JscefrParser
 from antlr_packages.python.JavaScriptParserListener import JavaScriptParserListener
 from antlr_packages.python.JscefrWalker import JscefrWalker
 from report_generators.getjson import read_Json
@@ -29,8 +30,8 @@ def read_Directory(absFilePath, repo):
     path = absFilePath
     try:
         directory = os.listdir(path)
-        directory.remove('node_modules')
-        print(directory)
+        # directory.remove('node_modules')
+        # print(directory)
         for i in range(0, len(directory)):
             if directory[i].endswith('.js'):
                 print('JavaScript File: ' + str(directory[i]))
@@ -53,7 +54,8 @@ def read_File(pos):
     input_stream = FileStream(pos)
     lexer = JavaScriptLexer(input_stream)
     stream = CommonTokenStream(lexer)
-    parser = JavaScriptParser(stream)
+    # parser = JavaScriptParser(stream)
+    parser = JscefrParser(stream)
     tree = parser.program()
     # print(len([line for line in parser._input.tokenSource._input.data if line == 10]))
 
@@ -62,6 +64,13 @@ def read_File(pos):
     walker = JscefrWalker()
     walker.walk(listener, tree, 1)
     summary = listener.get_comp()[length_comp_before : ]
+    for code_construct in listener.get_traverse_result():
+        print(f"{code_construct['Layer']} {code_construct['Class']}")
+        print(f"  start at line {code_construct['Start Line']}, column {code_construct['Start Column']}")
+        print(f"  stop at line {code_construct['Stop Line']}, column {code_construct['Stop Column']}")
+        print(f"  start text: {code_construct['Start Text']}, stop text: {code_construct['Stop Text']}")
+        print(f"  children's classes: {(', '.join(code_construct['Children Classes']) or '-')}")
+        print(f"  belongs to {code_construct['Belongs to']}")
     return summary
 
 def json_to_csv(data):
@@ -102,4 +111,7 @@ if __name__ == '__main__':
                  "'repo-url', 'user') option(directory, url, user)")
     data = choose_option()
     write_to_file(data)
-    summary_Levels()
+    try:
+        summary_Levels()
+    except:
+        print('Data empty. Cannot find any match.')

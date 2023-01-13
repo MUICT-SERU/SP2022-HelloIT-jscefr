@@ -11,12 +11,20 @@ class JavaScriptParserListener(ParseTreeListener):
 
     comp = []
     comp_dict_key = ['Class', 'Level']
+    traverse_result = []
+    traverse_result_dict_key = ['Layer', 'Class', 'Start Line', 'Start Column', 'Stop Line', 'Stop Column', 'Start Text', 'Stop Text', 'Children Classes', 'Belongs to']
 
     def insert_values(self, values):
         self.comp.append({self.comp_dict_key[i]: values[i] for i in range(len(self.comp_dict_key))})
     
+    def add_to_traverse_result(self, values):
+        self.traverse_result.append({self.traverse_result_dict_key[i]: values[i] for i in range(len(self.traverse_result_dict_key))})
+    
     def get_comp(self):
         return self.comp
+    
+    def get_traverse_result(self):
+        return self.traverse_result
     
     # Enter a parse tree produced by JavaScriptParser#program.
     def enterProgram(self, ctx:JavaScriptParser.ProgramContext):
