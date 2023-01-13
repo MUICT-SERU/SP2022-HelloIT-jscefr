@@ -51,7 +51,7 @@ sourceElements,
 arrayLiteral,A1
 elementList,
 arrayElement,
-propertyAssignment,
+propertyAssignment,B1
 propertyName,
 arguments,A2
 argument,

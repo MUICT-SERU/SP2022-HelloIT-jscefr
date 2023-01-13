@@ -1,3 +1,3 @@
 Repository,File Name,Class,Level
-yarn,tree-helper,importStatement,B1
-yarn,package-request,importStatement,B1
+test,test2,anonymousFunction,A1
+test,test2,asyncExpression,B2

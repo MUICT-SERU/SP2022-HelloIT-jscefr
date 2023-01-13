@@ -1,9 +1,10 @@
 {
     "Levels": {
-        "B1": 2
+        "A1": 1,
+        "B2": 1
     },
     "Class": {
-        "importStatement": 1,
-        "aggregatingModuleExpression": 1
+        "anonymousFunction": 1,
+        "asyncExpression": 1
     }
 }
