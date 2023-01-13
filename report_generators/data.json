@@ -1,15 +1,15 @@
 {
-    "bestbags-nodejs-ecommerce": {
-        "products.js": [
+    "yarn": {
+        "tree-helper.js": [
             {
-<<<<<<< HEAD
                 "Class": "importStatement",
                 "Level": "B1"
             },
             {
                 "Class": "aggregatingModuleExpression",
                 "Level": "B1"
-=======
+            },
+            {
                 "Class": "varModifier",
                 "Level": "A1"
             },
@@ -2540,57 +2540,9 @@
             {
                 "Class": "reservedWord",
                 "Level": "B1"
-            },
-            {
-                "Class": "message",
-                "Level": "A2"
-            },
-            {
-                "Class": "arguments",
-                "Level": "A2"
-            },
-            {
-                "Class": "anonymousFunction",
-                "Level": "A1"
-            },
-            {
-                "Class": "arrowFunctionParameters",
-                "Level": "A1"
-            },
-            {
-                "Class": "formalParameterList",
-                "Level": "A1"
-            },
-            {
-                "Class": "ifStatement",
-                "Level": "A1"
-            },
-            {
-                "Class": "arguments",
-                "Level": "A2"
-            },
-            {
-                "Class": "returnStatement",
-                "Level": "A1"
-            },
-            {
-                "Class": "arguments",
-                "Level": "A2"
-            },
-            {
-                "Class": "arguments",
-                "Level": "A2"
-            },
-            {
-                "Class": "returnStatement",
-                "Level": "A1"
-            },
-            {
-                "Class": "arguments",
-                "Level": "A2"
             }
         ],
-        "app.js": [
+        "package-request.js": [
             {
                 "Class": "arguments",
                 "Level": "A2"
@@ -3126,7 +3078,6 @@
             {
                 "Class": "arguments",
                 "Level": "A2"
->>>>>>> 115f463f447c0b6075dfb2522bc19c0aeed3cbed
             }
         ]
     }

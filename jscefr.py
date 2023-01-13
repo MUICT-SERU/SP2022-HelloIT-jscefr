@@ -52,7 +52,7 @@ def read_Directory(absFilePath, repo):
 
 def read_File(pos):
     """ Read the file and return the tree. """
-    input_stream = FileStream(pos)
+    input_stream = FileStream(pos, encoding='utf-8', errors='ignore')
     lexer = JavaScriptLexer(input_stream)
     stream = CommonTokenStream(lexer)
     # parser = JavaScriptParser(stream)
@@ -109,7 +109,7 @@ if __name__ == '__main__':
         option = sys.argv[2]
     except:
         sys.exit("Usage: python3 file.js type-option('directory', " +
-                 "'repo-url', 'user') option(directory, url, user)")
+                "'repo-url', 'user') option(directory, url, user)")
     data = choose_option()
     write_to_file(data)
     try:
