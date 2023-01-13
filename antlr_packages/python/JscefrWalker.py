@@ -51,10 +51,10 @@ class JscefrWalker(ParseTreeWalker):
         # code_construct = JavaScriptParser.ruleNames[ctx.getRuleIndex()]
         # code_construct = JscefrParser.ruleNames[ctx.getRuleIndex()]
 
-        try:
-            code_construct = JscefrParser.ruleNames[ctx.getRuleIndex()]
-        except:
-            code_construct = None
+        # try:
+        #     code_construct = JscefrParser.ruleNames[ctx.getRuleIndex()]
+        # except:
+        #     code_construct = None
         
         # listener.add_to_traverse_result([layer, code_construct, ctx.start.line, ctx.start.column, ctx.stop.line, ctx.stop.column, ctx.start.text, ctx.stop.text, [JscefrParser.ruleNames[child.getRuleIndex()] for child in (ctx.children or []) if (child.__class__.__name__ != 'TerminalNodeImpl') and (child.__class__.__name__ != 'ErrorNodeImpl')], ctx.__class__.__name__])
 
