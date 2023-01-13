@@ -30,8 +30,9 @@ def read_Directory(absFilePath, repo):
     path = absFilePath
     try:
         directory = os.listdir(path)
-        # directory.remove('node_modules')
-        # print(directory)
+        if 'node_modules' in directory:
+            directory.remove('node_modules')
+        print(directory)
         for i in range(0, len(directory)):
             if directory[i].endswith('.js'):
                 print('JavaScript File: ' + str(directory[i]))

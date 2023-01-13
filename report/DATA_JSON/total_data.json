@@ -1,6 +1,6 @@
 {
-    "test": {
-        "test.js": {
+    "bestbags-nodejs-ecommerce": {
+        "products.js": {
             "Levels": {
                 "B1": 2
             },
