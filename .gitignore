@@ -1,9 +1,9 @@
 test/node_modules/*
-report_generators/__pycache__/*
-antlr_packages/python/__pycache__/*
+*/__pycache__/*
 test/bestbags-nodejs-ecommerce/*
 test/*
 report_generators/data.csv
 report_generators/data.json
-dataset/.DS_Store
-report/.DS_Store
+*/.DS_Store
+dataset/input/*
+dataset/output/*
