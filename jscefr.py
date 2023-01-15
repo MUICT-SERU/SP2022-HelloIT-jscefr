@@ -65,13 +65,13 @@ def read_File(pos):
     walker = JscefrWalker()
     walker.walk(listener, tree, 1)
     summary = listener.get_comp()[length_comp_before : ]
-    # for code_construct in listener.get_traverse_result():
-    #     print(f"{code_construct['Layer']} {code_construct['Class']}")
-    #     print(f"  start at line {code_construct['Start Line']}, column {code_construct['Start Column']}")
-    #     print(f"  stop at line {code_construct['Stop Line']}, column {code_construct['Stop Column']}")
-    #     print(f"  start text: {code_construct['Start Text']}, stop text: {code_construct['Stop Text']}")
-    #     print(f"  children's classes: {(', '.join(code_construct['Children Classes']) or '-')}")
-    #     print(f"  belongs to {code_construct['Belongs to']}")
+    for code_construct in listener.get_traverse_result():
+        print(f"{code_construct['Layer']} {code_construct['Class']}")
+        print(f"  start at line {code_construct['Start Line']}, column {code_construct['Start Column']}")
+        print(f"  stop at line {code_construct['Stop Line']}, column {code_construct['Stop Column']}")
+        print(f"  start text: {code_construct['Start Text']}, stop text: {code_construct['Stop Text']}")
+        print(f"  children's classes: {(', '.join(code_construct['Children Classes']) or '-')}")
+        print(f"  belongs to {code_construct['Belongs to']}")
     return summary
 
 def json_to_csv(data):
