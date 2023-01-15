@@ -37,7 +37,7 @@ def read_Directory(absFilePath, repo):
             if directory[i].endswith('.js') or directory[i].endswith('.jsx'):
                 print('JavaScript File: ' + str(directory[i]))
                 pos = path + "/" + directory[i]
-                directory_dict[directory[i]] = read_File(pos)
+                directory_dict[pos] = read_File(pos)
             elif '.' not in directory[i]:
                 # If the directory contains JS files that aren't coded by the project owner (such as libraries), it will skip that directory.
                 print('\nOpening another directory...\n')

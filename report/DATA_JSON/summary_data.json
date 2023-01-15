@@ -1,10 +1,29 @@
 {
     "Levels": {
-        "A1": 1,
+        "A1": 142,
+        "A2": 31,
+        "B1": 109,
         "B2": 1
     },
     "Class": {
-        "anonymousFunction": 1,
-        "asyncExpression": 1
+        "stringLiteral": 28,
+        "varModifier": 19,
+        "variableDeclaration": 19,
+        "arguments": 25,
+        "memberDotExpression": 39,
+        "floatLiteral": 3,
+        "objectLiteral": 43,
+        "propertyAssignment": 55,
+        "thisExpression": 15,
+        "anonymousFunction": 4,
+        "arrowFunctionParameters": 4,
+        "additiveExpression": 3,
+        "multiplicativeExpression": 12,
+        "Math": 1,
+        "returnStatement": 2,
+        "style": 1,
+        "arrayLiteral": 4,
+        "elementList": 4,
+        "RegExp": 2
     }
 }

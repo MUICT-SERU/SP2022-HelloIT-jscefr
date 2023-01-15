@@ -1,0 +1,7 @@
+Repository,File Name,Class,Start Line,End Line,Displacement,Level
+ssr2,NavBar,exportStatement,B1
+ssr2,NavBar,exportDefaultDeclaration,B1
+ssr2,NavBar,anonymousFunction,A1
+ssr2,NavBar,returnStatement,A1
+ssr2,NavBar,RegExp,A2
+ssr2,NavBar,stringLiteral,A1

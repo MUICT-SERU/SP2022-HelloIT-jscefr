@@ -34,7 +34,7 @@ def write_FileCsv(myDataCsv, file_name, file_csv=""):
     path_file = wd + '/report/DATA_CSV/' + file_name
     # Create a csv with each file name
     if not file_csv:
-        file_csv = open(path_file, 'w')
+        file_csv = open(path_file.split('/')[-1], 'w')
         with file_csv:
             writer = csv.writer(file_csv)
             writer.writerows(myDataCsv)
