@@ -6,6 +6,7 @@ from antlr_packages.python.JavaScriptParserListener import JavaScriptParserListe
 from antlr_packages.python.JscefrWalker import JscefrWalker
 from report_generators.getjson import read_Json
 from report_generators.getcsv import read_FileCsv
+from time import sleep
 
 def choose_option():
     """ Choose option. """
@@ -75,31 +76,79 @@ def save_summary(data, filename):
     with open(f"report_generators/analyzed_files/{filename.replace('.js', '')}.json", 'w') as file:
         file.write(json.dumps(data, indent=4))
 
+def show_result_new(data, num_files):
+    """ Returns the result of the analysis. """
+    result = '====================================='
+    result += '\nRESULT OF THE ANALYSIS:'
+    result += ('\nAnalyzed .js files: ' + str(num_files))
+    levels = {}
+    for val in data.items():
+        levels = val
+    levels = sorted(levels.items())
+    for key, value in levels:
+        result += ('\nElements of level ' + key + ': ' + str(value))
+    result += '\n====================================='
+    return result
+
 def write_to_file(dir_name):
     # Gather all summary files
+    print(dir_name)
     path = 'report_generators/analyzed_files'
+    SUMMARY = {
+        "A1": 0,
+        "A2": 0,
+        "B1": 0,
+        "B2": 0,
+        "C1": 0,
+        "C2": 0
+    }
     directory = os.listdir(path)
-    all_summaries = {}
+    # all_summaries = {}
+    num_files = len(directory)
+    cnt = 0
+    header = "{" + f"\"{dir_name}\":"
+    # with open('report_generators/data.json', 'w') as file:
+    #     file.write(header)
     for file in directory:
+        print(f'at {cnt}/{num_files}, reading {file}')
+        cnt += 1
         read_file_content = json.load(open(path + '/' + file))
-        for pair in read_file_content:
-            # print(f"{pair}: {read_file_content[pair]}")
-            all_summaries[pair] = read_file_content[pair]
-    data = {}
-    data[dir_name] = all_summaries
+        file_content = {}
+        for pair in read_file_content.values():
+            for content in pair:
+                SUMMARY[content['Level']] += 1
+                # print(content)
+                # sleep(0.5)
+            # file_content[pair] = read_file_content[pair]
 
+            # print(f"{pair}: {read_file_content[pair]}")
+            # all_summaries[pair] = read_file_content[pair]
+    #     with open('report_generators/data.json', 'a') as file:
+    #         file.write(json.dumps(file_content, indent=4))
+    #         file.write(',')
+    # footer = "}"
+    # with open('report_generators/data.json', 'a') as file:
+    #         file.write(footer)
+    # data = {}
+    # data[dir_name] = all_summaries
+    # print('done dict creation')
     # Write to JSON file
-    with open('report_generators/data.json', 'w') as file:
+
+    # print(SUMMARY)
+    data = {}
+    data[dir_name] = SUMMARY
+    with open(f'report/result/{dir_name}.json', 'w') as file:
         file.write(json.dumps(data, indent=4))
     
+    print(show_result_new(data, num_files))
     # Convert to CSV-type data
-    csv_data = json_to_csv(data)
+    # csv_data = json_to_csv(data)
 
     # Write to CSV file
-    with open('report_generators/data.csv', 'w') as file:
-        writer = csv.writer(file)
-        for row in csv_data:
-            writer.writerow(row)
+    # with open('report_generators/data.csv', 'w') as file:
+    #     writer = csv.writer(file)
+    #     for row in csv_data:
+    #         writer.writerow(row)
 
 def summary_Levels():
     """ Summary of directory levels """
@@ -123,8 +172,20 @@ if __name__ == '__main__':
     os.mkdir(summary_dir_path)
     
     choose_option()
-    write_to_file(option.split('/')[-1])
+
+    repo_name = option.split('/')[-1] if option.split('/')[-1] != '' else option.split('/')[-2]
+
+    # print(repo_name)
+    # sleep(5)
+
     try:
-        summary_Levels()
+        os.mkdir('report/result')
+    except FileExistsError:
+        pass
+
+    write_to_file(repo_name)
+    try:
+        # summary_Levels()
+        pass
     except:
         print('Data empty. Cannot find any match.')
