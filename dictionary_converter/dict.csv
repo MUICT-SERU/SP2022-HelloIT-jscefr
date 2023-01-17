@@ -177,3 +177,10 @@ stringLiteral,A1
 twoDimensionalArray,A1
 exponentialLiteral,A2
 aggregatingModuleExpression,B1
+defaultParameter,C1
+valueProperty,C1
+writableProperty,C1
+enumerableProperty,C1
+configurableProperty,C1
+getProperty,C1
+setProperty,C1
