@@ -82,7 +82,7 @@ def show_result_new(data, num_files):
     result += '\nRESULT OF THE ANALYSIS:'
     result += ('\nAnalyzed .js files: ' + str(num_files))
     levels = {}
-    for val in data.items():
+    for val in data.values():
         levels = val
     levels = sorted(levels.items())
     for key, value in levels:
