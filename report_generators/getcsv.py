@@ -31,10 +31,10 @@ def write_FileCsv(myDataCsv, file_name, file_csv=""):
     except FileExistsError:
         pass
     file_name = file_name.split('.py')[0] + '.csv'
-    path_file = wd + '/report/DATA_CSV/' + file_name
+    path_file = wd + '/report/DATA_CSV/' + file_name.split('/')[-1]
     # Create a csv with each file name
     if not file_csv:
-        file_csv = open(path_file.split('/')[-1], 'w')
+        file_csv = open(path_file, 'w')
         with file_csv:
             writer = csv.writer(file_csv)
             writer.writerows(myDataCsv)
