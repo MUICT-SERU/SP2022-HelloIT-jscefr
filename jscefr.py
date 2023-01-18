@@ -164,16 +164,17 @@ if __name__ == '__main__':
         sys.exit("Usage: python3 file.js type-option('directory', " +
                 "'repo-url', 'user') option(directory, url, user)")
 
-    summary_dir_path = 'report_generators/analyzed_files'
+    repo_name = option.split('/')[-1] if option.split('/')[-1] != '' else option.split('/')[-2]
+
+    summary_dir_path = 'report_generators/analyzed_files/' + repo_name
     try:
         shutil.rmtree(summary_dir_path)
-    except FileExistsError:
+    except FileNotFoundError:
         pass
     os.mkdir(summary_dir_path)
     
     choose_option()
 
-    repo_name = option.split('/')[-1] if option.split('/')[-1] != '' else option.split('/')[-2]
 
     # print(repo_name)
     # sleep(5)
