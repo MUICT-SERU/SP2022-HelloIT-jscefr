@@ -8,3 +8,4 @@ report_generators/data.json
 dataset/input/*
 dataset/output/*
 report/DATA_CSV
+report_generators/analyzed_files/*

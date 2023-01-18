@@ -11,6 +11,7 @@ from antlr_packages.python.JscefrWalker import JscefrWalker
 from report_generators.getjson import read_Json
 from report_generators.getcsv import read_FileCsv
 from time import sleep
+from alive_progress import alive_bar
 
 def choose_option(repo):
     """ Choose option. """
@@ -121,14 +122,16 @@ def write_to_file(dir_name):
     header = "{" + f"\"{dir_name}\":"
     # with open('report_generators/data.json', 'w') as file:
     #     file.write(header)
-    for file in directory:
-        print(f'at {cnt}/{num_files}, reading {file}')
-        cnt += 1
-        read_file_content = json.load(open(path + '/' + file))
-        # file_content = {}
-        for pair in read_file_content.values():
-            for content in pair:
-                SUMMARY[content['Level']] += 1
+    with alive_bar(num_files) as bar:
+        for file in directory:
+            # print(f'at {cnt}/{num_files}, reading {file}')
+            cnt += 1
+            read_file_content = json.load(open(path + '/' + file))
+            file_content = {}
+            for pair in read_file_content.values():
+                for content in pair:
+                    SUMMARY[content['Level']] += 1
+            bar()
                 # print(content)
                 # sleep(0.5)
             # file_content[pair] = read_file_content[pair]
