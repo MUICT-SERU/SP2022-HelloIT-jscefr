@@ -1,4 +1,8 @@
-import sys, os, json, csv, shutil
+import sys
+import os
+import json
+import csv
+import shutil
 from antlr4 import *
 from antlr_packages.python.JavaScriptLexer import JavaScriptLexer
 from antlr_packages.python.JscefrParser import JscefrParser
@@ -44,7 +48,7 @@ def read_Directory(absFilePath, repo):
                 print('\nOpening another directory...\n')
                 path2 = absFilePath + '/' + directory[i]
                 try:
-                    read_Directory(path2, directory[i])
+                    read_Directory(path2, repo)
                 except NotADirectoryError:
                     pass
     except FileNotFoundError:
@@ -63,16 +67,20 @@ def read_File(pos):
     walker.walk(listener, tree, 1)
     return listener.get_comp()
 
+
 def json_to_csv(data):
     csv_data = [['Repository', 'File Name', 'Class', 'Level']]
     repository = list(data.keys())[0]
     for file in data[repository]:
         file_name = ''.join(file.split('.')[:-1])
         for construct in data[repository][file]:
-            csv_data.append([repository, file_name, construct['Class'], construct['Level']])
+            csv_data.append(
+                [repository, file_name, construct['Class'], construct['Level']])
     return csv_data
 
 def save_summary(data, repo, filename):
+    print(
+        f"created file = report_generators/analyzed_files/{repo}/{filename.replace('.js', '')}.json")
     with open(f"report_generators/analyzed_files/{repo}/{filename.replace('.js', '')}.json", 'w') as file:
         file.write(json.dumps(data, indent=4))
 
@@ -141,7 +149,7 @@ def write_to_file(dir_name):
     data[dir_name] = SUMMARY
     with open(f'report/result/{dir_name}.json', 'w') as file:
         file.write(json.dumps(data, indent=4))
-    
+
     print(show_result_new(data, num_files))
     # Convert to CSV-type data
     # csv_data = json_to_csv(data)
@@ -164,9 +172,10 @@ if __name__ == '__main__':
         option = sys.argv[2]
     except:
         sys.exit("Usage: python3 file.js type-option('directory', " +
-                "'repo-url', 'user') option(directory, url, user)")
+                 "'repo-url', 'user') option(directory, url, user)")
 
-    repo_name = option.split('/')[-1] if option.split('/')[-1] != '' else option.split('/')[-2]
+    repo_name = option.split(
+        '/')[-1] if option.split('/')[-1] != '' else option.split('/')[-2]
 
     summary_dir_path = 'report_generators/analyzed_files/' + repo_name
     try:
@@ -174,12 +183,10 @@ if __name__ == '__main__':
     except FileNotFoundError:
         pass
     os.makedirs(summary_dir_path)
-    
-    choose_option(repo_name)
-
 
     # print(repo_name)
     # sleep(5)
+    choose_option(repo_name)
 
     try:
         os.mkdir('report/result')
