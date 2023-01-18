@@ -39,7 +39,7 @@ def read_Directory(absFilePath, repo):
                 print('JavaScript File: ' + str(directory[i]))
                 pos = path + "/" + directory[i]
                 directory_dict[pos] = read_File(pos)
-                save_summary(directory_dict, pos.replace('/', '-'))
+                save_summary(directory_dict, repo, pos.replace('/', '-'))
             elif '.' not in directory[i]:
                 print('\nOpening another directory...\n')
                 path2 = absFilePath + '/' + directory[i]
@@ -72,8 +72,8 @@ def json_to_csv(data):
             csv_data.append([repository, file_name, construct['Class'], construct['Level']])
     return csv_data
 
-def save_summary(data, filename):
-    with open(f"report_generators/analyzed_files/{filename.replace('.js', '')}.json", 'w') as file:
+def save_summary(data, repo, filename):
+    with open(f"report_generators/analyzed_files/{repo}/{filename.replace('.js', '')}.json", 'w') as file:
         file.write(json.dumps(data, indent=4))
 
 def show_result_new(data, num_files):
@@ -93,7 +93,7 @@ def show_result_new(data, num_files):
 def write_to_file(dir_name):
     # Gather all summary files
     print(dir_name)
-    path = 'report_generators/analyzed_files'
+    path = 'report_generators/analyzed_files/' + dir_name
     SUMMARY = {
         "A1": 0,
         "A2": 0,
@@ -104,6 +104,8 @@ def write_to_file(dir_name):
     }
     directory = os.listdir(path)
     # all_summaries = {}
+    # print(directory)
+    # sleep(5)
     num_files = len(directory)
     cnt = 0
     header = "{" + f"\"{dir_name}\":"
