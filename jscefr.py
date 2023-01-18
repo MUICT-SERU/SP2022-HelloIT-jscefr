@@ -30,20 +30,17 @@ def choose_option(repo):
 def read_Directory(absFilePath, repo):
     """ Extract the .js files from the directory. """
     pos = ''
-    directory_dict = {}
-    print('Directory: ')
+    print('Directory: ' + absFilePath)
     path = absFilePath
     try:
         directory = os.listdir(path)
         if 'node_modules' in directory:
             directory.remove('node_modules')
-        print(directory)
+        # print(directory)
         for i in range(0, len(directory)):
             if directory[i].endswith('.js') or directory[i].endswith('.jsx'):
-                print('JavaScript File: ' + str(directory[i]))
                 pos = path + "/" + directory[i]
-                directory_dict[pos] = read_File(pos)
-                save_summary(directory_dict, repo, pos.replace('/', '-'))
+                read_File(pos, repo)
             elif '.' not in directory[i]:
                 print('\nOpening another directory...\n')
                 path2 = absFilePath + '/' + directory[i]
@@ -54,8 +51,10 @@ def read_Directory(absFilePath, repo):
     except FileNotFoundError:
         pass
 
-def read_File(pos):
+def read_File(pos, repo):
     """ Read the file and return the tree. """
+    filename = str(pos.split('/')[-1])
+    print('JavaScript File: ' + filename)
     input_stream = FileStream(pos, encoding='utf-8', errors='ignore')
     lexer = JavaScriptLexer(input_stream)
     stream = CommonTokenStream(lexer)
@@ -63,10 +62,13 @@ def read_File(pos):
     tree = parser.program()
 
     listener = JavaScriptParserListener()
+    length_json_comp_before = len(listener.get_comp())
     walker = JscefrWalker()
     walker.walk(listener, tree, 1)
-    return listener.get_comp()
 
+    summary = {}
+    summary[pos] = listener.get_comp()[length_json_comp_before : ]
+    save_summary(summary, repo, pos.replace('/', '-'))
 
 def json_to_csv(data):
     csv_data = [['Repository', 'File Name', 'Class', 'Level']]
@@ -123,7 +125,7 @@ def write_to_file(dir_name):
         print(f'at {cnt}/{num_files}, reading {file}')
         cnt += 1
         read_file_content = json.load(open(path + '/' + file))
-        file_content = {}
+        # file_content = {}
         for pair in read_file_content.values():
             for content in pair:
                 SUMMARY[content['Level']] += 1
