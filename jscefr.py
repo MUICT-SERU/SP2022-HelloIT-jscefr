@@ -8,13 +8,13 @@ from report_generators.getjson import read_Json
 from report_generators.getcsv import read_FileCsv
 from time import sleep
 
-def choose_option():
+def choose_option(repo):
     """ Choose option. """
     if type_option == 'directory':
         # repo = option.split('/')[-1]
         # directory_dict = {}
         # directory_dict[repo] = read_Directory(option, repo)
-        read_Directory(option, option.split('/')[-1])
+        read_Directory(option, repo)
         # return directory_dict
     # elif type_option == 'repo-url':
     #     request_url()
@@ -175,7 +175,7 @@ if __name__ == '__main__':
         pass
     os.mkdir(summary_dir_path)
     
-    choose_option()
+    choose_option(repo_name)
 
 
     # print(repo_name)
