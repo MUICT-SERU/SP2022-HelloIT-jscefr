@@ -1,0 +1,646 @@
+{
+    "test/react/fixtures/blocks/src/server/PostList.js": [
+        {
+            "Class": "memberDotExpression",
+            "Level": "B1"
+        },
+        {
+            "Class": "anonymousFunction",
+            "Level": "A1"
+        },
+        {
+            "Class": "arrowFunctionParameters",
+            "Level": "A1"
+        },
+        {
+            "Class": "formalParameterList",
+            "Level": "A1"
+        },
+        {
+            "Class": "ifStatement",
+            "Level": "A1"
+        },
+        {
+            "Class": "memberDotExpression",
+            "Level": "B1"
+        },
+        {
+            "Class": "memberDotExpression",
+            "Level": "B1"
+        },
+        {
+            "Class": "arguments",
+            "Level": "A2"
+        },
+        {
+            "Class": "Number",
+            "Level": "A1"
+        },
+        {
+            "Class": "arguments",
+            "Level": "A2"
+        },
+        {
+            "Class": "memberDotExpression",
+            "Level": "B1"
+        },
+        {
+            "Class": "memberDotExpression",
+            "Level": "B1"
+        },
+        {
+            "Class": "arguments",
+            "Level": "A2"
+        },
+        {
+            "Class": "importStatement",
+            "Level": "B1"
+        },
+        {
+            "Class": "aggregatingModuleExpression",
+            "Level": "B1"
+        },
+        {
+            "Class": "importStatement",
+            "Level": "B1"
+        },
+        {
+            "Class": "importStatement",
+            "Level": "B1"
+        },
+        {
+            "Class": "importStatement",
+            "Level": "B1"
+        },
+        {
+            "Class": "importStatement",
+            "Level": "B1"
+        },
+        {
+            "Class": "exportStatement",
+            "Level": "B1"
+        },
+        {
+            "Class": "exportDefaultDeclaration",
+            "Level": "B1"
+        },
+        {
+            "Class": "anonymousFunction",
+            "Level": "A1"
+        },
+        {
+            "Class": "formalParameterList",
+            "Level": "A1"
+        },
+        {
+            "Class": "objectLiteral",
+            "Level": "A1"
+        },
+        {
+            "Class": "propertyAssignment",
+            "Level": "B1"
+        },
+        {
+            "Class": "returnStatement",
+            "Level": "A1"
+        },
+        {
+            "Class": "stringLiteral",
+            "Level": "A1"
+        },
+        {
+            "Class": "stringLiteral",
+            "Level": "A1"
+        },
+        {
+            "Class": "objectLiteral",
+            "Level": "A1"
+        },
+        {
+            "Class": "propertyAssignment",
+            "Level": "B1"
+        },
+        {
+            "Class": "memberDotExpression",
+            "Level": "B1"
+        },
+        {
+            "Class": "Map",
+            "Level": "A2"
+        },
+        {
+            "Class": "map",
+            "Level": "A2"
+        },
+        {
+            "Class": "anonymousFunction",
+            "Level": "A1"
+        },
+        {
+            "Class": "arrowFunctionParameters",
+            "Level": "A1"
+        },
+        {
+            "Class": "arguments",
+            "Level": "A2"
+        },
+        {
+            "Class": "memberDotExpression",
+            "Level": "B1"
+        },
+        {
+            "Class": "returnStatement",
+            "Level": "A1"
+        },
+        {
+            "Class": "memberDotExpression",
+            "Level": "B1"
+        },
+        {
+            "Class": "objectLiteral",
+            "Level": "A1"
+        },
+        {
+            "Class": "propertyAssignment",
+            "Level": "B1"
+        },
+        {
+            "Class": "multiplicativeExpression",
+            "Level": "A1"
+        },
+        {
+            "Class": "multiplicativeExpression",
+            "Level": "A1"
+        },
+        {
+            "Class": "objectLiteral",
+            "Level": "A1"
+        },
+        {
+            "Class": "propertyAssignment",
+            "Level": "B1"
+        },
+        {
+            "Class": "importStatement",
+            "Level": "B1"
+        },
+        {
+            "Class": "aggregatingModuleExpression",
+            "Level": "B1"
+        },
+        {
+            "Class": "importStatement",
+            "Level": "B1"
+        },
+        {
+            "Class": "fetch",
+            "Level": "B2"
+        },
+        {
+            "Class": "importStatement",
+            "Level": "B1"
+        },
+        {
+            "Class": "exportStatement",
+            "Level": "B1"
+        },
+        {
+            "Class": "exportDefaultDeclaration",
+            "Level": "B1"
+        },
+        {
+            "Class": "anonymousFunction",
+            "Level": "A1"
+        },
+        {
+            "Class": "formalParameterList",
+            "Level": "A1"
+        },
+        {
+            "Class": "objectLiteral",
+            "Level": "A1"
+        },
+        {
+            "Class": "propertyAssignment",
+            "Level": "B1"
+        },
+        {
+            "Class": "varModifier",
+            "Level": "A1"
+        },
+        {
+            "Class": "variableDeclaration",
+            "Level": "A1"
+        },
+        {
+            "Class": "memberDotExpression",
+            "Level": "B1"
+        },
+        {
+            "Class": "fetch",
+            "Level": "B2"
+        },
+        {
+            "Class": "arguments",
+            "Level": "A2"
+        },
+        {
+            "Class": "arguments",
+            "Level": "A2"
+        },
+        {
+            "Class": "returnStatement",
+            "Level": "A1"
+        },
+        {
+            "Class": "objectLiteral",
+            "Level": "A1"
+        },
+        {
+            "Class": "propertyAssignment",
+            "Level": "B1"
+        },
+        {
+            "Class": "memberDotExpression",
+            "Level": "B1"
+        },
+        {
+            "Class": "memberDotExpression",
+            "Level": "B1"
+        },
+        {
+            "Class": "slice",
+            "Level": "A1"
+        },
+        {
+            "Class": "arguments",
+            "Level": "A2"
+        },
+        {
+            "Class": "Map",
+            "Level": "A2"
+        },
+        {
+            "Class": "map",
+            "Level": "A2"
+        },
+        {
+            "Class": "anonymousFunction",
+            "Level": "A1"
+        },
+        {
+            "Class": "arrowFunctionParameters",
+            "Level": "A1"
+        },
+        {
+            "Class": "objectLiteral",
+            "Level": "A1"
+        },
+        {
+            "Class": "propertyAssignment",
+            "Level": "B1"
+        },
+        {
+            "Class": "memberDotExpression",
+            "Level": "B1"
+        },
+        {
+            "Class": "objectLiteral",
+            "Level": "A1"
+        },
+        {
+            "Class": "propertyAssignment",
+            "Level": "B1"
+        },
+        {
+            "Class": "memberDotExpression",
+            "Level": "B1"
+        },
+        {
+            "Class": "stringLiteral",
+            "Level": "A1"
+        }
+    ],
+    "test/react/fixtures/blocks/src/server/Comments.js": [
+        {
+            "Class": "memberDotExpression",
+            "Level": "B1"
+        },
+        {
+            "Class": "anonymousFunction",
+            "Level": "A1"
+        },
+        {
+            "Class": "arrowFunctionParameters",
+            "Level": "A1"
+        },
+        {
+            "Class": "formalParameterList",
+            "Level": "A1"
+        },
+        {
+            "Class": "ifStatement",
+            "Level": "A1"
+        },
+        {
+            "Class": "memberDotExpression",
+            "Level": "B1"
+        },
+        {
+            "Class": "memberDotExpression",
+            "Level": "B1"
+        },
+        {
+            "Class": "arguments",
+            "Level": "A2"
+        },
+        {
+            "Class": "Number",
+            "Level": "A1"
+        },
+        {
+            "Class": "arguments",
+            "Level": "A2"
+        },
+        {
+            "Class": "memberDotExpression",
+            "Level": "B1"
+        },
+        {
+            "Class": "memberDotExpression",
+            "Level": "B1"
+        },
+        {
+            "Class": "arguments",
+            "Level": "A2"
+        },
+        {
+            "Class": "importStatement",
+            "Level": "B1"
+        },
+        {
+            "Class": "aggregatingModuleExpression",
+            "Level": "B1"
+        },
+        {
+            "Class": "importStatement",
+            "Level": "B1"
+        },
+        {
+            "Class": "importStatement",
+            "Level": "B1"
+        },
+        {
+            "Class": "importStatement",
+            "Level": "B1"
+        },
+        {
+            "Class": "importStatement",
+            "Level": "B1"
+        },
+        {
+            "Class": "exportStatement",
+            "Level": "B1"
+        },
+        {
+            "Class": "exportDefaultDeclaration",
+            "Level": "B1"
+        },
+        {
+            "Class": "anonymousFunction",
+            "Level": "A1"
+        },
+        {
+            "Class": "formalParameterList",
+            "Level": "A1"
+        },
+        {
+            "Class": "objectLiteral",
+            "Level": "A1"
+        },
+        {
+            "Class": "propertyAssignment",
+            "Level": "B1"
+        },
+        {
+            "Class": "returnStatement",
+            "Level": "A1"
+        },
+        {
+            "Class": "stringLiteral",
+            "Level": "A1"
+        },
+        {
+            "Class": "stringLiteral",
+            "Level": "A1"
+        },
+        {
+            "Class": "objectLiteral",
+            "Level": "A1"
+        },
+        {
+            "Class": "propertyAssignment",
+            "Level": "B1"
+        },
+        {
+            "Class": "memberDotExpression",
+            "Level": "B1"
+        },
+        {
+            "Class": "Map",
+            "Level": "A2"
+        },
+        {
+            "Class": "map",
+            "Level": "A2"
+        },
+        {
+            "Class": "anonymousFunction",
+            "Level": "A1"
+        },
+        {
+            "Class": "arrowFunctionParameters",
+            "Level": "A1"
+        },
+        {
+            "Class": "arguments",
+            "Level": "A2"
+        },
+        {
+            "Class": "memberDotExpression",
+            "Level": "B1"
+        },
+        {
+            "Class": "returnStatement",
+            "Level": "A1"
+        },
+        {
+            "Class": "memberDotExpression",
+            "Level": "B1"
+        },
+        {
+            "Class": "objectLiteral",
+            "Level": "A1"
+        },
+        {
+            "Class": "propertyAssignment",
+            "Level": "B1"
+        },
+        {
+            "Class": "multiplicativeExpression",
+            "Level": "A1"
+        },
+        {
+            "Class": "multiplicativeExpression",
+            "Level": "A1"
+        },
+        {
+            "Class": "objectLiteral",
+            "Level": "A1"
+        },
+        {
+            "Class": "propertyAssignment",
+            "Level": "B1"
+        },
+        {
+            "Class": "importStatement",
+            "Level": "B1"
+        },
+        {
+            "Class": "aggregatingModuleExpression",
+            "Level": "B1"
+        },
+        {
+            "Class": "importStatement",
+            "Level": "B1"
+        },
+        {
+            "Class": "fetch",
+            "Level": "B2"
+        },
+        {
+            "Class": "importStatement",
+            "Level": "B1"
+        },
+        {
+            "Class": "exportStatement",
+            "Level": "B1"
+        },
+        {
+            "Class": "exportDefaultDeclaration",
+            "Level": "B1"
+        },
+        {
+            "Class": "anonymousFunction",
+            "Level": "A1"
+        },
+        {
+            "Class": "formalParameterList",
+            "Level": "A1"
+        },
+        {
+            "Class": "objectLiteral",
+            "Level": "A1"
+        },
+        {
+            "Class": "propertyAssignment",
+            "Level": "B1"
+        },
+        {
+            "Class": "varModifier",
+            "Level": "A1"
+        },
+        {
+            "Class": "variableDeclaration",
+            "Level": "A1"
+        },
+        {
+            "Class": "memberDotExpression",
+            "Level": "B1"
+        },
+        {
+            "Class": "fetch",
+            "Level": "B2"
+        },
+        {
+            "Class": "arguments",
+            "Level": "A2"
+        },
+        {
+            "Class": "arguments",
+            "Level": "A2"
+        },
+        {
+            "Class": "returnStatement",
+            "Level": "A1"
+        },
+        {
+            "Class": "objectLiteral",
+            "Level": "A1"
+        },
+        {
+            "Class": "propertyAssignment",
+            "Level": "B1"
+        },
+        {
+            "Class": "memberDotExpression",
+            "Level": "B1"
+        },
+        {
+            "Class": "memberDotExpression",
+            "Level": "B1"
+        },
+        {
+            "Class": "slice",
+            "Level": "A1"
+        },
+        {
+            "Class": "arguments",
+            "Level": "A2"
+        },
+        {
+            "Class": "Map",
+            "Level": "A2"
+        },
+        {
+            "Class": "map",
+            "Level": "A2"
+        },
+        {
+            "Class": "anonymousFunction",
+            "Level": "A1"
+        },
+        {
+            "Class": "arrowFunctionParameters",
+            "Level": "A1"
+        },
+        {
+            "Class": "objectLiteral",
+            "Level": "A1"
+        },
+        {
+            "Class": "propertyAssignment",
+            "Level": "B1"
+        },
+        {
+            "Class": "memberDotExpression",
+            "Level": "B1"
+        },
+        {
+            "Class": "objectLiteral",
+            "Level": "A1"
+        },
+        {
+            "Class": "propertyAssignment",
+            "Level": "B1"
+        },
+        {
+            "Class": "memberDotExpression",
+            "Level": "B1"
+        },
+        {
+            "Class": "stringLiteral",
+            "Level": "A1"
+        }
+    ]
+}
