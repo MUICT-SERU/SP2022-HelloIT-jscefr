@@ -173,7 +173,7 @@ if __name__ == '__main__':
         shutil.rmtree(summary_dir_path)
     except FileNotFoundError:
         pass
-    os.mkdir(summary_dir_path)
+    os.makedirs(summary_dir_path)
     
     choose_option(repo_name)
 
