@@ -9,3 +9,5 @@ dataset/input/*
 dataset/output/*
 report/DATA_CSV
 report_generators/analyzed_files/*
+report_generators/data(former).csv
+report_generators/data(former).json
