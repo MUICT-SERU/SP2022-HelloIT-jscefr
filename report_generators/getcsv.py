@@ -13,8 +13,7 @@ def create_csv(myDataList):
     myDataCsv = ''
     for i in list:
         if (myDataCsv == '') or (i[1] != myDataCsv[1][1]):
-            myDataCsv = [['Repository', 'File Name', 'Class', 'Start Line',
-                          'End Line', 'Displacement', 'Level']]
+            myDataCsv = [['Repository', 'File Name', 'Class', 'Level', 'Start Line', 'Start Column', 'Stop Line', 'Stop Column']]
 
         myDataCsv.append(i)
         file_name = myDataCsv[1][1]
@@ -31,7 +30,7 @@ def write_FileCsv(myDataCsv, file_name, file_csv=""):
     except FileExistsError:
         pass
     file_name = file_name.split('.py')[0] + '.csv'
-    path_file = wd + '/report/DATA_CSV/' + file_name.split('/')[-1]
+    path_file = wd + '/report/DATA_CSV/' + file_name.replace('.js', '').replace('/', '-')
     # Create a csv with each file name
     if not file_csv:
         file_csv = open(path_file, 'w')
