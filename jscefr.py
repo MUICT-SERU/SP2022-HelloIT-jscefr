@@ -173,15 +173,10 @@ if __name__ == '__main__':
         sys.exit("Usage: python3 file.js type-option('directory', " +
                  "'repo-url', 'user') option(directory, url, user)")
 
-    repo_name = option.split(
-        '/')[-1] if option.split('/')[-1] != '' else option.split('/')[-2]
+    if option.endswith('/'):
+        option = option[:-1]
 
-    summary_dir_path = 'report_generators/analyzed_files/' + repo_name
-    try:
-        shutil.rmtree(summary_dir_path)
-    except FileNotFoundError:
-        pass
-    os.makedirs(summary_dir_path)
+    repo_name = option.split('/')[-1]
 
     with open('report_generators/data.csv', 'w') as file:
         writer = csv.writer(file)
@@ -189,11 +184,6 @@ if __name__ == '__main__':
         writer.writerow(['Repository', 'File Name', 'Class', 'Level'])
 
     choose_option(repo_name)
-
-    try:
-        os.mkdir('report/result')
-    except FileExistsError:
-        pass
 
     write_json_summary(repo_name)
 
