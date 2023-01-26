@@ -41,10 +41,12 @@ def read_Directory(absFilePath, repo):
         for i in range(0, len(directory)):
             if directory[i].endswith('.js') or directory[i].endswith('.jsx'):
                 pos = path + "/" + directory[i]
+                pos.replace('//', '/')
                 read_File(pos, repo)
             elif '.' not in directory[i]:
                 print('\nOpening another directory...\n')
                 path2 = absFilePath + '/' + directory[i]
+                path2.replace('//', '/')
                 try:
                     read_Directory(path2, repo)
                 except NotADirectoryError:
@@ -83,8 +85,8 @@ def json_to_csv(data):
 
 def save_summary(data, repo, filename):
     print(
-        f"created file = report_generators/analyzed_files/{repo}/{filename.replace('.js', '')}.json")
-    with open(f"report_generators/analyzed_files/{repo}/{filename.replace('.js', '')}.json", 'w') as file:
+        f"created file = report_generators/analyzed_files/{repo}/{filename.replace('.js', '')}.json".replace('//', '/'))
+    with open(f"created file = report_generators/analyzed_files/{repo}/{filename.replace('.js', '')}.json".replace('//', '/'), 'w') as file:
         file.write(json.dumps(data, indent=4))
 
 def show_result_new(data, num_files):
@@ -198,9 +200,9 @@ if __name__ == '__main__':
     except FileExistsError:
         pass
 
-    write_to_file(repo_name)
+    # write_to_file(repo_name)
     try:
-        # summary_Levels()
+        summary_Levels()
         pass
     except:
         print('Data empty. Cannot find any match.')
