@@ -13,6 +13,8 @@ from report_generators.getcsv import read_FileCsv
 from time import sleep
 from alive_progress import alive_bar
 
+report_features = ['Class', 'Level', 'Start Line', 'Start Column', 'Stop Line', 'Stop Column']
+
 def choose_option(repo):
     """ Choose option. """
     if type_option == 'directory':
@@ -149,7 +151,11 @@ def write_json_summary(repo):
         reader = csv.reader(file)
         next(reader, None)
         for row in reader:
-            comp_match = {'Class': row[2], 'Level': row[3]}
+            # comp_match = {'Class': row[2], 'Level': row[3]}
+            comp_match = {}
+            for i in range(len(report_features)):
+                comp_match[report_features[i]] = row[i + 2]
+            # print(comp_match)
             if row[1] in data.keys():
                 data[row[1]].append(comp_match)
             else:
@@ -180,8 +186,7 @@ if __name__ == '__main__':
 
     with open('report_generators/data.csv', 'w') as file:
         writer = csv.writer(file)
-        # writer.writerow(['Repository', 'File Name', 'Class', 'Level', 'Start Line', 'Start Column', 'Stop Line', 'Stop Column'])
-        writer.writerow(['Repository', 'File Name', 'Class', 'Level'])
+        writer.writerow(['Repository', 'File Name'] + report_features)
 
     choose_option(repo_name)
 
