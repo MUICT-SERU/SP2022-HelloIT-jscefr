@@ -63,8 +63,7 @@ class JscefrWalker(ParseTreeWalker):
             if JscefrParser.ruleNames[ctx.getRuleIndex()].lower() == name.lower() or JscefrParser.isSpecialRule(ctx, match, match['Class']):
                 with open(os.getcwd() + '/report_generators/data.csv', 'a') as file:
                     writer = csv.writer(file)
-                    # writer.writerow([repo, filename] + list(match.values()) + [ctx.start.line, ctx.start.column, ctx.stop.line, ctx.stop.column])
-                    writer.writerow([repo, filename] + list(match.values()))
+                    writer.writerow([repo, filename] + list(match.values()) + [ctx.start.line, ctx.start.column, ctx.stop.line, ctx.stop.column])
                 # print([repo, filename] + list(match.values()) + [ctx.start.line, ctx.start.column, ctx.stop.line, ctx.stop.column])
                 # listener.insert_values([repo, filename] + list(match.values()) + [ctx.start.line, ctx.start.column, ctx.stop.line, ctx.stop.column])
     
