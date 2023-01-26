@@ -33,7 +33,6 @@ def read_Directory(absFilePath, repo):
     pos = ''
     print('Directory: ' + absFilePath)
     path = absFilePath
-    path.replace('//', '/')
     try:
         directory = os.listdir(path)
         if 'node_modules' in directory:
@@ -42,12 +41,10 @@ def read_Directory(absFilePath, repo):
         for i in range(0, len(directory)):
             if directory[i].endswith('.js') or directory[i].endswith('.jsx'):
                 pos = path + "/" + directory[i]
-                pos.replace('//', '/')
                 read_File(pos, repo)
             elif '.' not in directory[i]:
                 print('\nOpening another directory...\n')
                 path2 = absFilePath + '/' + directory[i]
-                path2.replace('//', '/')
                 try:
                     read_Directory(path2, repo)
                 except NotADirectoryError:
@@ -68,7 +65,7 @@ def read_File(pos, repo):
     listener = JavaScriptParserListener()
     length_json_comp_before = len(listener.get_comp())
     walker = JscefrWalker()
-    walker.walk(listener, tree, 0)
+    walker.walk(listener, tree, 0, repo, filename)
 
     summary = {}
     summary[pos] = listener.get_comp()[length_json_comp_before : ]
@@ -191,7 +188,8 @@ if __name__ == '__main__':
     except FileNotFoundError:
         pass
     os.makedirs(summary_dir_path)
-
+    if option.endswith('/'):
+        option = option[:-1]
     # print(repo_name)
     # sleep(5)
     choose_option(repo_name)
