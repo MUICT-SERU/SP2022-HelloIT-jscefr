@@ -17,7 +17,7 @@ class JscefrWalker(ParseTreeWalker):
         data = json.load(f)
         return data
 
-    def walk(self, listener:JavaScriptParserListener, t:ParseTree, layer):
+    def walk(self, listener:JavaScriptParserListener, t:ParseTree, layer, repo, filename):
         """
 	    Performs a walk on the given parse tree starting at the root and going down recursively
 	    with depth-first search. On each node, {@link ParseTreeWalker#enterRule} is called before
@@ -32,12 +32,12 @@ class JscefrWalker(ParseTreeWalker):
         elif isinstance(t, TerminalNode):
             listener.visitTerminal(t)
             return
-        self.enterRule(listener, t, layer)
+        self.enterRule(listener, t, layer, repo, filename)
         for child in t.getChildren():
-            self.walk(listener, child, layer + 1)
+            self.walk(listener, child, layer + 1, repo, filename)
         self.exitRule(listener, t)
     
-    def enterRule(self, listener:JavaScriptParserListener, r:RuleNode, layer):
+    def enterRule(self, listener:JavaScriptParserListener, r:RuleNode, layer, repo, filename):
         """
 	    Enters a grammar rule by first triggering the generic event {@link ParseTreeListener#enterEveryRule}
 	    then by triggering the event specific to the given parse tree node
@@ -61,7 +61,8 @@ class JscefrWalker(ParseTreeWalker):
         for match in self.data:
             name = match['Class']
             if JscefrParser.ruleNames[ctx.getRuleIndex()].lower() == name.lower() or JscefrParser.isSpecialRule(ctx, match, match['Class']):
-                listener.insert_values(list(match.values()) + [ctx.start.line, ctx.start.column, ctx.stop.line, ctx.stop.column])
+                print([repo, filename] + list(match.values()) + [ctx.start.line, ctx.start.column, ctx.stop.line, ctx.stop.column])
+                # listener.insert_values([repo, filename] + list(match.values()) + [ctx.start.line, ctx.start.column, ctx.stop.line, ctx.stop.column])
     
     def exitRule(self, listener:JavaScriptParserListener, r:RuleNode):
         """
