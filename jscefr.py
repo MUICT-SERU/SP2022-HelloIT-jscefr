@@ -33,6 +33,7 @@ def read_Directory(absFilePath, repo):
     pos = ''
     print('Directory: ' + absFilePath)
     path = absFilePath
+    path.replace('//', '/')
     try:
         directory = os.listdir(path)
         if 'node_modules' in directory:
@@ -67,7 +68,7 @@ def read_File(pos, repo):
     listener = JavaScriptParserListener()
     length_json_comp_before = len(listener.get_comp())
     walker = JscefrWalker()
-    walker.walk(listener, tree, 1)
+    walker.walk(listener, tree, 0)
 
     summary = {}
     summary[pos] = listener.get_comp()[length_json_comp_before : ]
