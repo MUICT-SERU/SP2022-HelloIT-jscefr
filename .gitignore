@@ -1,7 +1,7 @@
-test/node_modules/*
+input_dataset/node_modules/*
 */__pycache__/*
-test/bestbags-nodejs-ecommerce/*
-test/*
+input_dataset/bestbags-nodejs-ecommerce/*
+input_dataset/*
 report_generators/data.csv
 report_generators/data.json
 */.DS_Store

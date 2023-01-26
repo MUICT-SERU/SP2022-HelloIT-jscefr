@@ -1,4 +1,4 @@
-import os, json
+import os, json, csv
 from antlr4 import *
 from antlr4.tree.Tree import ParseTree
 from .JavaScriptParserListener import JavaScriptParserListener
@@ -61,7 +61,11 @@ class JscefrWalker(ParseTreeWalker):
         for match in self.data:
             name = match['Class']
             if JscefrParser.ruleNames[ctx.getRuleIndex()].lower() == name.lower() or JscefrParser.isSpecialRule(ctx, match, match['Class']):
-                print([repo, filename] + list(match.values()) + [ctx.start.line, ctx.start.column, ctx.stop.line, ctx.stop.column])
+                with open(os.getcwd() + '/report_generators/data.csv', 'a') as file:
+                    writer = csv.writer(file)
+                    # writer.writerow([repo, filename] + list(match.values()) + [ctx.start.line, ctx.start.column, ctx.stop.line, ctx.stop.column])
+                    writer.writerow([repo, filename] + list(match.values()))
+                # print([repo, filename] + list(match.values()) + [ctx.start.line, ctx.start.column, ctx.stop.line, ctx.stop.column])
                 # listener.insert_values([repo, filename] + list(match.values()) + [ctx.start.line, ctx.start.column, ctx.stop.line, ctx.stop.column])
     
     def exitRule(self, listener:JavaScriptParserListener, r:RuleNode):
