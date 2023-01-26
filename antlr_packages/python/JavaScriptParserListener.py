@@ -12,7 +12,7 @@ class JavaScriptParserListener(ParseTreeListener):
     # array of dictionaty matching btw construct / lv
     # handle if comp is empty
     comp = []
-    comp_dict_key = ['Class', 'Level']
+    comp_dict_key = ['Class', 'Level', 'Start Line', 'Start Column', 'Stop Line', 'Stop Column']
     traverse_result = []
     traverse_result_dict_key = ['Layer', 'Class', 'Start Line', 'Start Column', 'Stop Line', 'Stop Column', 'Start Text', 'Stop Text', 'Children Classes', 'Belongs to']
 
@@ -24,6 +24,9 @@ class JavaScriptParserListener(ParseTreeListener):
     
     def get_comp(self):
         return self.comp
+    
+    # def reset_comp(self):
+    #     self.comp = []
     
     def get_traverse_result(self):
         return self.traverse_result
