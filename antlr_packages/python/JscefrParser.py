@@ -1,7 +1,6 @@
 from antlr4 import *
 import sys
 from .JavaScriptParser import JavaScriptParser
-from .JavaScriptParserListener import JavaScriptParserListener
 if sys.version_info[1] > 5:
 	from typing import TextIO
 else:
@@ -77,11 +76,15 @@ class JscefrParser( JavaScriptParser ):
         # check if the code construct is a default parameter
         if code_construct == 'formalParameterArg' and 'singleExpression' in [JscefrParser.ruleNames[child.getRuleIndex()] for child in children_nodes] and name.lower() == 'defaultParameter'.lower():
             return match
-        # check if the code construct is a data or accessor property
-        elif code_construct == 'singleExpression' and len(children_nodes) > 0:
-            for data_prop in (['value', 'writable', 'enumerable', 'configurable', 'get', 'set']):
-                for child in children_nodes:
-                    if child.stop.text == data_prop and name.lower() == (data_prop + 'Property').lower():
-                        return match
+        elif code_construct == 'singleExpression':
+            # check if the code construct is a data or accessor property
+            if len(children_nodes) > 0:
+                for data_prop in (['value', 'writable', 'enumerable', 'configurable', 'get', 'set']):
+                    for child in children_nodes:
+                        if child.stop.text == data_prop and name.lower() == (data_prop + 'Property').lower():
+                            return match
+            # check if the code construct is a function with an expression
+            if any([child.start.text == 'function' and JscefrParser.ruleNames[child.getRuleIndex()] == 'singleExpression' for child in children_nodes]) and name.lower() == 'functionWithExpression'.lower():
+                return match
         else:
             return None
