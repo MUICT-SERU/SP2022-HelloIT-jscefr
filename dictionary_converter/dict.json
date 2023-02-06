@@ -546,5 +546,9 @@
     {
         "Class": "argsParameter",
         "Level": "C1"
+    },
+    {
+        "Class": "comment",
+        "Level": "A1"
     }
 ]

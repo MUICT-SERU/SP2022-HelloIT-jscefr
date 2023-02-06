@@ -1,6 +1,7 @@
 import os, json, csv
 from antlr4 import *
 from antlr4.tree.Tree import ParseTree
+from .JscefrReportNoter import JscefrReportNoter
 from .JscefrParser import JscefrParser
 
 class JscefrWalker(ParseTreeWalker):
@@ -8,12 +9,7 @@ class JscefrWalker(ParseTreeWalker):
     compositions = []
 
     def __init__(self):
-        self.data = self.read_dict()
-
-    def read_dict(self):
-        f = open(os.getcwd() + '/dictionary_converter/dict.json')
-        data = json.load(f)
-        return data
+        self.data = JscefrReportNoter.read_dict()
 
     def walk(self, listener:ParseTreeListener, t:ParseTree, layer, repo, filename):
         """
@@ -53,9 +49,7 @@ class JscefrWalker(ParseTreeWalker):
             if JscefrParser.get_rule_name(ctx).lower() == name.lower() or JscefrParser.isSpecialRule(ctx, match, name):
                 # print('rule number: ', end='')
                 # print(1) if JscefrParser.get_rule_name(ctx).lower() == name.lower() else print(JscefrParser.isSpecialRule(ctx, match, name))
-                with open(os.getcwd() + '/report_generators/data.csv', 'a') as file:
-                    writer = csv.writer(file)
-                    writer.writerow([repo, filename] + list(match.values()) + [ctx.start.line, ctx.start.column, ctx.stop.line, ctx.stop.column])
+                JscefrReportNoter.note(repo, filename, match, [ctx.start.line, ctx.start.column, ctx.stop.line, ctx.stop.column])
     
     def exitRule(self, listener:ParseTreeListener, r:RuleNode):
         """

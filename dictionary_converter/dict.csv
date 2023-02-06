@@ -186,3 +186,4 @@ setProperty,C1
 functionWithExpression,A2
 createModule,A2
 argsParameter,C1
+comment,A1

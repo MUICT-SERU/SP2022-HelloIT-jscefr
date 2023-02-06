@@ -4,6 +4,7 @@ import json
 import csv
 import shutil
 from antlr4 import *
+from antlr_packages.python.JscefrFileStream import JscefrFileStream
 from antlr_packages.python.JavaScriptLexer import JavaScriptLexer
 from antlr_packages.python.JscefrParser import JscefrParser
 from antlr_packages.python.JscefrWalker import JscefrWalker
@@ -55,7 +56,8 @@ def read_File(pos, repo):
     """ Read the file and return the tree. """
     filename = str(pos.split('/')[-1])
     print('JavaScript File: ' + filename)
-    input_stream = FileStream(pos, encoding='utf-8', errors='ignore')
+    input_stream = JscefrFileStream(repo, pos, encoding='utf-8', errors='ignore')
+    input_stream.detect_comments()
     lexer = JavaScriptLexer(input_stream)
     stream = CommonTokenStream(lexer)
     parser = JscefrParser(stream)
