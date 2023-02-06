@@ -8,11 +8,15 @@ class JscefrFileStream(FileStream):
         self.repo = repo
 
     def detect_comments(self):
+        stream_data = self.strdata.split('\n')
         comment_open = False
         first_line_comment = 1
         first_col_comment = 0
-        comp_comment = [match for match in JscefrReportNoter.read_dict() if match['Class'] == 'comment'][0]
-        stream_data = self.strdata.split('\n')
+        try:
+            comp_comment = [match for match in JscefrReportNoter.read_dict() if match['Class'] == 'comment'][0]
+        except:
+            pass
+
         for i in range(len(stream_data)):
             if comment_open:
                 if stream_data[i].replace(' ', '').endswith('*/'):
@@ -21,10 +25,7 @@ class JscefrFileStream(FileStream):
                 else:
                     continue
             elif stream_data[i].replace(' ', '').startswith('//'):
-                try:
-                    JscefrReportNoter.note(self.repo, self.fileName, comp_comment, [i + 1, stream_data[i].index('//'), i + 1, len(stream_data[i]) - 1])
-                except:
-                    pass
+                JscefrReportNoter.note(self.repo, self.fileName, comp_comment, [i + 1, stream_data[i].index('//'), i + 1, len(stream_data[i]) - 1])
             elif stream_data[i].replace(' ', '').startswith('/*'):
                 comment_open = True
                 first_line_comment = i + 1
