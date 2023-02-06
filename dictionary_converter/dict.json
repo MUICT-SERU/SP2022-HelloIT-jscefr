@@ -500,10 +500,6 @@
         "Level": "A1"
     },
     {
-        "Class": "twoDimensionalArray",
-        "Level": "A1"
-    },
-    {
         "Class": "exponentialLiteral",
         "Level": "A2"
     },
@@ -542,5 +538,13 @@
     {
         "Class": "functionWithExpression",
         "Level": "A2"
+    },
+    {
+        "Class": "createModule",
+        "Level": "A2"
+    },
+    {
+        "Class": "argsParameter",
+        "Level": "C1"
     }
 ]

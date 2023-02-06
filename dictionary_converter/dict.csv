@@ -174,7 +174,6 @@ Proxy,C2
 elementList,A2
 floatLiteral,A1
 stringLiteral,A1
-twoDimensionalArray,A1
 exponentialLiteral,A2
 aggregatingModuleExpression,B1
 defaultParameter,C1
@@ -185,3 +184,5 @@ configurableProperty,C1
 getProperty,C1
 setProperty,C1
 functionWithExpression,A2
+createModule,A2
+argsParameter,C1

@@ -50,7 +50,9 @@ class JscefrWalker(ParseTreeWalker):
 
         for match in self.data:
             name = match['Class']
-            if JscefrParser.ruleNames[ctx.getRuleIndex()].lower() == name.lower() or JscefrParser.isSpecialRule(ctx, match, name):
+            if JscefrParser.get_rule_name(ctx).lower() == name.lower() or JscefrParser.isSpecialRule(ctx, match, name):
+                # print('rule number: ', end='')
+                # print(1) if JscefrParser.get_rule_name(ctx).lower() == name.lower() else print(JscefrParser.isSpecialRule(ctx, match, name))
                 with open(os.getcwd() + '/report_generators/data.csv', 'a') as file:
                     writer = csv.writer(file)
                     writer.writerow([repo, filename] + list(match.values()) + [ctx.start.line, ctx.start.column, ctx.stop.line, ctx.stop.column])
@@ -72,4 +74,4 @@ class JscefrWalker(ParseTreeWalker):
         print(f'\t starts at line {ctx.start.line}, column {ctx.start.column}')
         print(f'\t stops at line {ctx.stop.line}, column {ctx.stop.column}')
         print(f'\t start text: {ctx.start.text}, stop text: {ctx.stop.text}')
-        print(f'\t children: {[child.__class__.__name__.replace("Context", "") for child in ctx.children]}')
+        print(f'\t children: {[JscefrParser.get_rule_name(child) for child in JscefrParser.get_valid_children(ctx)] or "-"}')
