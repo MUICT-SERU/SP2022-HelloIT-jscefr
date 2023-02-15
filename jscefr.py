@@ -1,8 +1,4 @@
-import sys
-import os
-import json
-import csv
-import shutil
+import sys, os, json, csv, shutil, time
 from antlr4 import *
 from antlr_packages.python.JscefrFileStream import JscefrFileStream
 from antlr_packages.python.JavaScriptLexer import JavaScriptLexer
@@ -10,7 +6,6 @@ from antlr_packages.python.JscefrParser import JscefrParser
 from antlr_packages.python.JscefrWalker import JscefrWalker
 from report_generators.getjson import read_Json
 from report_generators.getcsv import read_FileCsv
-from time import sleep
 from alive_progress import alive_bar
 
 report_features = ['Class', 'Level', 'Start Line', 'Start Column', 'Stop Line', 'Stop Column']
@@ -93,6 +88,9 @@ def summary_Levels():
     print(result)
 
 if __name__ == '__main__':
+
+    start_time = time.perf_counter()
+
     try:
         type_option = sys.argv[1]
         option = sys.argv[2]
@@ -111,9 +109,23 @@ if __name__ == '__main__':
 
     choose_option(repo_name)
 
-    # write_json_summary(repo_name)
+    write_json_summary(repo_name)
 
-    # try:
-    #     summary_Levels()
-    # except:
-    #     print('Data empty. Cannot find any match.')
+    try:
+        summary_Levels()
+    except:
+        print('Data empty. Cannot find any match.')
+    
+    duration = time.perf_counter() - start_time
+    dur_int = int(duration)
+
+    dur_hr = int(dur_int / 3600)
+    dur_min = int((dur_int - (dur_hr * 60)) / 60)
+    dur_sec = dur_int - ((dur_hr * 3600) + (dur_min * 60))
+    dur_millisec = int(round(duration - dur_int, 3) * 1000)
+
+    dur_hr_str = ('0' if dur_hr < 10 else '') + str(dur_hr)
+    dur_min_str = ('0' if dur_min < 10 else '') + str(dur_min)
+    dur_sec_str = ('0' if dur_sec < 10 else '') + str(dur_sec)
+    dur_millisec_str = ('0' if dur_millisec < 100 else '') + ('0' if dur_millisec < 10 else '') + str(dur_millisec)
+    print(f'Elapsed time: {dur_hr_str}:{dur_min_str}:{dur_sec_str}:{dur_millisec_str}')

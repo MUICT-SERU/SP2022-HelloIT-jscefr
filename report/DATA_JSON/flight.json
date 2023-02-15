@@ -1,0 +1,621 @@
+{
+    "flight": {
+        "input_dataset/react/fixtures/flight/scripts/test.js": {
+            "Levels": {
+                "A1": 50,
+                "B1": 18,
+                "A2": 16
+            },
+            "Class": {
+                "comment": 7,
+                "stringLiteral": 16,
+                "memberDotExpression": 16,
+                "arguments": 13,
+                "anonymousFunction": 1,
+                "arrowFunctionParameters": 1,
+                "throwStatement": 1,
+                "varModifier": 4,
+                "variableDeclaration": 4,
+                "slice": 1,
+                "tryStatement": 2,
+                "objectLiteral": 2,
+                "propertyAssignment": 2,
+                "returnStatement": 4,
+                "ifStatement": 1,
+                "logicalAndExpression": 2,
+                "equalityExpression": 2,
+                "indexOf": 2,
+                "logicalOrExpression": 1,
+                "push": 1,
+                "ternaryExpression": 1
+            }
+        },
+        "input_dataset/react/fixtures/flight/scripts/start.js": {
+            "Levels": {
+                "A1": 151,
+                "B1": 90,
+                "A2": 71,
+                "B2": 2,
+                "C2": 1
+            },
+            "Class": {
+                "comment": 17,
+                "stringLiteral": 32,
+                "memberDotExpression": 74,
+                "arguments": 64,
+                "anonymousFunction": 8,
+                "arrowFunctionParameters": 5,
+                "throwStatement": 1,
+                "varModifier": 30,
+                "variableDeclaration": 30,
+                "objectLiteral": 5,
+                "propertyAssignment": 15,
+                "arrayLiteral": 3,
+                "elementList": 3,
+                "slice": 2,
+                "ifStatement": 7,
+                "logicalOrExpression": 2,
+                "parseInt": 1,
+                "then": 2,
+                "returnStatement": 2,
+                "equalityExpression": 3,
+                "ternaryExpression": 1,
+                "Proxy": 1,
+                "logicalAndExpression": 2,
+                "foreach": 1,
+                "formalParameterList": 1,
+                "reservedWord": 1,
+                "message": 2
+            }
+        },
+        "input_dataset/react/fixtures/flight/scripts/build.js": {
+            "Levels": {
+                "A1": 219,
+                "B1": 117,
+                "A2": 98,
+                "B2": 5
+            },
+            "Class": {
+                "comment": 21,
+                "stringLiteral": 44,
+                "memberDotExpression": 101,
+                "arguments": 86,
+                "anonymousFunction": 12,
+                "arrowFunctionParameters": 12,
+                "throwStatement": 1,
+                "varModifier": 32,
+                "variableDeclaration": 32,
+                "multiplicativeExpression": 2,
+                "ifStatement": 12,
+                "arrayLiteral": 3,
+                "elementList": 3,
+                "slice": 1,
+                "equalityExpression": 5,
+                "indexOf": 1,
+                "objectLiteral": 6,
+                "propertyAssignment": 14,
+                "then": 4,
+                "returnStatement": 8,
+                "formalParameterList": 4,
+                "length": 6,
+                "join": 3,
+                "additiveExpression": 7,
+                "reservedWord": 2,
+                "logicalAndExpression": 3,
+                "message": 4,
+                "Object": 1,
+                "prototype": 1,
+                "assignmentOperator": 1,
+                "memberIndexExpression": 1,
+                "logicalOrExpression": 1,
+                "typeofExpression": 1,
+                "toLowerCase": 1,
+                "filter": 2,
+                "RegExp": 1
+            }
+        },
+        "input_dataset/react/fixtures/flight/config/paths.js": {
+            "Levels": {
+                "A1": 78,
+                "A2": 32,
+                "B1": 33
+            },
+            "Class": {
+                "comment": 10,
+                "stringLiteral": 34,
+                "varModifier": 10,
+                "variableDeclaration": 10,
+                "arguments": 31,
+                "memberDotExpression": 15,
+                "anonymousFunction": 3,
+                "arrowFunctionParameters": 3,
+                "equalityExpression": 1,
+                "logicalOrExpression": 1,
+                "arrayLiteral": 1,
+                "elementList": 1,
+                "formalParameterList": 1,
+                "ifStatement": 1,
+                "returnStatement": 2,
+                "objectLiteral": 1,
+                "propertyAssignment": 18
+            }
+        },
+        "input_dataset/react/fixtures/flight/config/jest/babelTransform.js": {
+            "Levels": {
+                "A1": 23,
+                "B1": 12,
+                "A2": 8
+            },
+            "Class": {
+                "stringLiteral": 7,
+                "varModifier": 2,
+                "variableDeclaration": 2,
+                "memberDotExpression": 7,
+                "arguments": 5,
+                "reservedWord": 1,
+                "anonymousFunction": 1,
+                "arrowFunctionParameters": 1,
+                "ifStatement": 1,
+                "equalityExpression": 1,
+                "returnStatement": 3,
+                "tryStatement": 1,
+                "objectLiteral": 2,
+                "propertyAssignment": 4,
+                "arrayLiteral": 2,
+                "elementList": 2,
+                "ternaryExpression": 1
+            }
+        },
+        "input_dataset/react/fixtures/flight/config/jest/fileTransform.js": {
+            "Levels": {
+                "A1": 23,
+                "A2": 8,
+                "B1": 8
+            },
+            "Class": {
+                "comment": 4,
+                "stringLiteral": 3,
+                "varModifier": 5,
+                "variableDeclaration": 5,
+                "arguments": 7,
+                "memberDotExpression": 6,
+                "objectLiteral": 2,
+                "propertyAssignment": 2,
+                "formalParameterList": 1,
+                "ifStatement": 1,
+                "RegExp": 1,
+                "returnStatement": 2
+            }
+        },
+        "input_dataset/react/fixtures/flight/config/jest/cssTransform.js": {
+            "Levels": {
+                "A1": 9,
+                "B1": 3
+            },
+            "Class": {
+                "comment": 3,
+                "stringLiteral": 3,
+                "memberDotExpression": 1,
+                "objectLiteral": 1,
+                "propertyAssignment": 2,
+                "returnStatement": 2
+            }
+        },
+        "input_dataset/react/fixtures/flight/config/env.js": {
+            "Levels": {
+                "A1": 105,
+                "A2": 37,
+                "B1": 57
+            },
+            "Class": {
+                "comment": 35,
+                "stringLiteral": 12,
+                "varModifier": 9,
+                "variableDeclaration": 9,
+                "arguments": 27,
+                "deleteExpression": 1,
+                "memberIndexExpression": 5,
+                "memberDotExpression": 46,
+                "ifStatement": 2,
+                "throwStatement": 1,
+                "arrayLiteral": 1,
+                "elementList": 1,
+                "logicalAndExpression": 2,
+                "equalityExpression": 2,
+                "filter": 3,
+                "foreach": 1,
+                "anonymousFunction": 6,
+                "arrowFunctionParameters": 6,
+                "objectLiteral": 5,
+                "propertyAssignment": 10,
+                "logicalOrExpression": 2,
+                "split": 1,
+                "Map": 1,
+                "map": 1,
+                "join": 1,
+                "RegExp": 1,
+                "formalParameterList": 3,
+                "Object": 2,
+                "returnStatement": 3
+            }
+        },
+        "input_dataset/react/fixtures/flight/config/webpackDevServer.config.js": {
+            "Levels": {
+                "A1": 123,
+                "A2": 24,
+                "B1": 61,
+                "C2": 3
+            },
+            "Class": {
+                "comment": 60,
+                "stringLiteral": 14,
+                "varModifier": 12,
+                "variableDeclaration": 12,
+                "arguments": 20,
+                "logicalOrExpression": 2,
+                "memberDotExpression": 30,
+                "functionWithExpression": 1,
+                "anonymousFunction": 2,
+                "formalParameterList": 3,
+                "Proxy": 3,
+                "equalityExpression": 1,
+                "returnStatement": 2,
+                "objectLiteral": 9,
+                "propertyAssignment": 30,
+                "ternaryExpression": 1,
+                "arrayLiteral": 2,
+                "elementList": 2,
+                "reservedWord": 1,
+                "arrowFunctionParameters": 1,
+                "RegExp": 1,
+                "slice": 1,
+                "ifStatement": 1
+            }
+        },
+        "input_dataset/react/fixtures/flight/config/webpack.config.js": {
+            "Levels": {
+                "A1": 647,
+                "A2": 172,
+                "B1": 334
+            },
+            "Class": {
+                "comment": 205,
+                "stringLiteral": 116,
+                "varModifier": 51,
+                "variableDeclaration": 51,
+                "arguments": 96,
+                "objectLiteral": 95,
+                "propertyAssignment": 231,
+                "ternaryExpression": 18,
+                "equalityExpression": 8,
+                "memberDotExpression": 103,
+                "arrayLiteral": 34,
+                "elementList": 34,
+                "parseInt": 1,
+                "logicalOrExpression": 4,
+                "join": 1,
+                "RegExp": 29,
+                "anonymousFunction": 11,
+                "arrowFunctionParameters": 10,
+                "ifStatement": 2,
+                "returnStatement": 7,
+                "tryStatement": 1,
+                "functionWithExpression": 1,
+                "formalParameterList": 4,
+                "logicalAndExpression": 21,
+                "slice": 1,
+                "filter": 7,
+                "push": 1,
+                "replace": 2,
+                "Map": 1,
+                "map": 1,
+                "include": 2,
+                "Object": 1,
+                "memberIndexExpression": 1,
+                "multiplicativeExpression": 2
+            }
+        },
+        "input_dataset/react/fixtures/flight/config/webpack/persistentCache/createEnvironmentHash.js": {
+            "Levels": {
+                "A1": 12,
+                "B1": 5,
+                "A2": 5
+            },
+            "Class": {
+                "stringLiteral": 4,
+                "varModifier": 2,
+                "variableDeclaration": 2,
+                "objectLiteral": 1,
+                "propertyAssignment": 1,
+                "arguments": 5,
+                "memberDotExpression": 4,
+                "anonymousFunction": 1,
+                "arrowFunctionParameters": 1,
+                "returnStatement": 1
+            }
+        },
+        "input_dataset/react/fixtures/flight/config/modules.js": {
+            "Levels": {
+                "A1": 113,
+                "A2": 29,
+                "C1": 3,
+                "B1": 44
+            },
+            "Class": {
+                "comment": 18,
+                "stringLiteral": 17,
+                "varModifier": 17,
+                "variableDeclaration": 17,
+                "arguments": 26,
+                "formalParameterList": 3,
+                "defaultParameter": 3,
+                "objectLiteral": 11,
+                "memberDotExpression": 37,
+                "ifStatement": 11,
+                "returnStatement": 9,
+                "equalityExpression": 5,
+                "arrayLiteral": 1,
+                "elementList": 1,
+                "throwStatement": 2,
+                "additiveExpression": 1,
+                "propertyAssignment": 7,
+                "logicalAndExpression": 1,
+                "logicalOrExpression": 2
+            }
+        },
+        "input_dataset/react/fixtures/flight/config/getHttpsConfig.js": {
+            "Levels": {
+                "A1": 53,
+                "A2": 29,
+                "B1": 30
+            },
+            "Class": {
+                "comment": 7,
+                "stringLiteral": 10,
+                "varModifier": 11,
+                "variableDeclaration": 11,
+                "arguments": 22,
+                "formalParameterList": 2,
+                "objectLiteral": 4,
+                "propertyAssignment": 12,
+                "tryStatement": 2,
+                "memberDotExpression": 17,
+                "reservedWord": 1,
+                "throwStatement": 3,
+                "message": 2,
+                "ifStatement": 2,
+                "returnStatement": 3,
+                "equalityExpression": 1,
+                "logicalAndExpression": 2
+            }
+        },
+        "input_dataset/react/fixtures/flight/server/handler.server.js": {
+            "Levels": {
+                "A1": 44,
+                "B1": 17,
+                "A2": 14,
+                "B2": 1
+            },
+            "Class": {
+                "comment": 1,
+                "stringLiteral": 12,
+                "varModifier": 8,
+                "variableDeclaration": 8,
+                "objectLiteral": 4,
+                "propertyAssignment": 4,
+                "arguments": 12,
+                "functionWithExpression": 1,
+                "memberDotExpression": 10,
+                "anonymousFunction": 3,
+                "formalParameterList": 2,
+                "then": 1,
+                "arrowFunctionParameters": 2,
+                "ternaryExpression": 1,
+                "equalityExpression": 1,
+                "ifStatement": 1,
+                "throwStatement": 1,
+                "logicalOrExpression": 1,
+                "reservedWord": 3
+            }
+        },
+        "input_dataset/react/fixtures/flight/server/cli.server.js": {
+            "Levels": {
+                "A1": 76,
+                "A2": 29,
+                "B1": 23,
+                "C1": 4
+            },
+            "Class": {
+                "comment": 4,
+                "stringLiteral": 26,
+                "varModifier": 6,
+                "variableDeclaration": 6,
+                "arguments": 22,
+                "objectLiteral": 3,
+                "propertyAssignment": 8,
+                "arrayLiteral": 4,
+                "elementList": 4,
+                "RegExp": 1,
+                "anonymousFunction": 5,
+                "formalParameterList": 4,
+                "ifStatement": 2,
+                "memberDotExpression": 15,
+                "additiveExpression": 6,
+                "returnStatement": 2,
+                "getProperty": 4,
+                "arrowFunctionParameters": 1,
+                "equalityExpression": 2,
+                "throwStatement": 2,
+                "ternaryExpression": 1,
+                "typeofExpression": 1,
+                "switchStatement": 1,
+                "breakStatement": 2
+            }
+        },
+        "input_dataset/react/fixtures/flight/loader/index.js": {
+            "Levels": {
+                "B1": 14,
+                "A1": 30,
+                "A2": 9,
+                "B2": 3
+            },
+            "Class": {
+                "importStatement": 2,
+                "exportStatement": 2,
+                "varModifier": 4,
+                "variableDeclaration": 4,
+                "objectLiteral": 5,
+                "propertyAssignment": 7,
+                "arrayLiteral": 2,
+                "elementList": 2,
+                "RegExp": 1,
+                "stringLiteral": 3,
+                "anonymousFunction": 2,
+                "asyncExpression": 2,
+                "formalParameterList": 3,
+                "ifStatement": 1,
+                "equalityExpression": 1,
+                "memberDotExpression": 3,
+                "Object": 1,
+                "arguments": 5,
+                "awaitExpression": 1,
+                "returnStatement": 4,
+                "arrowFunctionParameters": 1
+            }
+        },
+        "input_dataset/react/fixtures/flight/src/Counter2.client.js": {
+            "Levels": {
+                "B1": 1
+            },
+            "Class": {
+                "exportStatement": 1
+            }
+        },
+        "input_dataset/react/fixtures/flight/src/App.server.js": {
+            "Levels": {
+                "B1": 16,
+                "A2": 8,
+                "B2": 2,
+                "A1": 12
+            },
+            "Class": {
+                "importStatement": 6,
+                "aggregatingModuleExpression": 1,
+                "createModule": 1,
+                "fetch": 2,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1,
+                "functionWithExpression": 3,
+                "anonymousFunction": 2,
+                "varModifier": 1,
+                "variableDeclaration": 1,
+                "memberDotExpression": 4,
+                "arguments": 2,
+                "stringLiteral": 1,
+                "returnStatement": 1,
+                "multiplicativeExpression": 2,
+                "objectLiteral": 3,
+                "propertyAssignment": 3,
+                "Map": 1,
+                "map": 1,
+                "arrowFunctionParameters": 1
+            }
+        },
+        "input_dataset/react/fixtures/flight/src/Container.js": {
+            "Levels": {
+                "B1": 6,
+                "A2": 5,
+                "A1": 5
+            },
+            "Class": {
+                "importStatement": 1,
+                "aggregatingModuleExpression": 1,
+                "createModule": 1,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1,
+                "functionWithExpression": 4,
+                "anonymousFunction": 1,
+                "formalParameterList": 1,
+                "objectLiteral": 2,
+                "propertyAssignment": 2,
+                "returnStatement": 1
+            }
+        },
+        "input_dataset/react/fixtures/flight/src/index.js": {
+            "Levels": {
+                "B1": 11,
+                "A2": 6,
+                "A1": 7,
+                "B2": 1
+            },
+            "Class": {
+                "importStatement": 4,
+                "aggregatingModuleExpression": 1,
+                "createModule": 1,
+                "varModifier": 1,
+                "variableDeclaration": 1,
+                "memberDotExpression": 5,
+                "arguments": 5,
+                "fetch": 1,
+                "stringLiteral": 2,
+                "returnStatement": 1,
+                "multiplicativeExpression": 1,
+                "objectLiteral": 1,
+                "propertyAssignment": 1
+            }
+        },
+        "input_dataset/react/fixtures/flight/src/ShowMore.client.js": {
+            "Levels": {
+                "B1": 8,
+                "A2": 5,
+                "A1": 11
+            },
+            "Class": {
+                "importStatement": 2,
+                "aggregatingModuleExpression": 1,
+                "createModule": 1,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1,
+                "functionWithExpression": 1,
+                "anonymousFunction": 2,
+                "formalParameterList": 1,
+                "objectLiteral": 2,
+                "propertyAssignment": 2,
+                "varModifier": 1,
+                "variableDeclaration": 1,
+                "arrayLiteral": 1,
+                "elementList": 1,
+                "memberDotExpression": 1,
+                "arguments": 2,
+                "ifStatement": 1,
+                "returnStatement": 1,
+                "arrowFunctionParameters": 1
+            }
+        },
+        "input_dataset/react/fixtures/flight/src/Counter.client.js": {
+            "Levels": {
+                "B1": 6,
+                "A2": 4,
+                "A1": 10
+            },
+            "Class": {
+                "importStatement": 2,
+                "aggregatingModuleExpression": 1,
+                "createModule": 1,
+                "exportStatement": 1,
+                "varModifier": 1,
+                "variableDeclaration": 1,
+                "arrayLiteral": 1,
+                "elementList": 1,
+                "memberDotExpression": 1,
+                "arguments": 2,
+                "returnStatement": 1,
+                "objectLiteral": 1,
+                "propertyAssignment": 1,
+                "anonymousFunction": 2,
+                "arrowFunctionParameters": 2,
+                "additiveExpression": 1
+            }
+        }
+    }
+}
