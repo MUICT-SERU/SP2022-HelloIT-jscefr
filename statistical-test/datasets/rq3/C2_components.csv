@@ -1,21 +1,16 @@
-Module,Test,File Name,Code Construct,Number of Code Constructs
-next,True,input_dataset/next.js/test/integration/preload-viewport/test/index.test.js,Proxy,3
-next,True,input_dataset/next.js/test/integration/ssg-data-404/test/index.test.js,Proxy,4
-next,True,input_dataset/next.js/test/integration/css-client-nav/test/index.test.js,Proxy,3
-react,False,input_dataset/react/packages/react-server-dom-webpack/src/ReactFlightWebpackNodeRegister.js,Proxy,2
-react,False,input_dataset/react/packages/react-devtools-extensions/webpack.config.js,Proxy,1
-react,False,input_dataset/react/scripts/jest/TestFlags.js,Proxy,1
-react,False,input_dataset/react/scripts/jest/setupTests.js,Proxy,5
-react,False,input_dataset/react/scripts/rollup/validate/eslintrc.esm.js,Proxy,1
-react,False,input_dataset/react/scripts/rollup/validate/eslintrc.cjs.js,Proxy,1
-react,False,input_dataset/react/scripts/rollup/validate/eslintrc.fb.js,Proxy,1
-react,False,input_dataset/react/scripts/rollup/validate/eslintrc.umd.js,Proxy,1
-react,False,input_dataset/react/scripts/rollup/validate/eslintrc.cjs2015.js,Proxy,1
-react,False,input_dataset/react/scripts/rollup/validate/eslintrc.rn.js,Proxy,1
-react,False,input_dataset/react/fixtures/ssr/server/index.js,Proxy,2
-react,False,input_dataset/react/fixtures/flight/scripts/start.js,Proxy,1
-react,False,input_dataset/react/fixtures/flight/config/webpackDevServer.config.js,Proxy,3
-svelte,False,input_dataset/kit/packages/kit/src/core/sync/write_types/index.js,Proxy,7
-svelte,False,input_dataset/kit/packages/kit/src/runtime/client/client.js,Proxy,1
-svelte,False,input_dataset/kit/packages/kit/src/runtime/server/utils.js,Proxy,1
-svelte,False,input_dataset/kit/packages/kit/src/runtime/server/page/load_data.js,Proxy,4
+Test,File Name,Code Construct,Start Line,Start Column
+False,input_dataset/react/scripts/jest/TestFlags.js,Proxy,76,13
+False,input_dataset/react/scripts/jest/setupTests.js,Proxy,203,24
+False,input_dataset/react/scripts/jest/setupTests.js,Proxy,219,27
+False,input_dataset/react/scripts/rollup/validate/eslintrc.rn.js,Proxy,13,4
+False,input_dataset/react/scripts/rollup/validate/eslintrc.esm.js,Proxy,12,4
+False,input_dataset/react/scripts/rollup/validate/eslintrc.umd.js,Proxy,12,4
+False,input_dataset/react/scripts/rollup/validate/eslintrc.cjs.js,Proxy,13,4
+False,input_dataset/react/scripts/rollup/validate/eslintrc.cjs2015.js,Proxy,13,4
+False,input_dataset/react/scripts/rollup/validate/eslintrc.fb.js,Proxy,13,4
+False,input_dataset/react/packages/react-server-dom-webpack/src/ReactFlightWebpackNodeRegister.js,Proxy,22,16
+False,input_dataset/react/packages/react-server-dom-webpack/src/ReactFlightWebpackNodeRegister.js,Proxy,67,28
+False,input_dataset/sveltekit/packages/kit/src/runtime/server/utils.js,Proxy,121,15
+False,input_dataset/sveltekit/packages/kit/src/runtime/server/page/load_data.js,Proxy,48,14
+False,input_dataset/sveltekit/packages/kit/src/runtime/server/page/load_data.js,Proxy,174,20
+False,input_dataset/sveltekit/packages/kit/src/runtime/client/client.js,Proxy,552,16

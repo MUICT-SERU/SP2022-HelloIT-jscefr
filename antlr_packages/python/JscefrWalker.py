@@ -46,9 +46,7 @@ class JscefrWalker(ParseTreeWalker):
 
         for match in self.data:
             name = match['Class']
-            if JscefrParser.get_rule_name(ctx).lower() == name.lower() or JscefrParser.isSpecialRule(ctx, match, name):
-                # print('rule number: ', end='')
-                # print(1) if JscefrParser.get_rule_name(ctx).lower() == name.lower() else print(JscefrParser.isSpecialRule(ctx, match, name))
+            if JscefrParser.get_rule_name(ctx) == name or JscefrParser.isSpecialRule(ctx, match, name):
                 JscefrReportNoter.note(repo, filename, match, [ctx.start.line, ctx.start.column, ctx.stop.line, ctx.stop.column])
     
     def exitRule(self, listener:ParseTreeListener, r:RuleNode):
@@ -63,9 +61,8 @@ class JscefrWalker(ParseTreeWalker):
         listener.exitEveryRule(ctx)
     
     def display_construct(self, layer, ctx):
-        print(f'Layer {layer}: {JscefrParser.ruleNames[ctx.getRuleIndex()]}')
-        # print(f'Layer {layer}: {ctx.__class__.__name__.replace("Context", "")}')
-        print(f'\t starts at line {ctx.start.line}, column {ctx.start.column}')
-        print(f'\t stops at line {ctx.stop.line}, column {ctx.stop.column}')
-        print(f'\t start text: {ctx.start.text}, stop text: {ctx.stop.text}')
+        print(f'Layer {layer}: rule name = {JscefrParser.ruleNames[ctx.getRuleIndex()]}')
+        print(f'\t class name = {ctx.__class__.__name__.replace("Context", "")}')
+        print(f'\t starts at line {ctx.start.line}, column {ctx.start.column}, text: {ctx.start.text}')
+        print(f'\t stops at line {ctx.stop.line}, column {ctx.stop.column}, text: {ctx.stop.text}')
         print(f'\t children: {[JscefrParser.get_rule_name(child) for child in JscefrParser.get_valid_children(ctx)] or "-"}')

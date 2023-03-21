@@ -152,7 +152,7 @@ ForOfStatement,A2
 deleteExpression,B1
 memberDotExpression,B1
 memberIndexExpression,A1
-static,B2
+staticStatement,B2
 additiveExpression,A1
 multiplicativeExpression,A1
 equalityExpression,A1

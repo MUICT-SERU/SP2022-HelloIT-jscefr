@@ -3,7 +3,7 @@ import os, csv, json
 columns = ['Competency Levels', 'Code Constructs', 'Files']
 levels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2']
 rows = levels + ['Total']
-modules = {'react': {'report name': 'react', 'test files location': '/__tests__/'}, 'svelte': {'report name': 'kit', 'test files location': '/test/'}, 'next_js': {'report name': 'next.js', 'test files location': '/test/'}}
+modules = {'react': {'report name': 'react', 'test files location': '/__tests__/'}, 'svelte': {'report name': 'sveltekit', 'test files location': '/test/'}, 'next': {'report name': 'next', 'test files location': '/test/'}}
 C2_files = {'test': {}, 'non-test': {}}
 path = 'statistical-test/datasets/rq3'
 
@@ -67,15 +67,18 @@ for test in [True, False]:
 dictionary = json.load(open('dictionary_converter/dict.json'))
 C2_classes = [code_cons['Class'] for code_cons in dictionary if code_cons['Level'] == 'C2']
 
-columns2 = ['Test', 'File Name', 'Code Construct', 'Number of Code Constructs']
+columns2 = ['Test', 'File Name', 'Code Construct', 'Start Line', 'Start Column']
 
 C2_data = []
 
 for group in C2_files:
     for each_file in C2_files[group]:
-        for code_cons in C2_files[group][each_file]:
-            if code_cons in C2_classes:
-                C2_data.append([('False' if 'non' in group else 'True'), each_file, code_cons, C2_files[group][each_file][code_cons]])
+        with open(f'report/DATA_CSV/{each_file.replace("/", "-").replace(".js", ".csv")}', 'r') as f:
+            reader = csv.reader(f)
+            next(reader, None)
+            for row in reader:
+                if row[3] == 'C2':
+                    C2_data.append([('False' if 'non' in group else 'True'), each_file, row[2], row[4], row[5]])
 
 with open(f'{path}/C2_components.csv', 'w') as f:
     writer = csv.writer(f)

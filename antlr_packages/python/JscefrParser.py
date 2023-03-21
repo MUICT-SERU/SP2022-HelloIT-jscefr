@@ -44,55 +44,59 @@ class JscefrParser( JavaScriptParser ):
     def isSpecialRule(ctx, match, name):
         code_construct = JscefrParser.get_rule_name(ctx)
         # check if the code construct falls into the basic rule
-        if JscefrParser.get_class_name(ctx).replace('Context', '').lower() == name.lower():
+        if JscefrParser.get_class_name(ctx).replace('Context', '') == name:
             return True
         # check if the code construct is searched keyword(s)
-        elif (code_construct == 'identifier' and ctx.start.text.lower() == name.lower()) or (code_construct == 'singleExpression' and len(name.split('.')) > 1 and (ctx.start.text.lower() == name.split('.')[0].lower() and ctx.stop.text.lower() == name.split('.')[-1].lower())):
+        elif (code_construct == 'identifier' and ctx.start.text == name) or (code_construct == 'singleExpression' and len(name.split('.')) > 1 and (ctx.start.text == name.split('.')[0] and ctx.stop.text == name.split('.')[-1])):
+            return True       
+        # check if the code construct is a static statement
+        elif code_construct == 'statement' and ctx.start.text == 'static' and name == 'staticStatement':
             return True
         
         elif code_construct == 'numericLiteral':
             # check if the code construct is a float literal
-            if '.' in ctx.start.text and name.lower() == 'floatLiteral'.lower():
+            if '.' in ctx.start.text and name == 'floatLiteral':
                 return True
             # check if the code construct is an exponential literal
-            elif 'e' in ctx.start.text and name.lower() == 'exponentialLiteral'.lower():
+            elif 'e' in ctx.start.text and name == 'exponentialLiteral':
                 return True
         
         elif code_construct == 'literal':
             # check if the code construct is a string literal
-            if ((ctx.start.text[0] == '\'' and ctx.start.text[-1] == '\'') or (ctx.start.text[0] == '\"' and ctx.start.text[-1] == '\"')) and name.lower() == 'stringLiteral'.lower():
+            if ((ctx.start.text[0] == '\'' and ctx.start.text[-1] == '\'') or (ctx.start.text[0] == '\"' and ctx.start.text[-1] == '\"')) and name == 'stringLiteral':
                 return True
             # check if the code construct is a regular expression literal
-            elif (ctx.start.text[0] != '\'' and ctx.start.text[-1] != '\'') and '/' in ctx.start.text and name.lower() == 'RegExp'.lower():
+            elif (ctx.start.text[0] != '\'' and ctx.start.text[-1] != '\'') and '/' in ctx.start.text and name == 'RegExp':
                 return True
 
         # check if the code construct is an async expression
-        elif code_construct == 'functionDeclaration' and ctx.start.text.lower() == 'async' and name.lower() == 'asyncExpression'.lower():
+        elif code_construct == 'functionDeclaration' and ctx.start.text == 'async' and name == 'asyncExpression':
             return True
-        elif code_construct == 'functionBody' and JscefrParser.has_args(ctx) and name.lower() == 'argsParameter'.lower():
+        elif code_construct == 'functionBody' and JscefrParser.has_args(ctx) and name == 'argsParameter':
             return True
         
         # check if the code construct is an aggregating module expression
-        elif code_construct == 'importFromBlock' and ctx.start.text == '*' and name.lower() == 'aggregatingModuleExpression'.lower():
+        elif code_construct == 'importFromBlock' and ctx.start.text == '*' and name == 'aggregatingModuleExpression':
             return True
         # check if the code construct is a module creation
-        elif code_construct == 'importNamespace' and ctx.start.text != ctx.stop.text and name.lower() == 'createModule'.lower():
+        elif code_construct == 'importNamespace' and ctx.start.text != ctx.stop.text and name == 'createModule':
             return True
         
         children_nodes = JscefrParser.get_valid_children(ctx)
-
         # check if the code construct is a default parameter
-        if code_construct == 'formalParameterArg' and 'singleExpression' in [JscefrParser.get_rule_name(child) for child in children_nodes] and name.lower() == 'defaultParameter'.lower():
+        if code_construct == 'formalParameterArg' and 'singleExpression' in [JscefrParser.get_rule_name(child) for child in children_nodes] and name == 'defaultParameter':
             return True
-        elif code_construct == 'singleExpression':
+        
+        props = ['value', 'writable', 'enumerable', 'configurable', 'get', 'set']
+        if code_construct == 'singleExpression':
             # check if the code construct is a data or accessor property
-            if len(children_nodes) > 0:
-                for data_prop in (['value', 'writable', 'enumerable', 'configurable', 'get', 'set']):
+            for data_prop in props:
+                if len(children_nodes) > 0 and ctx.stop.text == data_prop:
                     for child in children_nodes:
-                        if child.stop.text == data_prop and name.lower() == (data_prop + 'Property').lower():
+                        if child.stop.text == data_prop and name == (data_prop + 'Property'):
                             return True
             # check if the code construct is a function with an expression
-            if any([child.start.text == 'function' and JscefrParser.get_rule_name(child) == 'singleExpression' for child in children_nodes]) and name.lower() == 'functionWithExpression'.lower():
+            if any([child.start.text == 'function' and JscefrParser.get_rule_name(child) == 'singleExpression' for child in children_nodes]) and name == 'functionWithExpression':
                 return True
         else:
             return None

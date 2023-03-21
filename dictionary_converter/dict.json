@@ -412,7 +412,7 @@
         "Level": "A1"
     },
     {
-        "Class": "static",
+        "Class": "staticStatement",
         "Level": "B2"
     },
     {
