@@ -24,9 +24,9 @@ class JscefrFileStream(FileStream):
                     JscefrReportNoter.note(self.repo, self.fileName, comp_comment, [first_line_comment, first_col_comment, i + 1, len(stream_data[i]) - 1])
                 else:
                     continue
-            elif stream_data[i].replace(' ', '').startswith('//'):
+            elif stream_data[i].replace(' ', '').replace('\t', '').startswith('//'):
                 JscefrReportNoter.note(self.repo, self.fileName, comp_comment, [i + 1, stream_data[i].index('//'), i + 1, len(stream_data[i]) - 1])
             elif stream_data[i].replace(' ', '').startswith('/*'):
                 comment_open = True
-                first_line_comment = i + 1
                 first_col_comment = stream_data[i].index('/*')
+                first_line_comment = i + 1
