@@ -1,12 +1,9 @@
-# **pycefr**
-## *Identifying Python3 Code Level Using the CERFL Framework as Inspiration*
+# **JSCEFR**
+## *Studying JavaScript Code Competency in Open-Source Projects*
 
 ### What is this project about?
-The goal of pycefrl is to create a tool capable of obtaining an evaluation inspired by the [''Common European Framework of Reference for Languages''](https://en.wikipedia.org/wiki/Common_European_Framework_of_Reference_for_Languages) for code written in the Python programming language, version 3.
 
-With this tool it is possible to analyze the level of GitHub repositories (and their developers) or code snippets in Python3.
-
-
+In this project, we intend to study JavaScript code competency in open-source projects by defining and evaluating JavaScript code competency using references from CEFR (Common European Framework of Reference, read more: https://en.wikipedia.org/wiki/Common_European_Framework_of_Reference_for_Languages) to estimate the competency of programmers in the JavaScript programming language. Then, we create an automated tool for analyzing and reporting the detected JavaScript code competency. Lastly, we apply the tool to open-source projects to understand the competency of JavaScript code in real-world software projects.
 
 ### How does it work?
 
