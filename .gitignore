@@ -1,13 +1,11 @@
-input_dataset/node_modules/*
-*/__pycache__/*
-input_dataset/bestbags-nodejs-ecommerce/*
+__pycache__
 input_dataset/*
 report_generators/data.csv
 report_generators/data.json
 */.DS_Store
-dataset/input/*
-dataset/output/*
+dataset
 report/DATA_CSV
 report_generators/analyzed_files/*
 report_generators/data(former).csv
 report_generators/data(former).json
+.ipynb_checkpoints
