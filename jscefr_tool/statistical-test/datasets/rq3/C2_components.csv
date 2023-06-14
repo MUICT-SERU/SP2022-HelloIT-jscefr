@@ -1,0 +1,16 @@
+Test,File Name,Code Construct,Start Line,Start Column
+False,input_dataset/react/scripts/jest/TestFlags.js,Proxy,76,13
+False,input_dataset/react/scripts/jest/setupTests.js,Proxy,203,24
+False,input_dataset/react/scripts/jest/setupTests.js,Proxy,219,27
+False,input_dataset/react/scripts/rollup/validate/eslintrc.rn.js,Proxy,13,4
+False,input_dataset/react/scripts/rollup/validate/eslintrc.esm.js,Proxy,12,4
+False,input_dataset/react/scripts/rollup/validate/eslintrc.umd.js,Proxy,12,4
+False,input_dataset/react/scripts/rollup/validate/eslintrc.cjs.js,Proxy,13,4
+False,input_dataset/react/scripts/rollup/validate/eslintrc.cjs2015.js,Proxy,13,4
+False,input_dataset/react/scripts/rollup/validate/eslintrc.fb.js,Proxy,13,4
+False,input_dataset/react/packages/react-server-dom-webpack/src/ReactFlightWebpackNodeRegister.js,Proxy,22,16
+False,input_dataset/react/packages/react-server-dom-webpack/src/ReactFlightWebpackNodeRegister.js,Proxy,67,28
+False,input_dataset/sveltekit/packages/kit/src/runtime/server/utils.js,Proxy,121,15
+False,input_dataset/sveltekit/packages/kit/src/runtime/server/page/load_data.js,Proxy,48,14
+False,input_dataset/sveltekit/packages/kit/src/runtime/server/page/load_data.js,Proxy,174,20
+False,input_dataset/sveltekit/packages/kit/src/runtime/client/client.js,Proxy,552,16
