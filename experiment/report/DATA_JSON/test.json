@@ -1,0 +1,15 @@
+{
+    "test": {
+        "test.js": {},
+        "test2.js": {
+            "Levels": {
+                "A1": 1,
+                "B2": 1
+            },
+            "Class": {
+                "anonymousFunction": 1,
+                "asyncExpression": 1
+            }
+        }
+    }
+}

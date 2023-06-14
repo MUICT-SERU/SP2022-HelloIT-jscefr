@@ -1,0 +1,19 @@
+Repository,File Name,Class,Start Line,End Line,Displacement,Level
+art,test/react/fixtures/art/app,stringLiteral,A1
+art,test/react/fixtures/art/app,varModifier,A1
+art,test/react/fixtures/art/app,variableDeclaration,A1
+art,test/react/fixtures/art/app,arguments,A2
+art,test/react/fixtures/art/app,stringLiteral,A1
+art,test/react/fixtures/art/app,varModifier,A1
+art,test/react/fixtures/art/app,variableDeclaration,A1
+art,test/react/fixtures/art/app,arguments,A2
+art,test/react/fixtures/art/app,stringLiteral,A1
+art,test/react/fixtures/art/app,varModifier,A1
+art,test/react/fixtures/art/app,variableDeclaration,A1
+art,test/react/fixtures/art/app,arguments,A2
+art,test/react/fixtures/art/app,stringLiteral,A1
+art,test/react/fixtures/art/app,memberDotExpression,B1
+art,test/react/fixtures/art/app,multiplicativeExpression,A1
+art,test/react/fixtures/art/app,memberDotExpression,B1
+art,test/react/fixtures/art/app,arguments,A2
+art,test/react/fixtures/art/app,stringLiteral,A1

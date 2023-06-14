@@ -1,0 +1,14 @@
+Repository,File Name,Class,Start Line,End Line,Displacement,Level
+stacks,BabelClasses,classDeclaration,B2
+stacks,BabelClasses,memberDotExpression,B1
+stacks,BabelClasses,returnStatement,A1
+stacks,BabelClasses,memberDotExpression,B1
+stacks,BabelClasses,memberDotExpression,B1
+stacks,BabelClasses,thisExpression,B1
+stacks,BabelClasses,memberDotExpression,B1
+stacks,BabelClasses,objectLiteral,A1
+stacks,BabelClasses,arguments,A2
+stacks,BabelClasses,returnStatement,A1
+stacks,BabelClasses,memberDotExpression,B1
+stacks,BabelClasses,memberDotExpression,B1
+stacks,BabelClasses,thisExpression,B1

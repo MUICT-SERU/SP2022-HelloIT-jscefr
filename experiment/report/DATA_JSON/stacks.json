@@ -1,0 +1,101 @@
+{
+    "stacks": {
+        "Example.js": {
+            "Levels": {
+                "A1": 18,
+                "B1": 26,
+                "B2": 2,
+                "A2": 19
+            },
+            "Class": {
+                "varModifier": 2,
+                "variableDeclaration": 2,
+                "memberDotExpression": 20,
+                "classDeclaration": 1,
+                "static": 1,
+                "formalParameterList": 2,
+                "returnStatement": 4,
+                "objectLiteral": 2,
+                "arguments": 17,
+                "message": 2,
+                "thisExpression": 6,
+                "ifStatement": 1,
+                "logicalAndExpression": 1,
+                "stringLiteral": 4
+            }
+        },
+        "BabelClasses.js": {
+            "Levels": {
+                "B2": 1,
+                "B1": 8,
+                "A1": 3,
+                "A2": 1
+            },
+            "Class": {
+                "classDeclaration": 1,
+                "memberDotExpression": 6,
+                "returnStatement": 2,
+                "thisExpression": 2,
+                "objectLiteral": 1,
+                "arguments": 1
+            }
+        },
+        "BabelClasses-compiled.js": {
+            "Levels": {
+                "A1": 39,
+                "A2": 23,
+                "B1": 25,
+                "B2": 5
+            },
+            "Class": {
+                "formalParameterList": 6,
+                "ifStatement": 2,
+                "equalityExpression": 1,
+                "throwStatement": 1,
+                "ReferenceError": 1,
+                "arguments": 16,
+                "stringLiteral": 3,
+                "returnStatement": 8,
+                "inExpression": 1,
+                "memberDotExpression": 19,
+                "Object": 2,
+                "objectLiteral": 2,
+                "memberIndexExpression": 1,
+                "prototype": 5,
+                "Constructor": 1,
+                "varModifier": 5,
+                "variableDeclaration": 5,
+                "anonymousFunction": 4,
+                "logicalOrExpression": 2,
+                "thisExpression": 6,
+                "lastFormalParameterArg": 1
+            }
+        },
+        "Components.js": {
+            "Levels": {
+                "A1": 17,
+                "B1": 13,
+                "A2": 8,
+                "B2": 3
+            },
+            "Class": {
+                "varModifier": 2,
+                "variableDeclaration": 2,
+                "memberDotExpression": 11,
+                "arguments": 5,
+                "anonymousFunction": 2,
+                "arrowFunctionParameters": 1,
+                "throwStatement": 1,
+                "stringLiteral": 2,
+                "formalParameterList": 2,
+                "objectLiteral": 2,
+                "returnStatement": 4,
+                "classDeclaration": 2,
+                "thisExpression": 2,
+                "Constructor": 1,
+                "Object": 1,
+                "prototype": 1
+            }
+        }
+    }
+}

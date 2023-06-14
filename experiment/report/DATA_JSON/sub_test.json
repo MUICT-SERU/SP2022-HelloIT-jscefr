@@ -1,0 +1,14 @@
+{
+    "sub_test": {
+        "test/sub_test/test.js": {
+            "Levels": {
+                "B1": 1,
+                "C1": 1
+            },
+            "Class": {
+                "memberDotExpression": 1,
+                "getProperty": 1
+            }
+        }
+    }
+}

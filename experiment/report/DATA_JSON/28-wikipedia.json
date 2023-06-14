@@ -1,0 +1,20 @@
+{
+    "28-wikipedia": {
+        "wiki-urls.js": {
+            "Levels": {
+                "A1": 2
+            },
+            "Class": {
+                "varModifier": 2
+            }
+        },
+        "app.js": {
+            "Levels": {
+                "A2": 1
+            },
+            "Class": {
+                "arguments": 1
+            }
+        }
+    }
+}

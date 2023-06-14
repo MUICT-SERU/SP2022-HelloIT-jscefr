@@ -1,0 +1,18 @@
+{
+    "10": {
+        "zzarcon_749150a2b9b9f61b50ec1337a86ee55ef29028b0_2016-10-12_09:18:54_mutation-observer.js_0.js": {
+            "Levels": {
+                "B1": 1,
+                "A1": 2,
+                "A2": 2
+            },
+            "Class": {
+                "exportStatement": 1,
+                "formalParameterList": 1,
+                "varModifier": 1,
+                "arguments": 2
+            }
+        },
+        "zzarcon_749150a2b9b9f61b50ec1337a86ee55ef29028b0_2016-10-12_09:18:54_mutation-observer.js_1.js": {}
+    }
+}

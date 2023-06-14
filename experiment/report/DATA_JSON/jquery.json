@@ -1,0 +1,5218 @@
+{
+    "jquery": {
+        "input_dataset/jquery/src/core/ready-no-deferred.js": {
+            "Levels": {
+                "B1": 31,
+                "A1": 46,
+                "A2": 16,
+                "B2": 1
+            },
+            "Class": {
+                "importStatement": 2,
+                "varModifier": 1,
+                "variableDeclaration": 3,
+                "arrayLiteral": 1,
+                "elementList": 1,
+                "anonymousFunction": 6,
+                "formalParameterList": 5,
+                "memberDotExpression": 25,
+                "push": 2,
+                "arguments": 15,
+                "returnStatement": 3,
+                "thisExpression": 1,
+                "objectLiteral": 1,
+                "propertyAssignment": 3,
+                "ifStatement": 4,
+                "ternaryExpression": 1,
+                "equalityExpression": 4,
+                "logicalAndExpression": 1,
+                "iterationStatement": 1,
+                "length": 1,
+                "shift": 1,
+                "typeofExpression": 1,
+                "stringLiteral": 6,
+                "then": 1,
+                "removeEventListener": 2,
+                "addEventListener": 2
+            }
+        },
+        "input_dataset/jquery/src/core/isObviousHtml.js": {
+            "Levels": {
+                "A1": 13,
+                "B1": 4
+            },
+            "Class": {
+                "formalParameterList": 1,
+                "returnStatement": 1,
+                "logicalAndExpression": 2,
+                "equalityExpression": 2,
+                "memberIndexExpression": 2,
+                "stringLiteral": 2,
+                "additiveExpression": 1,
+                "memberDotExpression": 2,
+                "length": 2,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1
+            }
+        },
+        "input_dataset/jquery/src/core/access.js": {
+            "Levels": {
+                "B1": 9,
+                "A1": 40,
+                "A2": 11,
+                "C1": 11
+            },
+            "Class": {
+                "importStatement": 2,
+                "varModifier": 2,
+                "variableDeclaration": 4,
+                "anonymousFunction": 2,
+                "formalParameterList": 2,
+                "memberDotExpression": 5,
+                "length": 1,
+                "equalityExpression": 4,
+                "ifStatement": 8,
+                "arguments": 10,
+                "stringLiteral": 2,
+                "iterationStatement": 2,
+                "forInStatement": 1,
+                "memberIndexExpression": 5,
+                "valueProperty": 11,
+                "typeofExpression": 1,
+                "returnStatement": 4,
+                "postIncrementExpression": 1,
+                "ternaryExpression": 2,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1
+            }
+        },
+        "input_dataset/jquery/src/core/parseHTML.js": {
+            "Levels": {
+                "B1": 20,
+                "A1": 34,
+                "A2": 15,
+                "B2": 2
+            },
+            "Class": {
+                "importStatement": 5,
+                "memberDotExpression": 15,
+                "anonymousFunction": 1,
+                "formalParameterList": 1,
+                "ifStatement": 5,
+                "logicalAndExpression": 3,
+                "equalityExpression": 2,
+                "typeofExpression": 2,
+                "stringLiteral": 5,
+                "arguments": 10,
+                "additiveExpression": 1,
+                "returnStatement": 3,
+                "arrayLiteral": 5,
+                "elementList": 5,
+                "varModifier": 1,
+                "variableDeclaration": 3,
+                "appendChild": 1,
+                "memberIndexExpression": 1,
+                "length": 1,
+                "remove": 1
+            }
+        },
+        "input_dataset/jquery/src/core/readyException.js": {
+            "Levels": {
+                "B1": 3,
+                "A1": 3,
+                "A2": 2
+            },
+            "Class": {
+                "importStatement": 1,
+                "memberDotExpression": 2,
+                "anonymousFunction": 2,
+                "formalParameterList": 1,
+                "arguments": 1,
+                "throwStatement": 1
+            }
+        },
+        "input_dataset/jquery/src/core/ready.js": {
+            "Levels": {
+                "B1": 32,
+                "A1": 30,
+                "A2": 13,
+                "B2": 3
+            },
+            "Class": {
+                "importStatement": 4,
+                "varModifier": 1,
+                "variableDeclaration": 1,
+                "memberDotExpression": 23,
+                "arguments": 12,
+                "anonymousFunction": 3,
+                "formalParameterList": 3,
+                "then": 3,
+                "reservedWord": 1,
+                "returnStatement": 3,
+                "thisExpression": 1,
+                "objectLiteral": 1,
+                "propertyAssignment": 3,
+                "ifStatement": 3,
+                "ternaryExpression": 1,
+                "equalityExpression": 3,
+                "logicalAndExpression": 1,
+                "arrayLiteral": 1,
+                "elementList": 1,
+                "removeEventListener": 2,
+                "stringLiteral": 5,
+                "addEventListener": 2
+            }
+        },
+        "input_dataset/jquery/src/core/DOMEval.js": {
+            "Levels": {
+                "B1": 13,
+                "A1": 15,
+                "A2": 4,
+                "B2": 1
+            },
+            "Class": {
+                "importStatement": 1,
+                "varModifier": 2,
+                "variableDeclaration": 3,
+                "objectLiteral": 1,
+                "propertyAssignment": 4,
+                "formalParameterList": 1,
+                "logicalOrExpression": 1,
+                "memberDotExpression": 6,
+                "arguments": 3,
+                "stringLiteral": 1,
+                "ifStatement": 2,
+                "iterationStatement": 1,
+                "forInStatement": 1,
+                "memberIndexExpression": 3,
+                "appendChild": 1,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1
+            }
+        },
+        "input_dataset/jquery/src/core/init.js": {
+            "Levels": {
+                "B1": 42,
+                "A1": 66,
+                "A2": 21,
+                "B2": 1
+            },
+            "Class": {
+                "importStatement": 5,
+                "varModifier": 2,
+                "variableDeclaration": 5,
+                "RegExp": 1,
+                "memberDotExpression": 23,
+                "anonymousFunction": 1,
+                "formalParameterList": 1,
+                "ifStatement": 11,
+                "returnStatement": 8,
+                "thisExpression": 14,
+                "memberIndexExpression": 12,
+                "length": 2,
+                "equalityExpression": 4,
+                "typeofExpression": 3,
+                "stringLiteral": 4,
+                "ternaryExpression": 3,
+                "arguments": 16,
+                "additiveExpression": 1,
+                "arrayLiteral": 1,
+                "elementList": 1,
+                "logicalAndExpression": 3,
+                "logicalOrExpression": 4,
+                "instanceofExpression": 1,
+                "iterationStatement": 1,
+                "forInStatement": 1,
+                "Constructor": 1,
+                "prototype": 1
+            }
+        },
+        "input_dataset/jquery/src/core/nodeName.js": {
+            "Levels": {
+                "A1": 6,
+                "B1": 6,
+                "A2": 2
+            },
+            "Class": {
+                "formalParameterList": 1,
+                "returnStatement": 1,
+                "logicalAndExpression": 1,
+                "memberDotExpression": 4,
+                "equalityExpression": 1,
+                "toLowerCase": 2,
+                "arguments": 2,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1
+            }
+        },
+        "input_dataset/jquery/src/core/isAttached.js": {
+            "Levels": {
+                "B1": 12,
+                "A1": 13,
+                "A2": 3
+            },
+            "Class": {
+                "importStatement": 2,
+                "varModifier": 1,
+                "variableDeclaration": 2,
+                "anonymousFunction": 2,
+                "formalParameterList": 2,
+                "returnStatement": 2,
+                "logicalOrExpression": 1,
+                "memberDotExpression": 7,
+                "arguments": 3,
+                "equalityExpression": 1,
+                "objectLiteral": 1,
+                "propertyAssignment": 1,
+                "ifStatement": 1,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1
+            }
+        },
+        "input_dataset/jquery/src/core/isArrayLike.js": {
+            "Levels": {
+                "B1": 5,
+                "A1": 29,
+                "A2": 3
+            },
+            "Class": {
+                "importStatement": 2,
+                "formalParameterList": 1,
+                "varModifier": 1,
+                "variableDeclaration": 2,
+                "length": 6,
+                "logicalAndExpression": 3,
+                "memberDotExpression": 1,
+                "arguments": 2,
+                "ifStatement": 1,
+                "logicalOrExpression": 3,
+                "equalityExpression": 4,
+                "typeofExpression": 2,
+                "stringLiteral": 3,
+                "returnStatement": 2,
+                "inExpression": 1,
+                "additiveExpression": 1,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1
+            }
+        },
+        "input_dataset/jquery/src/core/stripAndCollapse.js": {
+            "Levels": {
+                "B1": 5,
+                "A1": 8,
+                "C1": 2,
+                "A2": 3
+            },
+            "Class": {
+                "importStatement": 1,
+                "formalParameterList": 1,
+                "varModifier": 1,
+                "variableDeclaration": 1,
+                "logicalOrExpression": 1,
+                "memberDotExpression": 2,
+                "valueProperty": 2,
+                "arguments": 2,
+                "arrayLiteral": 1,
+                "elementList": 1,
+                "returnStatement": 1,
+                "join": 1,
+                "stringLiteral": 1,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1
+            }
+        },
+        "input_dataset/jquery/src/core/var/rsingleTag.js": {
+            "Levels": {
+                "B1": 2,
+                "A2": 1
+            },
+            "Class": {
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1,
+                "RegExp": 1
+            }
+        },
+        "input_dataset/jquery/src/core/toType.js": {
+            "Levels": {
+                "B1": 5,
+                "A1": 17,
+                "A2": 1
+            },
+            "Class": {
+                "importStatement": 2,
+                "toString": 2,
+                "formalParameterList": 1,
+                "ifStatement": 1,
+                "equalityExpression": 2,
+                "returnStatement": 2,
+                "additiveExpression": 1,
+                "stringLiteral": 3,
+                "ternaryExpression": 1,
+                "typeofExpression": 2,
+                "logicalOrExpression": 1,
+                "memberIndexExpression": 1,
+                "memberDotExpression": 1,
+                "arguments": 1,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1
+            }
+        },
+        "input_dataset/jquery/src/core/camelCase.js": {
+            "Levels": {
+                "A1": 8,
+                "A2": 3,
+                "B1": 4
+            },
+            "Class": {
+                "varModifier": 1,
+                "variableDeclaration": 1,
+                "RegExp": 1,
+                "formalParameterList": 2,
+                "returnStatement": 2,
+                "memberDotExpression": 2,
+                "toUpperCase": 1,
+                "arguments": 2,
+                "replace": 1,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1
+            }
+        },
+        "input_dataset/jquery/src/core/parseXML.js": {
+            "Levels": {
+                "B1": 10,
+                "A1": 27,
+                "A2": 10
+            },
+            "Class": {
+                "importStatement": 1,
+                "memberDotExpression": 9,
+                "anonymousFunction": 2,
+                "formalParameterList": 2,
+                "varModifier": 1,
+                "variableDeclaration": 2,
+                "ifStatement": 2,
+                "logicalOrExpression": 2,
+                "equalityExpression": 1,
+                "typeofExpression": 1,
+                "stringLiteral": 5,
+                "returnStatement": 3,
+                "tryStatement": 1,
+                "arguments": 6,
+                "RegExp": 1,
+                "logicalAndExpression": 1,
+                "memberIndexExpression": 1,
+                "additiveExpression": 1,
+                "ternaryExpression": 1,
+                "Map": 1,
+                "map": 1,
+                "textContent": 1,
+                "join": 1
+            }
+        },
+        "input_dataset/jquery/src/dimensions.js": {
+            "Levels": {
+                "B1": 26,
+                "A2": 9,
+                "A1": 71,
+                "C1": 5,
+                "B2": 1
+            },
+            "Class": {
+                "importStatement": 4,
+                "memberDotExpression": 14,
+                "arguments": 9,
+                "objectLiteral": 2,
+                "propertyAssignment": 5,
+                "stringLiteral": 15,
+                "anonymousFunction": 4,
+                "formalParameterList": 4,
+                "additiveExpression": 9,
+                "memberIndexExpression": 8,
+                "varModifier": 2,
+                "variableDeclaration": 3,
+                "logicalAndExpression": 1,
+                "length": 1,
+                "logicalOrExpression": 3,
+                "equalityExpression": 6,
+                "typeofExpression": 1,
+                "ternaryExpression": 4,
+                "valueProperty": 5,
+                "returnStatement": 4,
+                "thisExpression": 1,
+                "ifStatement": 2,
+                "indexOf": 1,
+                "Math": 1,
+                "style": 1,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1
+            }
+        },
+        "input_dataset/jquery/src/deferred.js": {
+            "Levels": {
+                "B1": 104,
+                "A1": 241,
+                "A2": 96,
+                "C1": 15,
+                "B2": 11
+            },
+            "Class": {
+                "importStatement": 3,
+                "slice": 4,
+                "formalParameterList": 15,
+                "returnStatement": 14,
+                "throwStatement": 2,
+                "varModifier": 10,
+                "variableDeclaration": 23,
+                "tryStatement": 2,
+                "ifStatement": 18,
+                "logicalAndExpression": 8,
+                "valueProperty": 15,
+                "equalityExpression": 17,
+                "typeofExpression": 11,
+                "memberDotExpression": 82,
+                "stringLiteral": 31,
+                "arguments": 83,
+                "then": 11,
+                "arrayLiteral": 8,
+                "elementList": 8,
+                "objectLiteral": 3,
+                "propertyAssignment": 8,
+                "anonymousFunction": 20,
+                "thisExpression": 8,
+                "reservedWord": 1,
+                "memberIndexExpression": 38,
+                "additiveExpression": 6,
+                "ternaryExpression": 8,
+                "TypeError": 1,
+                "logicalOrExpression": 3,
+                "postIncrementExpression": 1,
+                "length": 2,
+                "iterationStatement": 1,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1
+            }
+        },
+        "input_dataset/jquery/src/manipulation/setGlobalEval.js": {
+            "Levels": {
+                "B1": 6,
+                "A1": 12,
+                "C1": 4,
+                "A2": 3
+            },
+            "Class": {
+                "importStatement": 1,
+                "formalParameterList": 1,
+                "varModifier": 1,
+                "variableDeclaration": 2,
+                "memberDotExpression": 3,
+                "length": 1,
+                "iterationStatement": 1,
+                "postIncrementExpression": 1,
+                "setProperty": 2,
+                "Set": 1,
+                "arguments": 2,
+                "memberIndexExpression": 2,
+                "stringLiteral": 2,
+                "logicalOrExpression": 1,
+                "getProperty": 2,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1
+            }
+        },
+        "input_dataset/jquery/src/manipulation/buildFragment.js": {
+            "Levels": {
+                "B1": 40,
+                "A1": 67,
+                "A2": 27,
+                "B2": 3
+            },
+            "Class": {
+                "importStatement": 10,
+                "varModifier": 2,
+                "variableDeclaration": 11,
+                "RegExp": 1,
+                "formalParameterList": 1,
+                "memberDotExpression": 28,
+                "arguments": 23,
+                "arrayLiteral": 3,
+                "elementList": 3,
+                "length": 2,
+                "iterationStatement": 4,
+                "postIncrementExpression": 3,
+                "memberIndexExpression": 6,
+                "ifStatement": 8,
+                "logicalOrExpression": 6,
+                "equalityExpression": 2,
+                "logicalAndExpression": 2,
+                "stringLiteral": 8,
+                "ternaryExpression": 1,
+                "push": 3,
+                "appendChild": 3,
+                "toLowerCase": 1,
+                "textContent": 2,
+                "continueStatement": 1,
+                "returnStatement": 1,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1
+            }
+        },
+        "input_dataset/jquery/src/manipulation/wrapMap.js": {
+            "Levels": {
+                "A1": 15,
+                "B1": 13,
+                "A2": 4
+            },
+            "Class": {
+                "varModifier": 1,
+                "variableDeclaration": 1,
+                "objectLiteral": 1,
+                "propertyAssignment": 4,
+                "arrayLiteral": 4,
+                "elementList": 4,
+                "stringLiteral": 8,
+                "memberDotExpression": 7,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1
+            }
+        },
+        "input_dataset/jquery/src/manipulation/getAll.js": {
+            "Levels": {
+                "B1": 9,
+                "A1": 23,
+                "A2": 6
+            },
+            "Class": {
+                "importStatement": 2,
+                "formalParameterList": 1,
+                "varModifier": 1,
+                "variableDeclaration": 1,
+                "ifStatement": 3,
+                "equalityExpression": 3,
+                "typeofExpression": 2,
+                "memberDotExpression": 5,
+                "stringLiteral": 4,
+                "arguments": 4,
+                "logicalOrExpression": 3,
+                "arrayLiteral": 2,
+                "elementList": 2,
+                "logicalAndExpression": 1,
+                "returnStatement": 2,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1
+            }
+        },
+        "input_dataset/jquery/src/manipulation/var/rscriptType.js": {
+            "Levels": {
+                "B1": 2,
+                "A2": 1
+            },
+            "Class": {
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1,
+                "RegExp": 1
+            }
+        },
+        "input_dataset/jquery/src/manipulation/var/rtagName.js": {
+            "Levels": {
+                "B1": 2,
+                "A2": 1
+            },
+            "Class": {
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1,
+                "RegExp": 1
+            }
+        },
+        "input_dataset/jquery/src/manipulation/_evalUrl.js": {
+            "Levels": {
+                "B1": 17,
+                "A1": 12,
+                "A2": 2
+            },
+            "Class": {
+                "importStatement": 1,
+                "memberDotExpression": 5,
+                "anonymousFunction": 3,
+                "formalParameterList": 2,
+                "returnStatement": 1,
+                "arguments": 2,
+                "objectLiteral": 3,
+                "propertyAssignment": 11,
+                "stringLiteral": 2,
+                "ternaryExpression": 1
+            }
+        },
+        "input_dataset/jquery/src/manipulation/domManip.js": {
+            "Levels": {
+                "B1": 52,
+                "A1": 84,
+                "A2": 30,
+                "C1": 5
+            },
+            "Class": {
+                "importStatement": 7,
+                "formalParameterList": 4,
+                "memberDotExpression": 40,
+                "additiveExpression": 4,
+                "equalityExpression": 6,
+                "arguments": 24,
+                "stringLiteral": 12,
+                "RegExp": 2,
+                "returnStatement": 4,
+                "ifStatement": 11,
+                "logicalOrExpression": 4,
+                "slice": 2,
+                "varModifier": 2,
+                "variableDeclaration": 12,
+                "length": 4,
+                "memberIndexExpression": 6,
+                "valueProperty": 5,
+                "typeofExpression": 1,
+                "anonymousFunction": 1,
+                "thisExpression": 1,
+                "Map": 2,
+                "map": 2,
+                "iterationStatement": 2,
+                "postIncrementExpression": 2,
+                "logicalAndExpression": 4,
+                "toLowerCase": 1,
+                "objectLiteral": 1,
+                "propertyAssignment": 2,
+                "textContent": 1,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1
+            }
+        },
+        "input_dataset/jquery/src/attributes.js": {
+            "Levels": {
+                "B1": 7
+            },
+            "Class": {
+                "importStatement": 5,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1
+            }
+        },
+        "input_dataset/jquery/src/data.js": {
+            "Levels": {
+                "B1": 57,
+                "A1": 115,
+                "A2": 39,
+                "C1": 18,
+                "B2": 3
+            },
+            "Class": {
+                "importStatement": 5,
+                "varModifier": 4,
+                "variableDeclaration": 9,
+                "RegExp": 2,
+                "formalParameterList": 10,
+                "ifStatement": 16,
+                "equalityExpression": 14,
+                "stringLiteral": 11,
+                "returnStatement": 17,
+                "additiveExpression": 2,
+                "memberDotExpression": 34,
+                "arguments": 32,
+                "logicalAndExpression": 4,
+                "replace": 1,
+                "toLowerCase": 1,
+                "typeofExpression": 2,
+                "tryStatement": 1,
+                "setProperty": 8,
+                "Set": 4,
+                "objectLiteral": 2,
+                "propertyAssignment": 7,
+                "anonymousFunction": 11,
+                "logicalOrExpression": 1,
+                "remove": 3,
+                "memberIndexExpression": 4,
+                "thisExpression": 9,
+                "length": 3,
+                "getProperty": 6,
+                "iterationStatement": 1,
+                "indexOf": 1,
+                "slice": 1,
+                "valueProperty": 4,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1
+            }
+        },
+        "input_dataset/jquery/src/attributes/classes.js": {
+            "Levels": {
+                "B1": 77,
+                "A1": 170,
+                "A2": 49,
+                "C1": 27
+            },
+            "Class": {
+                "importStatement": 4,
+                "formalParameterList": 9,
+                "returnStatement": 17,
+                "logicalOrExpression": 2,
+                "logicalAndExpression": 4,
+                "memberDotExpression": 40,
+                "arguments": 47,
+                "stringLiteral": 27,
+                "ifStatement": 17,
+                "valueProperty": 27,
+                "equalityExpression": 10,
+                "typeofExpression": 5,
+                "arrayLiteral": 2,
+                "elementList": 2,
+                "objectLiteral": 1,
+                "propertyAssignment": 4,
+                "anonymousFunction": 10,
+                "varModifier": 4,
+                "variableDeclaration": 19,
+                "thisExpression": 29,
+                "length": 7,
+                "additiveExpression": 15,
+                "iterationStatement": 5,
+                "postIncrementExpression": 4,
+                "memberIndexExpression": 4,
+                "indexOf": 3,
+                "assignmentOperator": 1,
+                "setAttribute": 2,
+                "replace": 1,
+                "ternaryExpression": 1
+            }
+        },
+        "input_dataset/jquery/src/attributes/attr.js": {
+            "Levels": {
+                "B1": 55,
+                "A2": 31,
+                "A1": 105,
+                "C1": 26
+            },
+            "Class": {
+                "importStatement": 6,
+                "memberDotExpression": 38,
+                "arguments": 25,
+                "objectLiteral": 5,
+                "propertyAssignment": 8,
+                "anonymousFunction": 9,
+                "formalParameterList": 8,
+                "returnStatement": 12,
+                "thisExpression": 3,
+                "valueProperty": 22,
+                "length": 1,
+                "varModifier": 4,
+                "variableDeclaration": 10,
+                "ifStatement": 13,
+                "logicalOrExpression": 3,
+                "equalityExpression": 14,
+                "typeofExpression": 1,
+                "stringLiteral": 6,
+                "memberIndexExpression": 3,
+                "toLowerCase": 2,
+                "logicalAndExpression": 7,
+                "inExpression": 2,
+                "setProperty": 2,
+                "Set": 3,
+                "setAttribute": 3,
+                "getProperty": 2,
+                "ternaryExpression": 2,
+                "iterationStatement": 1,
+                "postIncrementExpression": 1,
+                "RegExp": 1
+            }
+        },
+        "input_dataset/jquery/src/attributes/val.js": {
+            "Levels": {
+                "B1": 74,
+                "A2": 38,
+                "A1": 137,
+                "C1": 26
+            },
+            "Class": {
+                "importStatement": 5,
+                "memberDotExpression": 52,
+                "arguments": 29,
+                "objectLiteral": 6,
+                "propertyAssignment": 7,
+                "anonymousFunction": 8,
+                "formalParameterList": 7,
+                "varModifier": 5,
+                "variableDeclaration": 19,
+                "memberIndexExpression": 8,
+                "thisExpression": 10,
+                "ifStatement": 16,
+                "length": 3,
+                "logicalOrExpression": 5,
+                "toLowerCase": 2,
+                "logicalAndExpression": 4,
+                "inExpression": 2,
+                "stringLiteral": 16,
+                "equalityExpression": 10,
+                "getProperty": 2,
+                "returnStatement": 11,
+                "valueProperty": 22,
+                "ternaryExpression": 6,
+                "typeofExpression": 2,
+                "assignmentOperator": 1,
+                "Map": 1,
+                "map": 1,
+                "additiveExpression": 2,
+                "setProperty": 2,
+                "Set": 3,
+                "arrayLiteral": 2,
+                "elementList": 2,
+                "iterationStatement": 2,
+                "postIncrementExpression": 1,
+                "push": 1
+            }
+        },
+        "input_dataset/jquery/src/attributes/prop.js": {
+            "Levels": {
+                "B1": 54,
+                "A1": 99,
+                "A2": 22,
+                "C1": 11
+            },
+            "Class": {
+                "importStatement": 4,
+                "varModifier": 5,
+                "variableDeclaration": 8,
+                "RegExp": 2,
+                "memberDotExpression": 33,
+                "arguments": 14,
+                "objectLiteral": 6,
+                "propertyAssignment": 11,
+                "anonymousFunction": 8,
+                "formalParameterList": 6,
+                "returnStatement": 11,
+                "thisExpression": 5,
+                "valueProperty": 7,
+                "length": 1,
+                "deleteExpression": 1,
+                "memberIndexExpression": 7,
+                "logicalOrExpression": 6,
+                "ifStatement": 11,
+                "equalityExpression": 7,
+                "logicalAndExpression": 6,
+                "inExpression": 2,
+                "stringLiteral": 15,
+                "setProperty": 2,
+                "Set": 2,
+                "getProperty": 2,
+                "parseInt": 1,
+                "arrayLiteral": 1,
+                "elementList": 1,
+                "toLowerCase": 1
+            }
+        },
+        "input_dataset/jquery/src/traversing.js": {
+            "Levels": {
+                "B1": 106,
+                "A1": 168,
+                "A2": 52,
+                "C1": 2
+            },
+            "Class": {
+                "importStatement": 10,
+                "indexOf": 3,
+                "varModifier": 6,
+                "variableDeclaration": 12,
+                "RegExp": 1,
+                "objectLiteral": 4,
+                "propertyAssignment": 21,
+                "memberDotExpression": 54,
+                "arguments": 44,
+                "anonymousFunction": 20,
+                "formalParameterList": 20,
+                "thisExpression": 19,
+                "length": 5,
+                "returnStatement": 23,
+                "filter": 3,
+                "iterationStatement": 4,
+                "postIncrementExpression": 2,
+                "ifStatement": 12,
+                "memberIndexExpression": 9,
+                "arrayLiteral": 2,
+                "elementList": 2,
+                "logicalAndExpression": 9,
+                "equalityExpression": 10,
+                "typeofExpression": 3,
+                "stringLiteral": 13,
+                "ternaryExpression": 6,
+                "push": 1,
+                "breakStatement": 1,
+                "getProperty": 2,
+                "logicalOrExpression": 2,
+                "Map": 1,
+                "map": 1,
+                "slice": 1,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1
+            }
+        },
+        "input_dataset/jquery/src/manipulation.js": {
+            "Levels": {
+                "B1": 181,
+                "A1": 282,
+                "A2": 97,
+                "C1": 25,
+                "B2": 7
+            },
+            "Class": {
+                "importStatement": 18,
+                "push": 2,
+                "varModifier": 12,
+                "variableDeclaration": 36,
+                "RegExp": 1,
+                "formalParameterList": 20,
+                "ifStatement": 30,
+                "logicalAndExpression": 9,
+                "arguments": 86,
+                "stringLiteral": 17,
+                "ternaryExpression": 6,
+                "equalityExpression": 26,
+                "memberDotExpression": 98,
+                "returnStatement": 21,
+                "logicalOrExpression": 13,
+                "memberIndexExpression": 24,
+                "getProperty": 4,
+                "remove": 6,
+                "iterationStatement": 10,
+                "forInStatement": 2,
+                "length": 8,
+                "postIncrementExpression": 8,
+                "objectLiteral": 6,
+                "setProperty": 2,
+                "Set": 1,
+                "filter": 1,
+                "propertyAssignment": 19,
+                "anonymousFunction": 25,
+                "thisExpression": 44,
+                "valueProperty": 19,
+                "textContent": 2,
+                "appendChild": 1,
+                "Map": 1,
+                "map": 1,
+                "typeofExpression": 1,
+                "arrayLiteral": 3,
+                "elementList": 3,
+                "toLowerCase": 1,
+                "tryStatement": 1,
+                "replaceAll": 1,
+                "additiveExpression": 1,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1
+            }
+        },
+        "input_dataset/jquery/src/wrapper.js": {
+            "Levels": {
+                "A1": 25,
+                "B1": 5,
+                "A2": 6
+            },
+            "Class": {
+                "anonymousFunction": 3,
+                "formalParameterList": 3,
+                "stringLiteral": 6,
+                "ifStatement": 2,
+                "logicalAndExpression": 1,
+                "equalityExpression": 3,
+                "typeofExpression": 3,
+                "memberDotExpression": 4,
+                "ternaryExpression": 2,
+                "arguments": 5,
+                "throwStatement": 1,
+                "returnStatement": 2,
+                "thisExpression": 1
+            }
+        },
+        "input_dataset/jquery/src/selector/support.js": {
+            "Levels": {
+                "B1": 7,
+                "A2": 3,
+                "A1": 3
+            },
+            "Class": {
+                "importStatement": 1,
+                "tryStatement": 1,
+                "memberDotExpression": 4,
+                "logicalAndExpression": 1,
+                "arguments": 2,
+                "stringLiteral": 2,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1
+            }
+        },
+        "input_dataset/jquery/src/selector/escapeSelector.js": {
+            "Levels": {
+                "B1": 7,
+                "A1": 28,
+                "A2": 5
+            },
+            "Class": {
+                "importStatement": 1,
+                "varModifier": 1,
+                "variableDeclaration": 1,
+                "RegExp": 1,
+                "formalParameterList": 2,
+                "ifStatement": 2,
+                "equalityExpression": 1,
+                "stringLiteral": 6,
+                "returnStatement": 4,
+                "additiveExpression": 6,
+                "memberDotExpression": 6,
+                "slice": 1,
+                "arguments": 4,
+                "length": 1,
+                "toString": 1,
+                "anonymousFunction": 1,
+                "replace": 1
+            }
+        },
+        "input_dataset/jquery/src/selector/uniqueSort.js": {
+            "Levels": {
+                "B1": 25,
+                "A1": 56,
+                "A2": 10
+            },
+            "Class": {
+                "importStatement": 5,
+                "splice": 2,
+                "slice": 2,
+                "varModifier": 3,
+                "variableDeclaration": 6,
+                "formalParameterList": 2,
+                "ifStatement": 7,
+                "equalityExpression": 7,
+                "returnStatement": 8,
+                "additiveExpression": 1,
+                "memberDotExpression": 18,
+                "ternaryExpression": 2,
+                "logicalOrExpression": 4,
+                "arguments": 9,
+                "logicalAndExpression": 2,
+                "anonymousFunction": 2,
+                "arrayLiteral": 1,
+                "elementList": 1,
+                "iterationStatement": 2,
+                "memberIndexExpression": 3,
+                "postIncrementExpression": 1,
+                "push": 1,
+                "thisExpression": 2
+            }
+        },
+        "input_dataset/jquery/src/selector/rbuggyQSA.js": {
+            "Levels": {
+                "B1": 10,
+                "A1": 24,
+                "A2": 6
+            },
+            "Class": {
+                "importStatement": 3,
+                "varModifier": 1,
+                "variableDeclaration": 1,
+                "arrayLiteral": 1,
+                "elementList": 1,
+                "ifStatement": 2,
+                "memberDotExpression": 5,
+                "push": 2,
+                "arguments": 4,
+                "stringLiteral": 8,
+                "additiveExpression": 6,
+                "logicalAndExpression": 1,
+                "length": 1,
+                "RegExp": 1,
+                "join": 1,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1
+            }
+        },
+        "input_dataset/jquery/src/wrap.js": {
+            "Levels": {
+                "B1": 58,
+                "A2": 28,
+                "A1": 54
+            },
+            "Class": {
+                "importStatement": 4,
+                "memberDotExpression": 28,
+                "arguments": 26,
+                "objectLiteral": 1,
+                "propertyAssignment": 4,
+                "anonymousFunction": 9,
+                "formalParameterList": 6,
+                "varModifier": 4,
+                "variableDeclaration": 5,
+                "ifStatement": 5,
+                "memberIndexExpression": 5,
+                "thisExpression": 20,
+                "equalityExpression": 3,
+                "typeofExpression": 3,
+                "stringLiteral": 4,
+                "Map": 1,
+                "map": 1,
+                "iterationStatement": 1,
+                "returnStatement": 6,
+                "length": 1,
+                "ternaryExpression": 1,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1
+            }
+        },
+        "input_dataset/jquery/src/queue/delay.js": {
+            "Levels": {
+                "B1": 13,
+                "A1": 13,
+                "A2": 3
+            },
+            "Class": {
+                "importStatement": 3,
+                "memberDotExpression": 9,
+                "anonymousFunction": 3,
+                "formalParameterList": 2,
+                "ternaryExpression": 1,
+                "logicalOrExpression": 2,
+                "memberIndexExpression": 1,
+                "stringLiteral": 1,
+                "returnStatement": 1,
+                "thisExpression": 1,
+                "arguments": 3,
+                "varModifier": 1,
+                "variableDeclaration": 1
+            }
+        },
+        "input_dataset/jquery/src/deprecated/ajax-event-alias.js": {
+            "Levels": {
+                "B1": 7,
+                "A2": 3,
+                "A1": 13
+            },
+            "Class": {
+                "importStatement": 3,
+                "memberDotExpression": 3,
+                "arguments": 2,
+                "arrayLiteral": 1,
+                "elementList": 1,
+                "stringLiteral": 6,
+                "anonymousFunction": 2,
+                "formalParameterList": 2,
+                "memberIndexExpression": 1,
+                "returnStatement": 1,
+                "thisExpression": 1
+            }
+        },
+        "input_dataset/jquery/src/deprecated/event.js": {
+            "Levels": {
+                "B1": 32,
+                "A2": 14,
+                "A1": 38
+            },
+            "Class": {
+                "importStatement": 3,
+                "memberDotExpression": 16,
+                "arguments": 14,
+                "objectLiteral": 1,
+                "propertyAssignment": 5,
+                "anonymousFunction": 7,
+                "formalParameterList": 7,
+                "returnStatement": 6,
+                "thisExpression": 8,
+                "ternaryExpression": 2,
+                "equalityExpression": 1,
+                "length": 2,
+                "stringLiteral": 6,
+                "logicalOrExpression": 2,
+                "additiveExpression": 2,
+                "split": 1,
+                "memberIndexExpression": 1
+            }
+        },
+        "input_dataset/jquery/src/ajax.js": {
+            "Levels": {
+                "B1": 291,
+                "A1": 618,
+                "A2": 163,
+                "C1": 6
+            },
+            "Class": {
+                "importStatement": 11,
+                "varModifier": 14,
+                "variableDeclaration": 64,
+                "RegExp": 20,
+                "objectLiteral": 25,
+                "memberDotExpression": 218,
+                "stringLiteral": 96,
+                "arguments": 106,
+                "formalParameterList": 21,
+                "returnStatement": 24,
+                "anonymousFunction": 17,
+                "ifStatement": 72,
+                "equalityExpression": 37,
+                "typeofExpression": 7,
+                "logicalOrExpression": 39,
+                "toLowerCase": 9,
+                "arrayLiteral": 14,
+                "elementList": 14,
+                "iterationStatement": 12,
+                "memberIndexExpression": 72,
+                "postIncrementExpression": 3,
+                "slice": 3,
+                "unshift": 5,
+                "push": 1,
+                "logicalAndExpression": 25,
+                "forInStatement": 8,
+                "ternaryExpression": 13,
+                "shift": 3,
+                "breakStatement": 3,
+                "inExpression": 1,
+                "additiveExpression": 29,
+                "split": 1,
+                "tryStatement": 3,
+                "propertyAssignment": 55,
+                "join": 1,
+                "valueProperty": 2,
+                "thisExpression": 4,
+                "Map": 5,
+                "map": 5,
+                "replace": 4,
+                "toUpperCase": 1,
+                "length": 1,
+                "assignmentOperator": 1,
+                "deleteExpression": 1,
+                "indexOf": 1,
+                "throwStatement": 1,
+                "getProperty": 4,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1
+            }
+        },
+        "input_dataset/jquery/src/offset.js": {
+            "Levels": {
+                "B1": 106,
+                "A1": 160,
+                "A2": 41,
+                "B2": 1
+            },
+            "Class": {
+                "importStatement": 7,
+                "memberDotExpression": 73,
+                "objectLiteral": 9,
+                "propertyAssignment": 14,
+                "anonymousFunction": 9,
+                "formalParameterList": 6,
+                "varModifier": 6,
+                "variableDeclaration": 21,
+                "arguments": 36,
+                "stringLiteral": 23,
+                "ifStatement": 16,
+                "equalityExpression": 17,
+                "style": 1,
+                "logicalAndExpression": 6,
+                "logicalOrExpression": 6,
+                "additiveExpression": 11,
+                "indexOf": 1,
+                "parseFloat": 2,
+                "typeofExpression": 1,
+                "inExpression": 1,
+                "length": 3,
+                "returnStatement": 10,
+                "ternaryExpression": 4,
+                "thisExpression": 10,
+                "memberIndexExpression": 7,
+                "iterationStatement": 2,
+                "assignmentOperator": 2,
+                "Map": 1,
+                "map": 1,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1
+            }
+        },
+        "input_dataset/jquery/src/deferred/exceptionHook.js": {
+            "Levels": {
+                "B1": 10,
+                "A1": 8,
+                "A2": 4
+            },
+            "Class": {
+                "importStatement": 2,
+                "varModifier": 1,
+                "variableDeclaration": 1,
+                "RegExp": 1,
+                "memberDotExpression": 8,
+                "anonymousFunction": 1,
+                "formalParameterList": 1,
+                "ifStatement": 1,
+                "logicalAndExpression": 1,
+                "arguments": 2,
+                "additiveExpression": 1,
+                "stringLiteral": 1,
+                "message": 1
+            }
+        },
+        "input_dataset/jquery/src/css.js": {
+            "Levels": {
+                "B1": 99,
+                "A1": 357,
+                "A2": 85,
+                "C1": 52,
+                "B2": 10
+            },
+            "Class": {
+                "importStatement": 19,
+                "varModifier": 9,
+                "variableDeclaration": 35,
+                "RegExp": 1,
+                "objectLiteral": 10,
+                "propertyAssignment": 15,
+                "stringLiteral": 59,
+                "formalParameterList": 12,
+                "memberDotExpression": 62,
+                "arguments": 66,
+                "valueProperty": 43,
+                "returnStatement": 18,
+                "ternaryExpression": 10,
+                "additiveExpression": 26,
+                "Math": 3,
+                "memberIndexExpression": 35,
+                "logicalOrExpression": 24,
+                "equalityExpression": 29,
+                "ifStatement": 30,
+                "iterationStatement": 3,
+                "assignmentOperator": 9,
+                "logicalAndExpression": 18,
+                "toUpperCase": 2,
+                "slice": 2,
+                "floatLiteral": 1,
+                "length": 4,
+                "inExpression": 5,
+                "parseFloat": 2,
+                "style": 10,
+                "anonymousFunction": 10,
+                "typeofExpression": 2,
+                "indexOf": 1,
+                "setProperty": 5,
+                "Set": 3,
+                "getProperty": 4,
+                "arrayLiteral": 2,
+                "elementList": 2,
+                "split": 1,
+                "postIncrementExpression": 2,
+                "thisExpression": 1,
+                "Map": 3,
+                "map": 3,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1
+            }
+        },
+        "input_dataset/jquery/src/effects/Tween.js": {
+            "Levels": {
+                "B1": 141,
+                "A1": 84,
+                "B2": 9,
+                "A2": 19,
+                "C1": 13
+            },
+            "Class": {
+                "importStatement": 4,
+                "formalParameterList": 7,
+                "returnStatement": 7,
+                "memberDotExpression": 96,
+                "prototype": 6,
+                "arguments": 14,
+                "objectLiteral": 5,
+                "propertyAssignment": 10,
+                "Constructor": 1,
+                "anonymousFunction": 7,
+                "thisExpression": 31,
+                "logicalOrExpression": 5,
+                "ternaryExpression": 3,
+                "stringLiteral": 5,
+                "varModifier": 3,
+                "variableDeclaration": 4,
+                "memberIndexExpression": 11,
+                "getProperty": 7,
+                "logicalAndExpression": 4,
+                "ifStatement": 6,
+                "multiplicativeExpression": 4,
+                "additiveExpression": 4,
+                "setProperty": 6,
+                "Set": 4,
+                "equalityExpression": 6,
+                "style": 3,
+                "floatLiteral": 1,
+                "Math": 2
+            }
+        },
+        "input_dataset/jquery/src/effects/animatedSelector.js": {
+            "Levels": {
+                "B1": 10,
+                "A1": 8,
+                "A2": 1
+            },
+            "Class": {
+                "importStatement": 3,
+                "memberDotExpression": 7,
+                "anonymousFunction": 2,
+                "formalParameterList": 2,
+                "returnStatement": 2,
+                "arguments": 1,
+                "equalityExpression": 1,
+                "length": 1
+            }
+        },
+        "input_dataset/jquery/src/event/trigger.js": {
+            "Levels": {
+                "B1": 100,
+                "A1": 154,
+                "A2": 53,
+                "C1": 4
+            },
+            "Class": {
+                "importStatement": 7,
+                "varModifier": 4,
+                "variableDeclaration": 15,
+                "RegExp": 2,
+                "anonymousFunction": 6,
+                "formalParameterList": 5,
+                "memberDotExpression": 84,
+                "stopPropagation": 1,
+                "arguments": 46,
+                "objectLiteral": 4,
+                "propertyAssignment": 6,
+                "arrayLiteral": 4,
+                "elementList": 4,
+                "logicalOrExpression": 11,
+                "ternaryExpression": 7,
+                "stringLiteral": 15,
+                "split": 2,
+                "ifStatement": 19,
+                "equalityExpression": 9,
+                "returnStatement": 6,
+                "additiveExpression": 5,
+                "indexOf": 2,
+                "shift": 1,
+                "logicalAndExpression": 15,
+                "memberIndexExpression": 11,
+                "typeofExpression": 2,
+                "join": 2,
+                "iterationStatement": 2,
+                "push": 2,
+                "postIncrementExpression": 1,
+                "getProperty": 4,
+                "Object": 1,
+                "pop": 1,
+                "addEventListener": 1,
+                "removeEventListener": 1,
+                "thisExpression": 3
+            }
+        },
+        "input_dataset/jquery/src/exports/global.js": {
+            "Levels": {
+                "B1": 10,
+                "A1": 15
+            },
+            "Class": {
+                "importStatement": 1,
+                "varModifier": 1,
+                "variableDeclaration": 2,
+                "memberDotExpression": 9,
+                "anonymousFunction": 1,
+                "formalParameterList": 1,
+                "ifStatement": 3,
+                "equalityExpression": 3,
+                "logicalAndExpression": 1,
+                "returnStatement": 1,
+                "typeofExpression": 1,
+                "stringLiteral": 1
+            }
+        },
+        "input_dataset/jquery/src/exports/amd.js": {
+            "Levels": {
+                "B1": 2,
+                "A1": 9,
+                "A2": 2
+            },
+            "Class": {
+                "importStatement": 1,
+                "ifStatement": 1,
+                "logicalAndExpression": 1,
+                "equalityExpression": 1,
+                "typeofExpression": 1,
+                "stringLiteral": 2,
+                "memberDotExpression": 1,
+                "arguments": 1,
+                "arrayLiteral": 1,
+                "elementList": 1,
+                "anonymousFunction": 1,
+                "returnStatement": 1
+            }
+        },
+        "input_dataset/jquery/src/css/cssCamelCase.js": {
+            "Levels": {
+                "B1": 4,
+                "A1": 6,
+                "A2": 3
+            },
+            "Class": {
+                "importStatement": 1,
+                "varModifier": 1,
+                "variableDeclaration": 1,
+                "RegExp": 1,
+                "formalParameterList": 1,
+                "returnStatement": 1,
+                "arguments": 2,
+                "memberDotExpression": 1,
+                "replace": 1,
+                "stringLiteral": 1,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1
+            }
+        },
+        "input_dataset/jquery/src/css/support.js": {
+            "Levels": {
+                "B1": 29,
+                "A1": 25,
+                "A2": 15,
+                "B2": 9
+            },
+            "Class": {
+                "importStatement": 3,
+                "anonymousFunction": 2,
+                "varModifier": 2,
+                "variableDeclaration": 5,
+                "memberDotExpression": 24,
+                "arguments": 12,
+                "stringLiteral": 8,
+                "ifStatement": 2,
+                "style": 6,
+                "returnStatement": 2,
+                "equalityExpression": 2,
+                "appendChild": 3,
+                "additiveExpression": 2,
+                "parseInt": 3,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1
+            }
+        },
+        "input_dataset/jquery/src/css/finalPropName.js": {
+            "Levels": {
+                "B1": 8,
+                "A1": 35,
+                "A2": 7,
+                "B2": 1
+            },
+            "Class": {
+                "importStatement": 1,
+                "varModifier": 3,
+                "variableDeclaration": 6,
+                "arrayLiteral": 1,
+                "elementList": 1,
+                "stringLiteral": 4,
+                "memberDotExpression": 5,
+                "arguments": 4,
+                "style": 1,
+                "objectLiteral": 1,
+                "formalParameterList": 2,
+                "additiveExpression": 2,
+                "memberIndexExpression": 4,
+                "toUpperCase": 1,
+                "slice": 1,
+                "length": 1,
+                "iterationStatement": 1,
+                "ifStatement": 3,
+                "inExpression": 2,
+                "returnStatement": 4,
+                "logicalOrExpression": 1,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1
+            }
+        },
+        "input_dataset/jquery/src/css/showHide.js": {
+            "Levels": {
+                "B1": 43,
+                "A1": 81,
+                "B2": 6,
+                "A2": 21,
+                "C1": 4
+            },
+            "Class": {
+                "importStatement": 3,
+                "varModifier": 3,
+                "variableDeclaration": 10,
+                "objectLiteral": 2,
+                "formalParameterList": 3,
+                "memberDotExpression": 27,
+                "memberIndexExpression": 10,
+                "ifStatement": 11,
+                "returnStatement": 7,
+                "appendChild": 1,
+                "arguments": 19,
+                "stringLiteral": 11,
+                "equalityExpression": 6,
+                "arrayLiteral": 1,
+                "elementList": 1,
+                "length": 4,
+                "iterationStatement": 2,
+                "postIncrementExpression": 2,
+                "style": 5,
+                "continueStatement": 1,
+                "logicalOrExpression": 1,
+                "getProperty": 2,
+                "logicalAndExpression": 1,
+                "setProperty": 2,
+                "Set": 1,
+                "propertyAssignment": 3,
+                "anonymousFunction": 4,
+                "thisExpression": 8,
+                "typeofExpression": 1,
+                "ternaryExpression": 1,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1
+            }
+        },
+        "input_dataset/jquery/src/css/isAutoPx.js": {
+            "Levels": {
+                "A1": 10,
+                "A2": 6,
+                "B1": 6
+            },
+            "Class": {
+                "varModifier": 1,
+                "variableDeclaration": 2,
+                "RegExp": 2,
+                "formalParameterList": 1,
+                "returnStatement": 1,
+                "logicalAndExpression": 1,
+                "memberDotExpression": 4,
+                "arguments": 4,
+                "additiveExpression": 1,
+                "memberIndexExpression": 1,
+                "toUpperCase": 1,
+                "slice": 1,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1
+            }
+        },
+        "input_dataset/jquery/src/css/hiddenVisibleSelectors.js": {
+            "Levels": {
+                "B1": 15,
+                "A1": 9,
+                "A2": 2
+            },
+            "Class": {
+                "importStatement": 2,
+                "memberDotExpression": 13,
+                "anonymousFunction": 2,
+                "formalParameterList": 2,
+                "returnStatement": 2,
+                "arguments": 2,
+                "logicalOrExpression": 2,
+                "length": 1
+            }
+        },
+        "input_dataset/jquery/src/css/adjustCSS.js": {
+            "Levels": {
+                "B1": 15,
+                "A1": 62,
+                "A2": 11,
+                "B2": 2
+            },
+            "Class": {
+                "importStatement": 3,
+                "formalParameterList": 1,
+                "varModifier": 1,
+                "variableDeclaration": 7,
+                "ternaryExpression": 3,
+                "anonymousFunction": 2,
+                "returnStatement": 3,
+                "memberDotExpression": 10,
+                "arguments": 10,
+                "stringLiteral": 4,
+                "logicalOrExpression": 8,
+                "logicalAndExpression": 5,
+                "memberIndexExpression": 7,
+                "equalityExpression": 2,
+                "ifStatement": 4,
+                "multiplicativeExpression": 6,
+                "iterationStatement": 1,
+                "style": 2,
+                "additiveExpression": 6,
+                "floatLiteral": 1,
+                "arrayLiteral": 1,
+                "elementList": 1,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1
+            }
+        },
+        "input_dataset/jquery/src/css/var/rcustomProp.js": {
+            "Levels": {
+                "B1": 2,
+                "A2": 1
+            },
+            "Class": {
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1,
+                "RegExp": 1
+            }
+        },
+        "input_dataset/jquery/src/css/var/rnumnonpx.js": {
+            "Levels": {
+                "B1": 3,
+                "A2": 2,
+                "A1": 5
+            },
+            "Class": {
+                "importStatement": 1,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1,
+                "RegExp": 1,
+                "arguments": 1,
+                "additiveExpression": 2,
+                "stringLiteral": 3
+            }
+        },
+        "input_dataset/jquery/src/css/var/cssExpand.js": {
+            "Levels": {
+                "B1": 2,
+                "A1": 5,
+                "A2": 1
+            },
+            "Class": {
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1,
+                "arrayLiteral": 1,
+                "elementList": 1,
+                "stringLiteral": 4
+            }
+        },
+        "input_dataset/jquery/src/css/var/swap.js": {
+            "Levels": {
+                "B1": 6,
+                "A1": 16,
+                "A2": 3,
+                "B2": 3
+            },
+            "Class": {
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1,
+                "anonymousFunction": 1,
+                "formalParameterList": 1,
+                "varModifier": 1,
+                "variableDeclaration": 3,
+                "objectLiteral": 1,
+                "iterationStatement": 2,
+                "forInStatement": 2,
+                "memberIndexExpression": 6,
+                "memberDotExpression": 4,
+                "style": 3,
+                "arguments": 1,
+                "returnStatement": 1
+            }
+        },
+        "input_dataset/jquery/src/css/var/getStyles.js": {
+            "Levels": {
+                "B1": 5,
+                "A1": 6,
+                "A2": 1
+            },
+            "Class": {
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1,
+                "anonymousFunction": 1,
+                "formalParameterList": 1,
+                "varModifier": 1,
+                "variableDeclaration": 1,
+                "memberDotExpression": 3,
+                "ifStatement": 1,
+                "returnStatement": 1,
+                "arguments": 1
+            }
+        },
+        "input_dataset/jquery/src/css/var/isHiddenWithinTree.js": {
+            "Levels": {
+                "B1": 8,
+                "A1": 13,
+                "B2": 2,
+                "A2": 1
+            },
+            "Class": {
+                "importStatement": 1,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1,
+                "anonymousFunction": 1,
+                "formalParameterList": 1,
+                "logicalOrExpression": 2,
+                "returnStatement": 1,
+                "equalityExpression": 3,
+                "memberDotExpression": 5,
+                "style": 2,
+                "stringLiteral": 4,
+                "logicalAndExpression": 1,
+                "arguments": 1
+            }
+        },
+        "input_dataset/jquery/src/css/curCSS.js": {
+            "Levels": {
+                "B1": 11,
+                "A1": 22,
+                "A2": 6,
+                "B2": 1
+            },
+            "Class": {
+                "importStatement": 5,
+                "formalParameterList": 1,
+                "varModifier": 1,
+                "variableDeclaration": 2,
+                "memberDotExpression": 4,
+                "arguments": 6,
+                "logicalOrExpression": 3,
+                "ifStatement": 3,
+                "memberIndexExpression": 1,
+                "logicalAndExpression": 2,
+                "replace": 1,
+                "stringLiteral": 3,
+                "equalityExpression": 2,
+                "style": 1,
+                "returnStatement": 1,
+                "ternaryExpression": 1,
+                "additiveExpression": 1,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1
+            }
+        },
+        "input_dataset/jquery/src/selector-native.js": {
+            "Levels": {
+                "B1": 27,
+                "A1": 52,
+                "A2": 14
+            },
+            "Class": {
+                "importStatement": 6,
+                "varModifier": 2,
+                "variableDeclaration": 4,
+                "logicalOrExpression": 4,
+                "memberDotExpression": 13,
+                "arguments": 10,
+                "objectLiteral": 5,
+                "propertyAssignment": 8,
+                "anonymousFunction": 3,
+                "formalParameterList": 3,
+                "arrayLiteral": 2,
+                "elementList": 2,
+                "ifStatement": 4,
+                "equalityExpression": 4,
+                "typeofExpression": 1,
+                "stringLiteral": 6,
+                "returnStatement": 5,
+                "logicalAndExpression": 2,
+                "iterationStatement": 1,
+                "memberIndexExpression": 1,
+                "postIncrementExpression": 1,
+                "push": 1,
+                "RegExp": 2,
+                "additiveExpression": 3
+            }
+        },
+        "input_dataset/jquery/src/ajax/jsonp.js": {
+            "Levels": {
+                "B1": 38,
+                "A1": 89,
+                "A2": 19
+            },
+            "Class": {
+                "importStatement": 4,
+                "varModifier": 3,
+                "variableDeclaration": 7,
+                "arrayLiteral": 1,
+                "elementList": 1,
+                "RegExp": 2,
+                "memberDotExpression": 31,
+                "arguments": 16,
+                "objectLiteral": 1,
+                "propertyAssignment": 2,
+                "stringLiteral": 18,
+                "anonymousFunction": 5,
+                "logicalOrExpression": 2,
+                "pop": 1,
+                "additiveExpression": 7,
+                "postIncrementExpression": 1,
+                "memberIndexExpression": 11,
+                "thisExpression": 1,
+                "returnStatement": 3,
+                "formalParameterList": 1,
+                "logicalAndExpression": 5,
+                "equalityExpression": 7,
+                "ternaryExpression": 3,
+                "typeofExpression": 3,
+                "indexOf": 1,
+                "ifStatement": 6,
+                "replace": 1,
+                "assignmentOperator": 1,
+                "push": 1
+            }
+        },
+        "input_dataset/jquery/src/ajax/script.js": {
+            "Levels": {
+                "B1": 34,
+                "A1": 47,
+                "A2": 17,
+                "B2": 2
+            },
+            "Class": {
+                "importStatement": 3,
+                "formalParameterList": 6,
+                "returnStatement": 3,
+                "logicalOrExpression": 3,
+                "memberDotExpression": 23,
+                "logicalAndExpression": 1,
+                "arguments": 15,
+                "stringLiteral": 9,
+                "objectLiteral": 6,
+                "propertyAssignment": 8,
+                "additiveExpression": 1,
+                "RegExp": 2,
+                "anonymousFunction": 6,
+                "ifStatement": 5,
+                "equalityExpression": 2,
+                "varModifier": 1,
+                "variableDeclaration": 2,
+                "remove": 1,
+                "ternaryExpression": 1,
+                "appendChild": 1,
+                "memberIndexExpression": 1
+            }
+        },
+        "input_dataset/jquery/src/ajax/xhr.js": {
+            "Levels": {
+                "B1": 48,
+                "A1": 58,
+                "B2": 1,
+                "A2": 19
+            },
+            "Class": {
+                "importStatement": 2,
+                "memberDotExpression": 41,
+                "anonymousFunction": 6,
+                "returnStatement": 3,
+                "XMLHttpRequest": 1,
+                "arguments": 15,
+                "varModifier": 3,
+                "variableDeclaration": 4,
+                "objectLiteral": 4,
+                "propertyAssignment": 5,
+                "formalParameterList": 3,
+                "ifStatement": 8,
+                "iterationStatement": 2,
+                "forInStatement": 2,
+                "memberIndexExpression": 6,
+                "logicalAndExpression": 3,
+                "stringLiteral": 9,
+                "equalityExpression": 3,
+                "logicalOrExpression": 3,
+                "ternaryExpression": 1,
+                "tryStatement": 1,
+                "throwStatement": 1
+            }
+        },
+        "input_dataset/jquery/src/ajax/var/nonce.js": {
+            "Levels": {
+                "B1": 4,
+                "A1": 1,
+                "A2": 2
+            },
+            "Class": {
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1,
+                "objectLiteral": 1,
+                "propertyAssignment": 1,
+                "memberDotExpression": 1,
+                "Date": 1,
+                "arguments": 1
+            }
+        },
+        "input_dataset/jquery/src/ajax/var/rquery.js": {
+            "Levels": {
+                "B1": 2,
+                "A2": 1
+            },
+            "Class": {
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1,
+                "RegExp": 1
+            }
+        },
+        "input_dataset/jquery/src/ajax/var/location.js": {
+            "Levels": {
+                "B1": 3
+            },
+            "Class": {
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1,
+                "memberDotExpression": 1
+            }
+        },
+        "input_dataset/jquery/src/ajax/load.js": {
+            "Levels": {
+                "B1": 30,
+                "A1": 40,
+                "A2": 16
+            },
+            "Class": {
+                "importStatement": 7,
+                "memberDotExpression": 16,
+                "anonymousFunction": 4,
+                "formalParameterList": 3,
+                "varModifier": 1,
+                "variableDeclaration": 5,
+                "thisExpression": 3,
+                "indexOf": 1,
+                "arguments": 15,
+                "stringLiteral": 7,
+                "ifStatement": 4,
+                "slice": 2,
+                "equalityExpression": 2,
+                "typeofExpression": 2,
+                "logicalAndExpression": 2,
+                "length": 1,
+                "objectLiteral": 1,
+                "propertyAssignment": 4,
+                "logicalOrExpression": 2,
+                "ternaryExpression": 1,
+                "arrayLiteral": 1,
+                "elementList": 1,
+                "returnStatement": 1
+            }
+        },
+        "input_dataset/jquery/src/effects.js": {
+            "Levels": {
+                "B1": 371,
+                "A1": 562,
+                "A2": 167,
+                "C1": 39,
+                "B2": 16
+            },
+            "Class": {
+                "importStatement": 17,
+                "varModifier": 20,
+                "variableDeclaration": 71,
+                "RegExp": 2,
+                "ifStatement": 64,
+                "logicalAndExpression": 26,
+                "equalityExpression": 38,
+                "memberDotExpression": 279,
+                "arguments": 126,
+                "anonymousFunction": 32,
+                "returnStatement": 21,
+                "Date": 2,
+                "formalParameterList": 21,
+                "objectLiteral": 20,
+                "propertyAssignment": 42,
+                "ternaryExpression": 9,
+                "iterationStatement": 16,
+                "assignmentOperator": 1,
+                "additiveExpression": 9,
+                "memberIndexExpression": 61,
+                "stringLiteral": 56,
+                "logicalOrExpression": 22,
+                "arrayLiteral": 21,
+                "elementList": 21,
+                "length": 25,
+                "postIncrementExpression": 8,
+                "valueProperty": 29,
+                "inExpression": 7,
+                "thisExpression": 25,
+                "style": 15,
+                "getProperty": 10,
+                "forInStatement": 6,
+                "deleteExpression": 6,
+                "continueStatement": 1,
+                "remove": 1,
+                "Math": 1,
+                "multiplicativeExpression": 1,
+                "push": 3,
+                "typeofExpression": 10,
+                "Map": 1,
+                "map": 1,
+                "unshift": 2,
+                "filter": 1,
+                "splice": 3,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1
+            }
+        },
+        "input_dataset/jquery/src/deprecated.js": {
+            "Levels": {
+                "B1": 17,
+                "A1": 29,
+                "C2": 5,
+                "A2": 7
+            },
+            "Class": {
+                "importStatement": 4,
+                "slice": 3,
+                "memberDotExpression": 12,
+                "Proxy": 5,
+                "anonymousFunction": 3,
+                "formalParameterList": 2,
+                "varModifier": 1,
+                "variableDeclaration": 3,
+                "ifStatement": 3,
+                "equalityExpression": 2,
+                "typeofExpression": 2,
+                "stringLiteral": 2,
+                "memberIndexExpression": 1,
+                "returnStatement": 3,
+                "arguments": 7,
+                "logicalOrExpression": 2,
+                "thisExpression": 1,
+                "postIncrementExpression": 2
+            }
+        },
+        "input_dataset/jquery/src/var/pop.js": {
+            "Levels": {
+                "B1": 4,
+                "A1": 1
+            },
+            "Class": {
+                "importStatement": 1,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1,
+                "memberDotExpression": 1,
+                "pop": 1
+            }
+        },
+        "input_dataset/jquery/src/var/rcssNum.js": {
+            "Levels": {
+                "B1": 3,
+                "A2": 2,
+                "A1": 5
+            },
+            "Class": {
+                "importStatement": 1,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1,
+                "RegExp": 1,
+                "arguments": 1,
+                "additiveExpression": 2,
+                "stringLiteral": 3
+            }
+        },
+        "input_dataset/jquery/src/var/whitespace.js": {
+            "Levels": {
+                "B1": 2,
+                "A1": 1
+            },
+            "Class": {
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1,
+                "stringLiteral": 1
+            }
+        },
+        "input_dataset/jquery/src/var/toString.js": {
+            "Levels": {
+                "B1": 4,
+                "A1": 1
+            },
+            "Class": {
+                "importStatement": 1,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1,
+                "memberDotExpression": 1,
+                "toString": 1
+            }
+        },
+        "input_dataset/jquery/src/var/fnToString.js": {
+            "Levels": {
+                "B1": 4,
+                "A1": 1
+            },
+            "Class": {
+                "importStatement": 1,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1,
+                "memberDotExpression": 1,
+                "toString": 1
+            }
+        },
+        "input_dataset/jquery/src/var/support.js": {
+            "Levels": {
+                "B1": 2,
+                "A1": 1
+            },
+            "Class": {
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1,
+                "objectLiteral": 1
+            }
+        },
+        "input_dataset/jquery/src/var/pnum.js": {
+            "Levels": {
+                "B1": 3,
+                "A2": 1
+            },
+            "Class": {
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1,
+                "memberDotExpression": 1,
+                "RegExp": 1
+            }
+        },
+        "input_dataset/jquery/src/var/ObjectFunctionString.js": {
+            "Levels": {
+                "B1": 4,
+                "A2": 2
+            },
+            "Class": {
+                "importStatement": 1,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1,
+                "memberDotExpression": 1,
+                "arguments": 1,
+                "Object": 1
+            }
+        },
+        "input_dataset/jquery/src/var/push.js": {
+            "Levels": {
+                "B1": 4,
+                "A1": 1
+            },
+            "Class": {
+                "importStatement": 1,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1,
+                "memberDotExpression": 1,
+                "push": 1
+            }
+        },
+        "input_dataset/jquery/src/var/isWindow.js": {
+            "Levels": {
+                "B1": 3,
+                "A1": 6
+            },
+            "Class": {
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1,
+                "anonymousFunction": 1,
+                "formalParameterList": 1,
+                "returnStatement": 1,
+                "logicalAndExpression": 1,
+                "equalityExpression": 2,
+                "memberDotExpression": 1
+            }
+        },
+        "input_dataset/jquery/src/var/slice.js": {
+            "Levels": {
+                "B1": 4,
+                "A1": 1
+            },
+            "Class": {
+                "importStatement": 1,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1,
+                "memberDotExpression": 1,
+                "slice": 1
+            }
+        },
+        "input_dataset/jquery/src/var/class2type.js": {
+            "Levels": {
+                "B1": 2,
+                "A1": 1
+            },
+            "Class": {
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1,
+                "objectLiteral": 1
+            }
+        },
+        "input_dataset/jquery/src/var/sort.js": {
+            "Levels": {
+                "B1": 4
+            },
+            "Class": {
+                "importStatement": 1,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1,
+                "memberDotExpression": 1
+            }
+        },
+        "input_dataset/jquery/src/var/rnothtmlwhite.js": {
+            "Levels": {
+                "B1": 2,
+                "A2": 1
+            },
+            "Class": {
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1,
+                "RegExp": 1
+            }
+        },
+        "input_dataset/jquery/src/var/flat.js": {
+            "Levels": {
+                "B1": 8,
+                "A1": 8,
+                "A2": 3
+            },
+            "Class": {
+                "importStatement": 1,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1,
+                "ternaryExpression": 1,
+                "memberDotExpression": 5,
+                "anonymousFunction": 2,
+                "formalParameterList": 2,
+                "returnStatement": 2,
+                "arguments": 2,
+                "arrayLiteral": 1,
+                "elementList": 1
+            }
+        },
+        "input_dataset/jquery/src/var/documentElement.js": {
+            "Levels": {
+                "B1": 4
+            },
+            "Class": {
+                "importStatement": 1,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1,
+                "memberDotExpression": 1
+            }
+        },
+        "input_dataset/jquery/src/var/arr.js": {
+            "Levels": {
+                "B1": 2,
+                "A1": 1,
+                "A2": 1
+            },
+            "Class": {
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1,
+                "arrayLiteral": 1,
+                "elementList": 1
+            }
+        },
+        "input_dataset/jquery/src/var/document.js": {
+            "Levels": {
+                "B1": 3
+            },
+            "Class": {
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1,
+                "memberDotExpression": 1
+            }
+        },
+        "input_dataset/jquery/src/var/indexOf.js": {
+            "Levels": {
+                "B1": 4,
+                "A1": 1
+            },
+            "Class": {
+                "importStatement": 1,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1,
+                "memberDotExpression": 1,
+                "indexOf": 1
+            }
+        },
+        "input_dataset/jquery/src/var/splice.js": {
+            "Levels": {
+                "B1": 4,
+                "A1": 1
+            },
+            "Class": {
+                "importStatement": 1,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1,
+                "memberDotExpression": 1,
+                "splice": 1
+            }
+        },
+        "input_dataset/jquery/src/var/rtrim.js": {
+            "Levels": {
+                "B1": 3,
+                "A2": 2,
+                "A1": 8
+            },
+            "Class": {
+                "importStatement": 1,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1,
+                "RegExp": 1,
+                "arguments": 1,
+                "additiveExpression": 4,
+                "stringLiteral": 4
+            }
+        },
+        "input_dataset/jquery/src/var/isIE.js": {
+            "Levels": {
+                "B1": 4
+            },
+            "Class": {
+                "importStatement": 1,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1,
+                "memberDotExpression": 1
+            }
+        },
+        "input_dataset/jquery/src/var/hasOwn.js": {
+            "Levels": {
+                "B1": 4
+            },
+            "Class": {
+                "importStatement": 1,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1,
+                "memberDotExpression": 1
+            }
+        },
+        "input_dataset/jquery/src/var/rcheckableType.js": {
+            "Levels": {
+                "B1": 2,
+                "A2": 1
+            },
+            "Class": {
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1,
+                "RegExp": 1
+            }
+        },
+        "input_dataset/jquery/src/var/getProto.js": {
+            "Levels": {
+                "B1": 3,
+                "A2": 1
+            },
+            "Class": {
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1,
+                "memberDotExpression": 1,
+                "Object": 1
+            }
+        },
+        "input_dataset/jquery/src/selector.js": {
+            "Levels": {
+                "B1": 390,
+                "A1": 1578,
+                "A2": 346,
+                "C1": 7,
+                "B2": 1
+            },
+            "Class": {
+                "importStatement": 14,
+                "indexOf": 9,
+                "pop": 5,
+                "push": 25,
+                "varModifier": 38,
+                "variableDeclaration": 154,
+                "logicalOrExpression": 78,
+                "memberDotExpression": 298,
+                "anonymousFunction": 65,
+                "arguments": 265,
+                "additiveExpression": 105,
+                "stringLiteral": 161,
+                "RegExp": 20,
+                "objectLiteral": 21,
+                "propertyAssignment": 77,
+                "formalParameterList": 82,
+                "slice": 21,
+                "ifStatement": 122,
+                "returnStatement": 120,
+                "ternaryExpression": 32,
+                "logicalAndExpression": 96,
+                "equalityExpression": 98,
+                "throwStatement": 2,
+                "arrayLiteral": 37,
+                "elementList": 37,
+                "typeofExpression": 8,
+                "memberIndexExpression": 152,
+                "setAttribute": 1,
+                "length": 50,
+                "iterationStatement": 35,
+                "join": 1,
+                "tryStatement": 2,
+                "finallyProduction": 1,
+                "replace": 13,
+                "deleteExpression": 1,
+                "shift": 4,
+                "valueProperty": 7,
+                "inExpression": 4,
+                "addEventListener": 1,
+                "toLowerCase": 6,
+                "multiplicativeExpression": 3,
+                "filter": 6,
+                "assignmentOperator": 7,
+                "preIncrementExpression": 6,
+                "breakStatement": 7,
+                "textContent": 1,
+                "focus": 1,
+                "forInStatement": 3,
+                "prototype": 1,
+                "postIncrementExpression": 9,
+                "Map": 3,
+                "map": 3,
+                "splice": 2,
+                "Math": 1,
+                "floatLiteral": 1
+            }
+        },
+        "input_dataset/jquery/src/callbacks.js": {
+            "Levels": {
+                "B1": 52,
+                "A1": 126,
+                "A2": 37,
+                "B2": 1
+            },
+            "Class": {
+                "importStatement": 3,
+                "formalParameterList": 8,
+                "varModifier": 3,
+                "variableDeclaration": 11,
+                "Object": 3,
+                "objectLiteral": 3,
+                "memberDotExpression": 28,
+                "arguments": 25,
+                "logicalOrExpression": 4,
+                "arrayLiteral": 9,
+                "elementList": 9,
+                "anonymousFunction": 17,
+                "memberIndexExpression": 4,
+                "returnStatement": 13,
+                "ternaryExpression": 3,
+                "equalityExpression": 4,
+                "typeofExpression": 2,
+                "stringLiteral": 6,
+                "iterationStatement": 3,
+                "length": 6,
+                "shift": 1,
+                "preIncrementExpression": 1,
+                "ifStatement": 15,
+                "logicalAndExpression": 6,
+                "propertyAssignment": 11,
+                "additiveExpression": 1,
+                "push": 3,
+                "thisExpression": 8,
+                "remove": 1,
+                "splice": 1,
+                "slice": 2,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1
+            }
+        },
+        "input_dataset/jquery/src/core.js": {
+            "Levels": {
+                "B1": 152,
+                "A1": 366,
+                "A2": 86,
+                "B2": 1,
+                "C1": 10
+            },
+            "Class": {
+                "importStatement": 14,
+                "slice": 5,
+                "push": 5,
+                "indexOf": 2,
+                "toString": 2,
+                "varModifier": 14,
+                "variableDeclaration": 41,
+                "stringLiteral": 18,
+                "RegExp": 2,
+                "anonymousFunction": 32,
+                "formalParameterList": 23,
+                "returnStatement": 34,
+                "memberDotExpression": 78,
+                "arguments": 61,
+                "prototype": 1,
+                "objectLiteral": 7,
+                "propertyAssignment": 34,
+                "Constructor": 4,
+                "length": 21,
+                "thisExpression": 24,
+                "ifStatement": 25,
+                "equalityExpression": 28,
+                "ternaryExpression": 6,
+                "memberIndexExpression": 24,
+                "additiveExpression": 7,
+                "Map": 3,
+                "map": 3,
+                "multiplicativeExpression": 2,
+                "logicalAndExpression": 16,
+                "arrayLiteral": 7,
+                "elementList": 7,
+                "logicalOrExpression": 14,
+                "typeofExpression": 6,
+                "postIncrementExpression": 8,
+                "iterationStatement": 10,
+                "forInStatement": 4,
+                "continueStatement": 1,
+                "Math": 1,
+                "replace": 1,
+                "throwStatement": 1,
+                "breakStatement": 2,
+                "assignmentOperator": 1,
+                "textContent": 1,
+                "Object": 1,
+                "valueProperty": 10,
+                "split": 1,
+                "toLowerCase": 1,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1
+            }
+        },
+        "input_dataset/jquery/src/event.js": {
+            "Levels": {
+                "B1": 465,
+                "A1": 535,
+                "A2": 150,
+                "C1": 27,
+                "B2": 9
+            },
+            "Class": {
+                "importStatement": 11,
+                "slice": 4,
+                "varModifier": 15,
+                "variableDeclaration": 60,
+                "RegExp": 2,
+                "returnStatement": 31,
+                "formalParameterList": 26,
+                "equalityExpression": 39,
+                "memberDotExpression": 298,
+                "stringLiteral": 40,
+                "ifStatement": 65,
+                "typeofExpression": 7,
+                "logicalOrExpression": 40,
+                "iterationStatement": 11,
+                "forInStatement": 3,
+                "arguments": 123,
+                "memberIndexExpression": 39,
+                "logicalAndExpression": 35,
+                "anonymousFunction": 32,
+                "thisExpression": 60,
+                "postIncrementExpression": 7,
+                "objectLiteral": 27,
+                "propertyAssignment": 93,
+                "getProperty": 16,
+                "Object": 4,
+                "ternaryExpression": 8,
+                "arrayLiteral": 10,
+                "elementList": 10,
+                "length": 11,
+                "split": 2,
+                "continueStatement": 2,
+                "join": 2,
+                "addEventListener": 2,
+                "splice": 2,
+                "push": 4,
+                "remove": 6,
+                "additiveExpression": 6,
+                "deleteExpression": 1,
+                "stopPropagation": 5,
+                "prototype": 3,
+                "Set": 5,
+                "valueProperty": 3,
+                "setProperty": 8,
+                "removeEventListener": 2,
+                "instanceofExpression": 1,
+                "Date": 1,
+                "Constructor": 1,
+                "focus": 1,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1
+            }
+        },
+        "input_dataset/jquery/src/queue.js": {
+            "Levels": {
+                "B1": 70,
+                "A2": 39,
+                "A1": 120,
+                "C1": 6,
+                "B2": 1
+            },
+            "Class": {
+                "importStatement": 4,
+                "memberDotExpression": 41,
+                "arguments": 35,
+                "objectLiteral": 3,
+                "propertyAssignment": 8,
+                "anonymousFunction": 12,
+                "formalParameterList": 7,
+                "varModifier": 6,
+                "variableDeclaration": 15,
+                "ifStatement": 13,
+                "additiveExpression": 4,
+                "logicalOrExpression": 7,
+                "stringLiteral": 17,
+                "getProperty": 6,
+                "push": 1,
+                "returnStatement": 7,
+                "arrayLiteral": 4,
+                "elementList": 4,
+                "length": 3,
+                "shift": 2,
+                "equalityExpression": 7,
+                "unshift": 1,
+                "deleteExpression": 1,
+                "logicalAndExpression": 3,
+                "remove": 1,
+                "setter": 3,
+                "typeofExpression": 2,
+                "memberIndexExpression": 3,
+                "thisExpression": 11,
+                "ternaryExpression": 1,
+                "iterationStatement": 1,
+                "postIncrementExpression": 1,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1
+            }
+        },
+        "input_dataset/jquery/src/jquery.js": {
+            "Levels": {
+                "B1": 36
+            },
+            "Class": {
+                "importStatement": 34,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1
+            }
+        },
+        "input_dataset/jquery/src/traversing/var/siblings.js": {
+            "Levels": {
+                "B1": 5,
+                "A1": 12,
+                "A2": 2
+            },
+            "Class": {
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1,
+                "anonymousFunction": 1,
+                "formalParameterList": 1,
+                "varModifier": 1,
+                "variableDeclaration": 1,
+                "arrayLiteral": 1,
+                "elementList": 1,
+                "iterationStatement": 1,
+                "memberDotExpression": 3,
+                "ifStatement": 1,
+                "logicalAndExpression": 1,
+                "equalityExpression": 2,
+                "push": 1,
+                "arguments": 1,
+                "returnStatement": 1
+            }
+        },
+        "input_dataset/jquery/src/traversing/var/rneedsContext.js": {
+            "Levels": {
+                "B1": 7
+            },
+            "Class": {
+                "importStatement": 2,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1,
+                "memberDotExpression": 3
+            }
+        },
+        "input_dataset/jquery/src/traversing/var/dir.js": {
+            "Levels": {
+                "B1": 7,
+                "A1": 18,
+                "A2": 4
+            },
+            "Class": {
+                "importStatement": 1,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1,
+                "anonymousFunction": 1,
+                "formalParameterList": 1,
+                "varModifier": 1,
+                "variableDeclaration": 2,
+                "arrayLiteral": 1,
+                "elementList": 1,
+                "equalityExpression": 3,
+                "iterationStatement": 1,
+                "logicalAndExpression": 2,
+                "memberIndexExpression": 1,
+                "memberDotExpression": 4,
+                "ifStatement": 2,
+                "arguments": 3,
+                "breakStatement": 1,
+                "push": 1,
+                "returnStatement": 1
+            }
+        },
+        "input_dataset/jquery/src/traversing/findFilter.js": {
+            "Levels": {
+                "B1": 47,
+                "A1": 100,
+                "A2": 34
+            },
+            "Class": {
+                "importStatement": 4,
+                "indexOf": 2,
+                "formalParameterList": 10,
+                "ifStatement": 7,
+                "equalityExpression": 11,
+                "typeofExpression": 4,
+                "stringLiteral": 6,
+                "returnStatement": 16,
+                "memberDotExpression": 29,
+                "arguments": 24,
+                "anonymousFunction": 10,
+                "filter": 4,
+                "varModifier": 2,
+                "variableDeclaration": 5,
+                "memberIndexExpression": 3,
+                "additiveExpression": 2,
+                "logicalAndExpression": 2,
+                "length": 3,
+                "ternaryExpression": 3,
+                "arrayLiteral": 6,
+                "elementList": 6,
+                "objectLiteral": 1,
+                "propertyAssignment": 4,
+                "thisExpression": 10,
+                "iterationStatement": 2,
+                "postIncrementExpression": 2,
+                "logicalOrExpression": 3
+            }
+        },
+        "input_dataset/jquery/src/data/var/dataPriv.js": {
+            "Levels": {
+                "B1": 3,
+                "A2": 1
+            },
+            "Class": {
+                "importStatement": 1,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1,
+                "arguments": 1
+            }
+        },
+        "input_dataset/jquery/src/data/var/dataUser.js": {
+            "Levels": {
+                "B1": 3,
+                "A2": 1
+            },
+            "Class": {
+                "importStatement": 1,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1,
+                "arguments": 1
+            }
+        },
+        "input_dataset/jquery/src/data/var/acceptData.js": {
+            "Levels": {
+                "B1": 5,
+                "A1": 7
+            },
+            "Class": {
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1,
+                "anonymousFunction": 1,
+                "formalParameterList": 1,
+                "returnStatement": 1,
+                "logicalOrExpression": 2,
+                "equalityExpression": 2,
+                "memberDotExpression": 3
+            }
+        },
+        "input_dataset/jquery/src/data/Data.js": {
+            "Levels": {
+                "B1": 58,
+                "A1": 86,
+                "B2": 2,
+                "C1": 21,
+                "A2": 26
+            },
+            "Class": {
+                "importStatement": 4,
+                "memberDotExpression": 28,
+                "thisExpression": 14,
+                "additiveExpression": 1,
+                "postIncrementExpression": 1,
+                "prototype": 1,
+                "objectLiteral": 2,
+                "propertyAssignment": 8,
+                "anonymousFunction": 6,
+                "formalParameterList": 6,
+                "varModifier": 4,
+                "variableDeclaration": 6,
+                "memberIndexExpression": 14,
+                "ifStatement": 10,
+                "valueProperty": 17,
+                "Object": 2,
+                "arguments": 16,
+                "returnStatement": 7,
+                "Set": 2,
+                "equalityExpression": 10,
+                "typeofExpression": 2,
+                "stringLiteral": 2,
+                "iterationStatement": 2,
+                "forInStatement": 1,
+                "ternaryExpression": 3,
+                "logicalAndExpression": 4,
+                "logicalOrExpression": 3,
+                "getProperty": 2,
+                "setProperty": 2,
+                "remove": 1,
+                "Map": 1,
+                "map": 1,
+                "inExpression": 1,
+                "arrayLiteral": 2,
+                "elementList": 2,
+                "length": 1,
+                "deleteExpression": 2,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1
+            }
+        },
+        "input_dataset/jquery/src/serialize.js": {
+            "Levels": {
+                "B1": 63,
+                "A1": 112,
+                "A2": 51,
+                "C1": 7
+            },
+            "Class": {
+                "importStatement": 6,
+                "varModifier": 7,
+                "variableDeclaration": 12,
+                "RegExp": 4,
+                "formalParameterList": 6,
+                "ifStatement": 7,
+                "memberDotExpression": 37,
+                "arguments": 37,
+                "anonymousFunction": 10,
+                "logicalOrExpression": 3,
+                "additiveExpression": 8,
+                "stringLiteral": 16,
+                "ternaryExpression": 4,
+                "logicalAndExpression": 7,
+                "equalityExpression": 7,
+                "typeofExpression": 2,
+                "iterationStatement": 2,
+                "forInStatement": 2,
+                "memberIndexExpression": 3,
+                "arrayLiteral": 1,
+                "elementList": 1,
+                "length": 1,
+                "valueProperty": 5,
+                "returnStatement": 10,
+                "thisExpression": 12,
+                "join": 1,
+                "objectLiteral": 3,
+                "propertyAssignment": 6,
+                "getProperty": 2,
+                "Map": 3,
+                "map": 3,
+                "filter": 1,
+                "replace": 2,
+                "exportStatement": 1,
+                "exportDefaultDeclaration": 1
+            }
+        },
+        "input_dataset/jquery/test/promises_aplus_adapters/deferred.js": {
+            "Levels": {
+                "A1": 18,
+                "B1": 13,
+                "A2": 9
+            },
+            "Class": {
+                "stringLiteral": 4,
+                "varModifier": 4,
+                "variableDeclaration": 4,
+                "objectLiteral": 3,
+                "propertyAssignment": 5,
+                "arguments": 8,
+                "RegExp": 1,
+                "memberDotExpression": 8,
+                "anonymousFunction": 1,
+                "arrowFunctionParameters": 1,
+                "returnStatement": 1
+            }
+        },
+        "input_dataset/jquery/test/promises_aplus_adapters/when.js": {
+            "Levels": {
+                "A1": 34,
+                "B1": 24,
+                "A2": 17,
+                "B2": 5,
+                "C1": 1
+            },
+            "Class": {
+                "stringLiteral": 4,
+                "varModifier": 4,
+                "variableDeclaration": 5,
+                "objectLiteral": 4,
+                "propertyAssignment": 6,
+                "arguments": 16,
+                "RegExp": 1,
+                "memberDotExpression": 18,
+                "anonymousFunction": 4,
+                "arrowFunctionParameters": 1,
+                "returnStatement": 5,
+                "ifStatement": 6,
+                "then": 5,
+                "formalParameterList": 1,
+                "valueProperty": 1
+            }
+        },
+        "input_dataset/jquery/test/node_smoke_tests/document_present_originally.js": {
+            "Levels": {
+                "A1": 18,
+                "B1": 4,
+                "A2": 10
+            },
+            "Class": {
+                "stringLiteral": 6,
+                "varModifier": 5,
+                "variableDeclaration": 5,
+                "objectLiteral": 2,
+                "propertyAssignment": 2,
+                "arguments": 7,
+                "memberDotExpression": 2,
+                "RegExp": 3
+            }
+        },
+        "input_dataset/jquery/test/node_smoke_tests/lib/ensure_global_not_created.js": {
+            "Levels": {
+                "A1": 14,
+                "A2": 7,
+                "B1": 4
+            },
+            "Class": {
+                "stringLiteral": 3,
+                "varModifier": 2,
+                "variableDeclaration": 2,
+                "arguments": 3,
+                "anonymousFunction": 2,
+                "arrowFunctionParameters": 1,
+                "formalParameterList": 2,
+                "lastFormalParameterArg": 1,
+                "memberDotExpression": 4,
+                "arrayLiteral": 1,
+                "elementList": 1,
+                "foreach": 1,
+                "Object": 2
+            }
+        },
+        "input_dataset/jquery/test/node_smoke_tests/lib/ensure_jquery.js": {
+            "Levels": {
+                "A1": 10,
+                "A2": 4,
+                "B1": 3
+            },
+            "Class": {
+                "stringLiteral": 3,
+                "varModifier": 2,
+                "variableDeclaration": 2,
+                "arguments": 3,
+                "anonymousFunction": 1,
+                "arrowFunctionParameters": 1,
+                "formalParameterList": 1,
+                "memberDotExpression": 3,
+                "RegExp": 1
+            }
+        },
+        "input_dataset/jquery/test/node_smoke_tests/lib/ensure_iterability_es6.js": {
+            "Levels": {
+                "A1": 34,
+                "A2": 13,
+                "B1": 5
+            },
+            "Class": {
+                "stringLiteral": 10,
+                "varModifier": 9,
+                "variableDeclaration": 9,
+                "arguments": 9,
+                "anonymousFunction": 1,
+                "arrowFunctionParameters": 1,
+                "objectLiteral": 2,
+                "propertyAssignment": 2,
+                "RegExp": 3,
+                "iterationStatement": 1,
+                "ForOfStatement": 1,
+                "assignmentOperator": 1,
+                "memberDotExpression": 3
+            }
+        },
+        "input_dataset/jquery/test/node_smoke_tests/document_passed.js": {
+            "Levels": {
+                "A1": 18,
+                "B1": 3,
+                "A2": 11
+            },
+            "Class": {
+                "stringLiteral": 6,
+                "varModifier": 5,
+                "variableDeclaration": 5,
+                "objectLiteral": 2,
+                "propertyAssignment": 2,
+                "arguments": 8,
+                "RegExp": 3,
+                "memberDotExpression": 1
+            }
+        },
+        "input_dataset/jquery/test/node_smoke_tests/document_missing.js": {
+            "Levels": {
+                "A1": 13,
+                "A2": 9,
+                "B1": 2
+            },
+            "Class": {
+                "stringLiteral": 4,
+                "varModifier": 3,
+                "variableDeclaration": 3,
+                "arguments": 6,
+                "RegExp": 3,
+                "memberDotExpression": 2,
+                "anonymousFunction": 1,
+                "arrowFunctionParameters": 1,
+                "objectLiteral": 1
+            }
+        },
+        "input_dataset/jquery/test/node_smoke_tests/iterable_with_native_symbol.js": {
+            "Levels": {
+                "A1": 7,
+                "B1": 2,
+                "A2": 5
+            },
+            "Class": {
+                "stringLiteral": 4,
+                "ifStatement": 1,
+                "equalityExpression": 1,
+                "typeofExpression": 1,
+                "memberDotExpression": 2,
+                "arguments": 4,
+                "RegExp": 1
+            }
+        },
+        "input_dataset/jquery/test/integration/data/gh-1764-fullscreen.js": {
+            "Levels": {
+                "A1": 95,
+                "B1": 51,
+                "A2": 48,
+                "B2": 1
+            },
+            "Class": {
+                "formalParameterList": 2,
+                "ifStatement": 14,
+                "logicalAndExpression": 2,
+                "equalityExpression": 4,
+                "stringLiteral": 39,
+                "memberDotExpression": 51,
+                "arguments": 43,
+                "additiveExpression": 15,
+                "RegExp": 1,
+                "remove": 1,
+                "returnStatement": 2,
+                "varModifier": 2,
+                "variableDeclaration": 2,
+                "logicalOrExpression": 7,
+                "arrayLiteral": 2,
+                "elementList": 2,
+                "parseFloat": 2,
+                "toFixed": 2,
+                "memberIndexExpression": 1,
+                "join": 1
+            }
+        },
+        "input_dataset/jquery/test/middleware-mockserver.js": {
+            "Levels": {
+                "A1": 89,
+                "A2": 43,
+                "B1": 61,
+                "B2": 2
+            },
+            "Class": {
+                "stringLiteral": 27,
+                "varModifier": 7,
+                "variableDeclaration": 7,
+                "arguments": 30,
+                "formalParameterList": 9,
+                "returnStatement": 3,
+                "memberDotExpression": 46,
+                "replace": 1,
+                "RegExp": 11,
+                "objectLiteral": 10,
+                "propertyAssignment": 15,
+                "anonymousFunction": 9,
+                "multiplicativeExpression": 1,
+                "Number": 1,
+                "ifStatement": 9,
+                "equalityExpression": 5,
+                "then": 2,
+                "inExpression": 1,
+                "labelledStatement": 1
+            }
+        },
+        "input_dataset/jquery/test/unit/animation.js": {
+            "Levels": {
+                "A1": 199,
+                "A2": 134,
+                "B1": 280
+            },
+            "Class": {
+                "anonymousFunction": 14,
+                "ifStatement": 1,
+                "arguments": 121,
+                "stringLiteral": 73,
+                "returnStatement": 3,
+                "varModifier": 8,
+                "variableDeclaration": 30,
+                "memberDotExpression": 239,
+                "memberIndexExpression": 13,
+                "objectLiteral": 20,
+                "propertyAssignment": 24,
+                "thisExpression": 17,
+                "arrayLiteral": 13,
+                "elementList": 13,
+                "formalParameterList": 8,
+                "multiplicativeExpression": 4,
+                "length": 5,
+                "typeofExpression": 7
+            }
+        },
+        "input_dataset/jquery/test/unit/dimensions.js": {
+            "Levels": {
+                "A1": 928,
+                "A2": 883,
+                "B1": 856,
+                "B2": 12,
+                "C1": 42
+            },
+            "Class": {
+                "anonymousFunction": 39,
+                "ifStatement": 5,
+                "arguments": 790,
+                "stringLiteral": 493,
+                "returnStatement": 9,
+                "memberDotExpression": 771,
+                "objectLiteral": 26,
+                "propertyAssignment": 85,
+                "formalParameterList": 40,
+                "varModifier": 26,
+                "variableDeclaration": 83,
+                "RegExp": 46,
+                "additiveExpression": 168,
+                "remove": 12,
+                "getProperty": 2,
+                "Set": 43,
+                "setProperty": 40,
+                "Math": 3,
+                "floatLiteral": 2,
+                "arrayLiteral": 4,
+                "elementList": 4,
+                "join": 1,
+                "memberIndexExpression": 11,
+                "toLowerCase": 1,
+                "ternaryExpression": 1,
+                "iterationStatement": 1,
+                "postIncrementExpression": 1,
+                "equalityExpression": 2,
+                "assignmentOperator": 2,
+                "multiplicativeExpression": 10
+            }
+        },
+        "input_dataset/jquery/test/unit/deferred.js": {
+            "Levels": {
+                "B1": 843,
+                "A2": 846,
+                "A1": 1071,
+                "C1": 30,
+                "B2": 62
+            },
+            "Class": {
+                "memberDotExpression": 731,
+                "arguments": 751,
+                "stringLiteral": 283,
+                "objectLiteral": 17,
+                "propertyAssignment": 78,
+                "anonymousFunction": 189,
+                "ifStatement": 9,
+                "returnStatement": 47,
+                "arrayLiteral": 52,
+                "elementList": 52,
+                "formalParameterList": 116,
+                "ternaryExpression": 3,
+                "additiveExpression": 58,
+                "varModifier": 43,
+                "variableDeclaration": 150,
+                "equalityExpression": 6,
+                "typeofExpression": 5,
+                "thisExpression": 29,
+                "valueProperty": 30,
+                "memberIndexExpression": 17,
+                "split": 2,
+                "iterationStatement": 1,
+                "postIncrementExpression": 1,
+                "Object": 5,
+                "then": 60,
+                "multiplicativeExpression": 15,
+                "Map": 9,
+                "map": 9,
+                "pop": 34,
+                "RegExp": 8,
+                "reservedWord": 4,
+                "throwStatement": 2,
+                "tryStatement": 1,
+                "Array.prototype": 2,
+                "prototype": 2,
+                "join": 2,
+                "deleteExpression": 1,
+                "slice": 13,
+                "shift": 1,
+                "length": 4,
+                "message": 7,
+                "logicalOrExpression": 2,
+                "logicalAndExpression": 1
+            }
+        },
+        "input_dataset/jquery/test/unit/tween.js": {
+            "Levels": {
+                "A1": 243,
+                "A2": 192,
+                "B1": 341,
+                "C1": 40,
+                "B2": 3
+            },
+            "Class": {
+                "anonymousFunction": 11,
+                "ifStatement": 1,
+                "arguments": 177,
+                "stringLiteral": 129,
+                "returnStatement": 2,
+                "varModifier": 9,
+                "variableDeclaration": 38,
+                "memberDotExpression": 295,
+                "objectLiteral": 18,
+                "propertyAssignment": 27,
+                "thisExpression": 16,
+                "formalParameterList": 8,
+                "typeofExpression": 2,
+                "getProperty": 22,
+                "setProperty": 18,
+                "Set": 11,
+                "memberIndexExpression": 2,
+                "deleteExpression": 3,
+                "floatLiteral": 14,
+                "multiplicativeExpression": 3,
+                "additiveExpression": 1,
+                "parseFloat": 1,
+                "style": 3,
+                "toFixed": 2,
+                "arrayLiteral": 3,
+                "elementList": 3
+            }
+        },
+        "input_dataset/jquery/test/unit/support.js": {
+            "Levels": {
+                "B1": 69,
+                "A2": 54,
+                "A1": 154,
+                "C1": 6
+            },
+            "Class": {
+                "memberDotExpression": 44,
+                "arguments": 36,
+                "stringLiteral": 29,
+                "objectLiteral": 15,
+                "propertyAssignment": 24,
+                "varModifier": 7,
+                "variableDeclaration": 18,
+                "formalParameterList": 6,
+                "iterationStatement": 10,
+                "forInStatement": 10,
+                "ifStatement": 14,
+                "equalityExpression": 5,
+                "typeofExpression": 2,
+                "memberIndexExpression": 19,
+                "returnStatement": 1,
+                "RegExp": 8,
+                "anonymousFunction": 6,
+                "additiveExpression": 16,
+                "getProperty": 6,
+                "deleteExpression": 1,
+                "logicalAndExpression": 1,
+                "logicalOrExpression": 1,
+                "postIncrementExpression": 4
+            }
+        },
+        "input_dataset/jquery/test/unit/attributes.js": {
+            "Levels": {
+                "B1": 1511,
+                "A2": 1867,
+                "A1": 2611,
+                "C1": 45,
+                "B2": 14
+            },
+            "Class": {
+                "memberDotExpression": 1429,
+                "arguments": 1695,
+                "stringLiteral": 1816,
+                "objectLiteral": 27,
+                "propertyAssignment": 68,
+                "formalParameterList": 108,
+                "returnStatement": 25,
+                "valueProperty": 37,
+                "anonymousFunction": 111,
+                "ternaryExpression": 2,
+                "split": 1,
+                "arrayLiteral": 45,
+                "elementList": 45,
+                "varModifier": 68,
+                "variableDeclaration": 139,
+                "indexOf": 5,
+                "RegExp": 101,
+                "remove": 8,
+                "setAttribute": 1,
+                "appendChild": 4,
+                "additiveExpression": 128,
+                "equalityExpression": 13,
+                "memberIndexExpression": 69,
+                "thisExpression": 14,
+                "ifStatement": 6,
+                "logicalAndExpression": 5,
+                "iterationStatement": 3,
+                "length": 6,
+                "postIncrementExpression": 3,
+                "breakStatement": 1,
+                "tryStatement": 9,
+                "typeofExpression": 3,
+                "push": 1,
+                "getProperty": 8,
+                "style": 1,
+                "toUpperCase": 2,
+                "logicalOrExpression": 12,
+                "assignmentOperator": 6,
+                "Map": 8,
+                "map": 8,
+                "join": 2,
+                "slice": 1,
+                "replace": 1,
+                "foreach": 1,
+                "message": 1,
+                "then": 1
+            }
+        },
+        "input_dataset/jquery/test/unit/data.js": {
+            "Levels": {
+                "B1": 759,
+                "A2": 706,
+                "A1": 1081,
+                "C1": 7,
+                "B2": 10
+            },
+            "Class": {
+                "memberDotExpression": 608,
+                "arguments": 654,
+                "stringLiteral": 701,
+                "objectLiteral": 78,
+                "propertyAssignment": 150,
+                "anonymousFunction": 50,
+                "formalParameterList": 51,
+                "equalityExpression": 1,
+                "varModifier": 36,
+                "variableDeclaration": 75,
+                "Object": 1,
+                "length": 4,
+                "typeofExpression": 1,
+                "memberIndexExpression": 30,
+                "RegExp": 31,
+                "setAttribute": 5,
+                "arrayLiteral": 12,
+                "elementList": 12,
+                "Date": 1,
+                "valueProperty": 7,
+                "additiveExpression": 10,
+                "remove": 10,
+                "iterationStatement": 6,
+                "postIncrementExpression": 4,
+                "forInStatement": 5,
+                "returnStatement": 2,
+                "thisExpression": 1,
+                "floatLiteral": 1,
+                "switchStatement": 1,
+                "breakStatement": 4,
+                "join": 1,
+                "logicalOrExpression": 2,
+                "toUpperCase": 1,
+                "replace": 2,
+                "tryStatement": 1,
+                "message": 1,
+                "ifStatement": 3
+            }
+        },
+        "input_dataset/jquery/test/unit/traversing.js": {
+            "Levels": {
+                "B1": 1243,
+                "A2": 1700,
+                "A1": 1807,
+                "C1": 335,
+                "B2": 6
+            },
+            "Class": {
+                "memberDotExpression": 1220,
+                "arguments": 1580,
+                "stringLiteral": 1276,
+                "objectLiteral": 5,
+                "propertyAssignment": 21,
+                "anonymousFunction": 75,
+                "formalParameterList": 70,
+                "varModifier": 51,
+                "variableDeclaration": 90,
+                "length": 67,
+                "memberIndexExpression": 64,
+                "ternaryExpression": 10,
+                "getProperty": 334,
+                "setAttribute": 2,
+                "ifStatement": 2,
+                "arrayLiteral": 29,
+                "elementList": 29,
+                "iterationStatement": 2,
+                "forInStatement": 1,
+                "postIncrementExpression": 1,
+                "additiveExpression": 44,
+                "RegExp": 57,
+                "filter": 27,
+                "returnStatement": 4,
+                "thisExpression": 2,
+                "Set": 2,
+                "setProperty": 1,
+                "slice": 15,
+                "remove": 3,
+                "Map": 1,
+                "map": 1,
+                "Object": 2,
+                "appendChild": 3
+            }
+        },
+        "input_dataset/jquery/test/unit/manipulation.js": {
+            "Levels": {
+                "B1": 2140,
+                "A2": 2917,
+                "A1": 3480,
+                "B2": 63,
+                "C1": 82
+            },
+            "Class": {
+                "memberDotExpression": 2098,
+                "arguments": 2450,
+                "stringLiteral": 1901,
+                "objectLiteral": 8,
+                "propertyAssignment": 19,
+                "Array.prototype": 1,
+                "prototype": 1,
+                "anonymousFunction": 244,
+                "formalParameterList": 211,
+                "returnStatement": 42,
+                "valueProperty": 12,
+                "varModifier": 138,
+                "variableDeclaration": 289,
+                "appendChild": 18,
+                "RegExp": 355,
+                "remove": 43,
+                "memberIndexExpression": 132,
+                "replace": 20,
+                "ternaryExpression": 15,
+                "ifStatement": 12,
+                "thisExpression": 23,
+                "additiveExpression": 203,
+                "arrayLiteral": 57,
+                "elementList": 57,
+                "length": 88,
+                "message": 12,
+                "logicalOrExpression": 4,
+                "logicalAndExpression": 5,
+                "tryStatement": 6,
+                "toLowerCase": 25,
+                "split": 5,
+                "Object": 11,
+                "getProperty": 52,
+                "style": 1,
+                "equalityExpression": 14,
+                "toUpperCase": 19,
+                "push": 11,
+                "join": 12,
+                "toString": 2,
+                "slice": 4,
+                "filter": 3,
+                "Set": 12,
+                "setProperty": 18,
+                "replaceAll": 4,
+                "typeofExpression": 2,
+                "Map": 3,
+                "map": 3,
+                "exponentialLiteral": 1,
+                "postIncrementExpression": 7,
+                "removeEventListener": 2,
+                "iterationStatement": 2,
+                "forInStatement": 1,
+                "foreach": 2,
+                "throwStatement": 1,
+                "finallyProduction": 1
+            }
+        },
+        "input_dataset/jquery/test/unit/ready.js": {
+            "Levels": {
+                "B1": 76,
+                "A2": 95,
+                "A1": 115,
+                "B2": 7
+            },
+            "Class": {
+                "memberDotExpression": 76,
+                "arguments": 89,
+                "stringLiteral": 50,
+                "anonymousFunction": 18,
+                "varModifier": 7,
+                "variableDeclaration": 13,
+                "logicalAndExpression": 1,
+                "Date": 2,
+                "arrayLiteral": 3,
+                "elementList": 3,
+                "objectLiteral": 1,
+                "formalParameterList": 9,
+                "returnStatement": 1,
+                "push": 1,
+                "memberIndexExpression": 2,
+                "throwStatement": 1,
+                "additiveExpression": 2,
+                "then": 7,
+                "equalityExpression": 1,
+                "length": 1,
+                "shift": 3,
+                "ternaryExpression": 1,
+                "ifStatement": 1
+            }
+        },
+        "input_dataset/jquery/test/unit/exports.js": {
+            "Levels": {
+                "B1": 5,
+                "A2": 4,
+                "A1": 6
+            },
+            "Class": {
+                "memberDotExpression": 4,
+                "arguments": 4,
+                "stringLiteral": 3,
+                "objectLiteral": 1,
+                "propertyAssignment": 1,
+                "anonymousFunction": 1,
+                "formalParameterList": 1
+            }
+        },
+        "input_dataset/jquery/test/unit/wrap.js": {
+            "Levels": {
+                "A1": 463,
+                "A2": 448,
+                "B1": 363,
+                "C1": 42,
+                "B2": 6
+            },
+            "Class": {
+                "anonymousFunction": 25,
+                "ifStatement": 1,
+                "arguments": 410,
+                "stringLiteral": 276,
+                "returnStatement": 7,
+                "memberDotExpression": 358,
+                "objectLiteral": 1,
+                "propertyAssignment": 1,
+                "formalParameterList": 21,
+                "valueProperty": 2,
+                "varModifier": 16,
+                "variableDeclaration": 32,
+                "RegExp": 38,
+                "memberIndexExpression": 27,
+                "thisExpression": 4,
+                "length": 32,
+                "toUpperCase": 4,
+                "toLowerCase": 4,
+                "additiveExpression": 13,
+                "postIncrementExpression": 2,
+                "multiplicativeExpression": 1,
+                "getProperty": 40,
+                "remove": 3,
+                "style": 2,
+                "textContent": 1,
+                "appendChild": 1
+            }
+        },
+        "input_dataset/jquery/test/unit/ajax.js": {
+            "Levels": {
+                "B1": 1709,
+                "A2": 1285,
+                "A1": 2985,
+                "B2": 6,
+                "C1": 11
+            },
+            "Class": {
+                "memberDotExpression": 942,
+                "arguments": 1143,
+                "stringLiteral": 1244,
+                "objectLiteral": 250,
+                "propertyAssignment": 715,
+                "anonymousFunction": 458,
+                "thisExpression": 51,
+                "formalParameterList": 319,
+                "RegExp": 80,
+                "ifStatement": 13,
+                "logicalOrExpression": 8,
+                "logicalAndExpression": 2,
+                "returnStatement": 147,
+                "equalityExpression": 18,
+                "indexOf": 11,
+                "varModifier": 83,
+                "variableDeclaration": 103,
+                "arrayLiteral": 44,
+                "elementList": 44,
+                "additiveExpression": 153,
+                "ternaryExpression": 9,
+                "iterationStatement": 2,
+                "forInStatement": 1,
+                "push": 2,
+                "memberIndexExpression": 70,
+                "join": 1,
+                "replace": 7,
+                "XMLHttpRequest": 3,
+                "typeofExpression": 12,
+                "deleteExpression": 1,
+                "length": 18,
+                "postIncrementExpression": 5,
+                "assignmentOperator": 5,
+                "getProperty": 10,
+                "then": 3,
+                "Date": 1,
+                "tryStatement": 3,
+                "inExpression": 3,
+                "message": 1,
+                "instanceofExpression": 2,
+                "throwStatement": 3,
+                "toString": 1,
+                "Map": 2,
+                "map": 2,
+                "valueProperty": 1
+            }
+        },
+        "input_dataset/jquery/test/unit/offset.js": {
+            "Levels": {
+                "A1": 995,
+                "A2": 579,
+                "B1": 1216,
+                "B2": 17,
+                "C1": 2
+            },
+            "Class": {
+                "anonymousFunction": 55,
+                "ifStatement": 11,
+                "arguments": 537,
+                "stringLiteral": 430,
+                "returnStatement": 7,
+                "varModifier": 25,
+                "variableDeclaration": 53,
+                "memberDotExpression": 738,
+                "RegExp": 20,
+                "objectLiteral": 110,
+                "propertyAssignment": 304,
+                "formalParameterList": 39,
+                "logicalOrExpression": 2,
+                "style": 10,
+                "equalityExpression": 15,
+                "typeofExpression": 1,
+                "Object": 8,
+                "length": 12,
+                "remove": 7,
+                "arrayLiteral": 14,
+                "elementList": 14,
+                "thisExpression": 174,
+                "additiveExpression": 179,
+                "split": 1,
+                "valueProperty": 2,
+                "memberIndexExpression": 15,
+                "ternaryExpression": 4,
+                "logicalAndExpression": 3,
+                "iterationStatement": 1,
+                "breakStatement": 2,
+                "continueStatement": 1,
+                "assignmentOperator": 10,
+                "multiplicativeExpression": 1,
+                "Math": 2,
+                "floatLiteral": 2
+            }
+        },
+        "input_dataset/jquery/test/unit/css.js": {
+            "Levels": {
+                "A1": 2549,
+                "A2": 1543,
+                "B1": 1425,
+                "B2": 80,
+                "C1": 20
+            },
+            "Class": {
+                "ifStatement": 28,
+                "arguments": 1317,
+                "stringLiteral": 1538,
+                "memberDotExpression": 1192,
+                "objectLiteral": 73,
+                "propertyAssignment": 184,
+                "anonymousFunction": 91,
+                "formalParameterList": 76,
+                "varModifier": 88,
+                "variableDeclaration": 189,
+                "RegExp": 148,
+                "remove": 17,
+                "parseFloat": 28,
+                "split": 2,
+                "additiveExpression": 215,
+                "parseInt": 8,
+                "memberIndexExpression": 65,
+                "style": 61,
+                "logicalOrExpression": 5,
+                "equalityExpression": 10,
+                "typeofExpression": 3,
+                "ternaryExpression": 5,
+                "Math": 8,
+                "message": 3,
+                "multiplicativeExpression": 13,
+                "assignmentOperator": 17,
+                "returnStatement": 11,
+                "floatLiteral": 2,
+                "tryStatement": 3,
+                "arrayLiteral": 28,
+                "elementList": 28,
+                "postIncrementExpression": 14,
+                "thisExpression": 49,
+                "querySelector": 5,
+                "iterationStatement": 9,
+                "push": 10,
+                "join": 22,
+                "logicalAndExpression": 1,
+                "length": 5,
+                "forInStatement": 3,
+                "valueProperty": 20,
+                "Object": 1,
+                "replace": 6,
+                "toLowerCase": 2,
+                "Number": 4,
+                "toFixed": 4,
+                "appendChild": 2,
+                "inExpression": 4
+            }
+        },
+        "input_dataset/jquery/test/unit/effects.js": {
+            "Levels": {
+                "A1": 2839,
+                "A2": 1668,
+                "B1": 2141,
+                "B2": 66,
+                "C1": 67
+            },
+            "Class": {
+                "anonymousFunction": 302,
+                "ifStatement": 37,
+                "arguments": 1531,
+                "stringLiteral": 1157,
+                "returnStatement": 36,
+                "varModifier": 109,
+                "variableDeclaration": 248,
+                "memberDotExpression": 1624,
+                "objectLiteral": 184,
+                "propertyAssignment": 346,
+                "style": 46,
+                "thisExpression": 164,
+                "memberIndexExpression": 51,
+                "ternaryExpression": 18,
+                "formalParameterList": 162,
+                "length": 21,
+                "remove": 20,
+                "slice": 1,
+                "equalityExpression": 63,
+                "additiveExpression": 208,
+                "RegExp": 63,
+                "multiplicativeExpression": 121,
+                "querySelector": 2,
+                "arrayLiteral": 31,
+                "elementList": 31,
+                "valueProperty": 31,
+                "floatLiteral": 15,
+                "parseFloat": 21,
+                "push": 3,
+                "postIncrementExpression": 31,
+                "deleteExpression": 7,
+                "logicalOrExpression": 13,
+                "Constructor": 6,
+                "Number": 6,
+                "assignmentOperator": 4,
+                "indexOf": 2,
+                "logicalAndExpression": 9,
+                "filter": 1,
+                "toLowerCase": 2,
+                "parseInt": 1,
+                "throwStatement": 1,
+                "Map": 4,
+                "map": 4,
+                "Date": 4,
+                "iterationStatement": 2,
+                "forInStatement": 1,
+                "getProperty": 36,
+                "typeofExpression": 1
+            }
+        },
+        "input_dataset/jquery/test/unit/deprecated.js": {
+            "Levels": {
+                "B1": 128,
+                "A2": 129,
+                "A1": 198,
+                "B2": 4,
+                "C2": 7
+            },
+            "Class": {
+                "memberDotExpression": 106,
+                "arguments": 120,
+                "stringLiteral": 98,
+                "objectLiteral": 7,
+                "propertyAssignment": 17,
+                "ifStatement": 2,
+                "RegExp": 6,
+                "anonymousFunction": 24,
+                "formalParameterList": 16,
+                "varModifier": 8,
+                "variableDeclaration": 19,
+                "toLowerCase": 2,
+                "arrayLiteral": 2,
+                "elementList": 2,
+                "remove": 3,
+                "preIncrementExpression": 2,
+                "thisExpression": 5,
+                "length": 2,
+                "memberIndexExpression": 5,
+                "returnStatement": 3,
+                "postIncrementExpression": 2,
+                "additiveExpression": 4,
+                "split": 1,
+                "Proxy": 7,
+                "Array.prototype": 1,
+                "prototype": 1,
+                "join": 1
+            }
+        },
+        "input_dataset/jquery/test/unit/selector.js": {
+            "Levels": {
+                "B1": 1582,
+                "A2": 2209,
+                "A1": 4079,
+                "C1": 174,
+                "B2": 20
+            },
+            "Class": {
+                "memberDotExpression": 1539,
+                "arguments": 1620,
+                "stringLiteral": 2961,
+                "objectLiteral": 13,
+                "propertyAssignment": 29,
+                "anonymousFunction": 78,
+                "thisExpression": 8,
+                "RegExp": 63,
+                "formalParameterList": 72,
+                "varModifier": 51,
+                "variableDeclaration": 98,
+                "length": 70,
+                "getProperty": 174,
+                "arrayLiteral": 460,
+                "elementList": 460,
+                "ifStatement": 49,
+                "iterationStatement": 7,
+                "postIncrementExpression": 4,
+                "equalityExpression": 8,
+                "memberIndexExpression": 49,
+                "filter": 31,
+                "additiveExpression": 89,
+                "remove": 7,
+                "appendChild": 12,
+                "assignmentOperator": 1,
+                "ternaryExpression": 10,
+                "setAttribute": 6,
+                "logicalOrExpression": 15,
+                "replace": 1,
+                "focus": 4,
+                "logicalAndExpression": 5,
+                "message": 21,
+                "split": 2,
+                "toUpperCase": 1,
+                "returnStatement": 9,
+                "join": 1,
+                "slice": 13,
+                "push": 2,
+                "prototype": 1,
+                "instanceofExpression": 1,
+                "tryStatement": 7,
+                "finallyProduction": 6,
+                "deleteExpression": 6
+            }
+        },
+        "input_dataset/jquery/test/unit/callbacks.js": {
+            "Levels": {
+                "B1": 236,
+                "A2": 224,
+                "A1": 310,
+                "B2": 4
+            },
+            "Class": {
+                "memberDotExpression": 214,
+                "arguments": 218,
+                "stringLiteral": 136,
+                "objectLiteral": 6,
+                "propertyAssignment": 17,
+                "anonymousFunction": 42,
+                "ifStatement": 3,
+                "returnStatement": 10,
+                "varModifier": 10,
+                "variableDeclaration": 27,
+                "formalParameterList": 24,
+                "assignmentOperator": 15,
+                "thisExpression": 5,
+                "equalityExpression": 1,
+                "typeofExpression": 1,
+                "additiveExpression": 10,
+                "arrayLiteral": 3,
+                "elementList": 3,
+                "iterationStatement": 1,
+                "forInStatement": 1,
+                "push": 1,
+                "memberIndexExpression": 4,
+                "join": 2,
+                "split": 2,
+                "length": 2,
+                "RegExp": 1,
+                "Array.prototype": 1,
+                "prototype": 1,
+                "remove": 3,
+                "shift": 9,
+                "postIncrementExpression": 1
+            }
+        },
+        "input_dataset/jquery/test/unit/core.js": {
+            "Levels": {
+                "B1": 1293,
+                "A2": 1251,
+                "A1": 1803,
+                "B2": 15,
+                "C1": 68
+            },
+            "Class": {
+                "memberDotExpression": 1048,
+                "arguments": 1012,
+                "stringLiteral": 841,
+                "objectLiteral": 127,
+                "propertyAssignment": 234,
+                "anonymousFunction": 122,
+                "thisExpression": 8,
+                "returnStatement": 21,
+                "formalParameterList": 97,
+                "Array.prototype": 1,
+                "prototype": 5,
+                "push": 3,
+                "RegExp": 67,
+                "varModifier": 45,
+                "variableDeclaration": 123,
+                "ifStatement": 16,
+                "postIncrementExpression": 7,
+                "memberIndexExpression": 133,
+                "assignmentOperator": 3,
+                "length": 50,
+                "getProperty": 64,
+                "tryStatement": 12,
+                "arrayLiteral": 89,
+                "elementList": 89,
+                "toLowerCase": 8,
+                "style": 4,
+                "remove": 2,
+                "iterationStatement": 10,
+                "preIncrementExpression": 2,
+                "ternaryExpression": 5,
+                "additiveExpression": 40,
+                "Date": 4,
+                "appendChild": 4,
+                "Object": 9,
+                "Constructor": 5,
+                "logicalAndExpression": 8,
+                "logicalOrExpression": 2,
+                "localStorage": 1,
+                "deleteExpression": 3,
+                "toUpperCase": 5,
+                "equalityExpression": 19,
+                "join": 12,
+                "slice": 6,
+                "Map": 18,
+                "map": 18,
+                "forInStatement": 6,
+                "multiplicativeExpression": 3,
+                "valueProperty": 4,
+                "Number": 1,
+                "parseInt": 1,
+                "typeofExpression": 3,
+                "inExpression": 1,
+                "message": 6,
+                "indexOf": 1,
+                "throwStatement": 2
+            }
+        },
+        "input_dataset/jquery/test/unit/event.js": {
+            "Levels": {
+                "B1": 2017,
+                "A2": 2221,
+                "A1": 3254,
+                "B2": 43,
+                "C1": 4
+            },
+            "Class": {
+                "memberDotExpression": 1933,
+                "arguments": 2077,
+                "stringLiteral": 1903,
+                "objectLiteral": 31,
+                "propertyAssignment": 44,
+                "anonymousFunction": 376,
+                "focus": 14,
+                "formalParameterList": 218,
+                "tryStatement": 11,
+                "varModifier": 106,
+                "variableDeclaration": 244,
+                "RegExp": 93,
+                "assignmentOperator": 16,
+                "additiveExpression": 66,
+                "thisExpression": 36,
+                "toLowerCase": 1,
+                "filter": 3,
+                "ifStatement": 27,
+                "equalityExpression": 19,
+                "remove": 38,
+                "memberIndexExpression": 84,
+                "arrayLiteral": 11,
+                "elementList": 11,
+                "postIncrementExpression": 50,
+                "preIncrementExpression": 2,
+                "floatLiteral": 1,
+                "deleteExpression": 4,
+                "logicalOrExpression": 10,
+                "addEventListener": 6,
+                "removeEventListener": 3,
+                "stopPropagation": 8,
+                "returnStatement": 22,
+                "shift": 1,
+                "push": 2,
+                "join": 2,
+                "logicalAndExpression": 10,
+                "message": 8,
+                "throwStatement": 1,
+                "getProperty": 4,
+                "style": 2,
+                "length": 2,
+                "ternaryExpression": 8,
+                "inExpression": 10,
+                "toUpperCase": 1,
+                "finallyProduction": 2,
+                "appendChild": 1,
+                "Map": 2,
+                "map": 2,
+                "replace": 1,
+                "prototype": 2,
+                "iterationStatement": 1,
+                "forInStatement": 1,
+                "multiplicativeExpression": 1,
+                "typeofExpression": 3,
+                "slice": 4
+            }
+        },
+        "input_dataset/jquery/test/unit/queue.js": {
+            "Levels": {
+                "B1": 191,
+                "A2": 225,
+                "A1": 325
+            },
+            "Class": {
+                "memberDotExpression": 179,
+                "arguments": 221,
+                "stringLiteral": 124,
+                "objectLiteral": 13,
+                "propertyAssignment": 7,
+                "anonymousFunction": 58,
+                "ifStatement": 2,
+                "returnStatement": 1,
+                "formalParameterList": 32,
+                "varModifier": 24,
+                "variableDeclaration": 36,
+                "preIncrementExpression": 14,
+                "thisExpression": 5,
+                "length": 5,
+                "RegExp": 4,
+                "postIncrementExpression": 10,
+                "equalityExpression": 1,
+                "typeofExpression": 1,
+                "memberIndexExpression": 2,
+                "ternaryExpression": 2
+            }
+        },
+        "input_dataset/jquery/test/unit/basic.js": {
+            "Levels": {
+                "B1": 252,
+                "A2": 297,
+                "A1": 385,
+                "C1": 4
+            },
+            "Class": {
+                "memberDotExpression": 233,
+                "arguments": 245,
+                "stringLiteral": 232,
+                "objectLiteral": 11,
+                "propertyAssignment": 19,
+                "ifStatement": 11,
+                "anonymousFunction": 22,
+                "formalParameterList": 19,
+                "varModifier": 14,
+                "variableDeclaration": 18,
+                "RegExp": 38,
+                "additiveExpression": 4,
+                "replace": 1,
+                "length": 9,
+                "arrayLiteral": 12,
+                "elementList": 12,
+                "getProperty": 2,
+                "memberIndexExpression": 26,
+                "Map": 1,
+                "map": 1,
+                "returnStatement": 2,
+                "equalityExpression": 1,
+                "multiplicativeExpression": 2,
+                "valueProperty": 2,
+                "ternaryExpression": 1
+            }
+        },
+        "input_dataset/jquery/test/unit/serialize.js": {
+            "Levels": {
+                "B1": 214,
+                "A2": 171,
+                "A1": 265,
+                "B2": 1
+            },
+            "Class": {
+                "memberDotExpression": 88,
+                "arguments": 99,
+                "stringLiteral": 122,
+                "objectLiteral": 52,
+                "propertyAssignment": 125,
+                "anonymousFunction": 6,
+                "formalParameterList": 4,
+                "varModifier": 3,
+                "variableDeclaration": 5,
+                "arrayLiteral": 67,
+                "elementList": 67,
+                "returnStatement": 1,
+                "memberIndexExpression": 1,
+                "ternaryExpression": 1,
+                "thisExpression": 1,
+                "Number": 1,
+                "Date": 1,
+                "additiveExpression": 2,
+                "RegExp": 4,
+                "remove": 1
+            }
+        },
+        "input_dataset/jquery/test/jquery.js": {
+            "Levels": {
+                "A1": 97,
+                "A2": 28,
+                "B1": 39
+            },
+            "Class": {
+                "anonymousFunction": 2,
+                "varModifier": 2,
+                "variableDeclaration": 9,
+                "RegExp": 10,
+                "stringLiteral": 34,
+                "memberIndexExpression": 5,
+                "memberDotExpression": 29,
+                "arrayLiteral": 3,
+                "elementList": 3,
+                "slice": 1,
+                "arguments": 14,
+                "ternaryExpression": 3,
+                "logicalAndExpression": 3,
+                "additiveExpression": 17,
+                "replace": 2,
+                "Object": 1,
+                "ifStatement": 5,
+                "foreach": 1,
+                "formalParameterList": 1,
+                "equalityExpression": 2,
+                "returnStatement": 1,
+                "push": 1,
+                "objectLiteral": 4,
+                "propertyAssignment": 10,
+                "typeofExpression": 1
+            }
+        },
+        "input_dataset/jquery/test/data/core/jquery-iterability-transpiled-es6.js": {
+            "Levels": {
+                "A2": 5,
+                "A1": 12,
+                "B1": 1
+            },
+            "Class": {
+                "arguments": 3,
+                "anonymousFunction": 1,
+                "stringLiteral": 3,
+                "varModifier": 3,
+                "variableDeclaration": 3,
+                "RegExp": 1,
+                "iterationStatement": 1,
+                "ForOfStatement": 1,
+                "assignmentOperator": 1,
+                "memberDotExpression": 1
+            }
+        },
+        "input_dataset/jquery/test/data/trusted-types-attributes.js": {
+            "Levels": {
+                "B1": 1,
+                "A1": 1
+            },
+            "Class": {
+                "memberDotExpression": 1,
+                "stringLiteral": 1
+            }
+        },
+        "input_dataset/jquery/test/data/manipulation/set-global-scripttest.js": {
+            "Levels": {
+                "B1": 2,
+                "A2": 1
+            },
+            "Class": {
+                "memberDotExpression": 2,
+                "arguments": 1
+            }
+        },
+        "input_dataset/jquery/test/data/testinit.js": {
+            "Levels": {
+                "A1": 313,
+                "A2": 158,
+                "B1": 180,
+                "C1": 6,
+                "B2": 4
+            },
+            "Class": {
+                "stringLiteral": 85,
+                "varModifier": 19,
+                "variableDeclaration": 35,
+                "RegExp": 38,
+                "memberIndexExpression": 6,
+                "memberDotExpression": 155,
+                "arrayLiteral": 9,
+                "elementList": 9,
+                "slice": 3,
+                "arguments": 96,
+                "ternaryExpression": 4,
+                "logicalAndExpression": 5,
+                "additiveExpression": 23,
+                "replace": 3,
+                "thisExpression": 17,
+                "equalityExpression": 11,
+                "anonymousFunction": 30,
+                "iterationStatement": 1,
+                "length": 2,
+                "postIncrementExpression": 2,
+                "push": 1,
+                "returnStatement": 12,
+                "formalParameterList": 18,
+                "message": 6,
+                "getProperty": 2,
+                "ifStatement": 21,
+                "valueProperty": 4,
+                "Date": 2,
+                "parseInt": 1,
+                "multiplicativeExpression": 1,
+                "Math": 1,
+                "typeofExpression": 2,
+                "logicalOrExpression": 9,
+                "deleteExpression": 2,
+                "Map": 2,
+                "map": 2,
+                "objectLiteral": 2,
+                "propertyAssignment": 6,
+                "Array.prototype": 1,
+                "prototype": 1,
+                "unshift": 1,
+                "remove": 1,
+                "then": 2,
+                "indexOf": 5,
+                "split": 2,
+                "filter": 1
+            }
+        },
+        "input_dataset/jquery/test/data/module.js": {
+            "Levels": {
+                "B1": 2,
+                "A2": 1,
+                "A1": 1
+            },
+            "Class": {
+                "memberDotExpression": 2,
+                "arguments": 1,
+                "stringLiteral": 1
+            }
+        },
+        "input_dataset/jquery/test/data/iframeTest.js": {
+            "Levels": {
+                "B1": 9,
+                "A1": 5,
+                "A2": 5,
+                "B2": 1
+            },
+            "Class": {
+                "memberDotExpression": 9,
+                "anonymousFunction": 1,
+                "varModifier": 1,
+                "variableDeclaration": 1,
+                "Array.prototype": 1,
+                "prototype": 1,
+                "slice": 1,
+                "arguments": 4,
+                "unshift": 1
+            }
+        },
+        "input_dataset/jquery/test/data/testrunner.js": {
+            "Levels": {
+                "A1": 50,
+                "B1": 42,
+                "A2": 23,
+                "B2": 2
+            },
+            "Class": {
+                "anonymousFunction": 7,
+                "stringLiteral": 8,
+                "varModifier": 3,
+                "variableDeclaration": 5,
+                "splice": 3,
+                "memberDotExpression": 38,
+                "arrayLiteral": 1,
+                "elementList": 1,
+                "exponentialLiteral": 1,
+                "formalParameterList": 2,
+                "ifStatement": 4,
+                "logicalAndExpression": 2,
+                "equalityExpression": 3,
+                "length": 3,
+                "arguments": 20,
+                "remove": 2,
+                "objectLiteral": 4,
+                "deleteExpression": 2,
+                "returnStatement": 1,
+                "propertyAssignment": 2,
+                "memberIndexExpression": 3,
+                "iterationStatement": 1,
+                "forInStatement": 1
+            }
+        },
+        "input_dataset/jquery/test/data/testinit-jsdom.js": {
+            "Levels": {
+                "A1": 44,
+                "B1": 31,
+                "A2": 21,
+                "C1": 4
+            },
+            "Class": {
+                "stringLiteral": 12,
+                "memberDotExpression": 26,
+                "varModifier": 5,
+                "variableDeclaration": 5,
+                "RegExp": 7,
+                "ternaryExpression": 2,
+                "logicalAndExpression": 1,
+                "additiveExpression": 8,
+                "replace": 2,
+                "arguments": 12,
+                "thisExpression": 5,
+                "formalParameterList": 1,
+                "returnStatement": 2,
+                "valueProperty": 4,
+                "Date": 1,
+                "parseInt": 1,
+                "multiplicativeExpression": 1,
+                "Math": 1,
+                "anonymousFunction": 3,
+                "addEventListener": 1
+            }
+        },
+        "input_dataset/jquery/test/data/json_obj.js": {
+            "Levels": {
+                "A1": 4
+            },
+            "Class": {
+                "stringLiteral": 4
+            }
+        },
+        "input_dataset/jquery/test/data/badjson.js": {
+            "Levels": {
+                "A2": 1
+            },
+            "Class": {
+                "labelledStatement": 1
+            }
+        },
+        "input_dataset/jquery/test/data/jquery-1.9.1.js": {
+            "Levels": {
+                "A1": 8710,
+                "B1": 4393,
+                "A2": 2361,
+                "B2": 143,
+                "C1": 364,
+                "C2": 5
+            },
+            "Class": {
+                "anonymousFunction": 513,
+                "formalParameterList": 455,
+                "varModifier": 264,
+                "variableDeclaration": 959,
+                "typeofExpression": 87,
+                "memberDotExpression": 3374,
+                "objectLiteral": 215,
+                "arrayLiteral": 178,
+                "elementList": 178,
+                "stringLiteral": 1023,
+                "push": 62,
+                "slice": 39,
+                "indexOf": 21,
+                "toString": 1,
+                "returnStatement": 568,
+                "arguments": 1811,
+                "RegExp": 138,
+                "toUpperCase": 3,
+                "ifStatement": 797,
+                "logicalOrExpression": 441,
+                "addEventListener": 8,
+                "equalityExpression": 611,
+                "removeEventListener": 6,
+                "prototype": 11,
+                "propertyAssignment": 565,
+                "Constructor": 7,
+                "thisExpression": 430,
+                "logicalAndExpression": 424,
+                "additiveExpression": 297,
+                "length": 215,
+                "memberIndexExpression": 738,
+                "ternaryExpression": 277,
+                "instanceofExpression": 2,
+                "iterationStatement": 171,
+                "forInStatement": 40,
+                "Map": 25,
+                "map": 25,
+                "splice": 12,
+                "postIncrementExpression": 86,
+                "continueStatement": 7,
+                "parseFloat": 8,
+                "tryStatement": 23,
+                "throwStatement": 3,
+                "remove": 14,
+                "replace": 43,
+                "toLowerCase": 38,
+                "valueProperty": 313,
+                "breakStatement": 16,
+                "Object": 4,
+                "Math": 8,
+                "inExpression": 29,
+                "Proxy": 5,
+                "Date": 2,
+                "split": 14,
+                "shift": 9,
+                "then": 2,
+                "setAttribute": 11,
+                "appendChild": 11,
+                "style": 104,
+                "deleteExpression": 21,
+                "pop": 9,
+                "unshift": 9,
+                "setter": 3,
+                "assignmentOperator": 25,
+                "getProperty": 28,
+                "setProperty": 23,
+                "Set": 27,
+                "parseInt": 1,
+                "join": 8,
+                "stopPropagation": 5,
+                "filter": 36,
+                "focus": 4,
+                "finallyProduction": 2,
+                "textContent": 5,
+                "multiplicativeExpression": 14,
+                "preIncrementExpression": 10,
+                "floatLiteral": 3,
+                "replaceAll": 1,
+                "XMLHttpRequest": 1
+            }
+        },
+        "input_dataset/jquery/test/data/badcall.js": {
+            "Levels": {
+                "A2": 1
+            },
+            "Class": {
+                "arguments": 1
+            }
+        },
+        "input_dataset/jquery/test/data/inner_nomodule.js": {
+            "Levels": {
+                "B1": 3,
+                "A2": 1,
+                "A1": 1
+            },
+            "Class": {
+                "memberDotExpression": 3,
+                "arguments": 1,
+                "stringLiteral": 1
+            }
+        },
+        "input_dataset/jquery/test/data/csp-nonce-external.js": {
+            "Levels": {
+                "A2": 4,
+                "A1": 3,
+                "B1": 1
+            },
+            "Class": {
+                "arguments": 3,
+                "anonymousFunction": 1,
+                "memberDotExpression": 1,
+                "stringLiteral": 2,
+                "RegExp": 1
+            }
+        },
+        "input_dataset/jquery/test/data/csp-ajax-script-downloaded.js": {
+            "Levels": {
+                "B1": 1
+            },
+            "Class": {
+                "memberDotExpression": 1
+            }
+        },
+        "input_dataset/jquery/test/data/csp-nonce.js": {
+            "Levels": {
+                "A2": 5,
+                "A1": 8,
+                "B1": 5
+            },
+            "Class": {
+                "arguments": 5,
+                "anonymousFunction": 1,
+                "varModifier": 1,
+                "variableDeclaration": 1,
+                "memberDotExpression": 5,
+                "stringLiteral": 4,
+                "setAttribute": 1
+            }
+        },
+        "input_dataset/jquery/test/data/nomodule.js": {
+            "Levels": {
+                "B1": 3,
+                "A2": 1,
+                "A1": 1
+            },
+            "Class": {
+                "memberDotExpression": 3,
+                "arguments": 1,
+                "stringLiteral": 1
+            }
+        },
+        "input_dataset/jquery/test/data/csp-nonce-globaleval.js": {
+            "Levels": {
+                "A2": 2,
+                "A1": 4,
+                "B1": 2
+            },
+            "Class": {
+                "arguments": 2,
+                "anonymousFunction": 1,
+                "memberDotExpression": 1,
+                "stringLiteral": 2,
+                "objectLiteral": 1,
+                "propertyAssignment": 1
+            }
+        },
+        "input_dataset/jquery/test/data/support/getComputedSupport.js": {
+            "Levels": {
+                "A1": 16,
+                "A2": 2
+            },
+            "Class": {
+                "formalParameterList": 1,
+                "varModifier": 1,
+                "variableDeclaration": 2,
+                "objectLiteral": 1,
+                "iterationStatement": 1,
+                "forInStatement": 1,
+                "ifStatement": 1,
+                "equalityExpression": 1,
+                "typeofExpression": 1,
+                "memberIndexExpression": 5,
+                "stringLiteral": 1,
+                "arguments": 1,
+                "returnStatement": 1
+            }
+        },
+        "input_dataset/jquery/test/data/support/csp.js": {
+            "Levels": {
+                "A2": 3,
+                "A1": 1,
+                "B1": 1
+            },
+            "Class": {
+                "arguments": 3,
+                "anonymousFunction": 1,
+                "memberDotExpression": 1
+            }
+        },
+        "input_dataset/jquery/test/data/inner_module.js": {
+            "Levels": {
+                "B1": 2,
+                "A2": 1,
+                "A1": 1
+            },
+            "Class": {
+                "memberDotExpression": 2,
+                "arguments": 1,
+                "stringLiteral": 1
+            }
+        },
+        "input_dataset/jquery/test/data/csp-ajax-script.js": {
+            "Levels": {
+                "A1": 11,
+                "A2": 7,
+                "B1": 8,
+                "B2": 1
+            },
+            "Class": {
+                "varModifier": 1,
+                "variableDeclaration": 2,
+                "arguments": 7,
+                "memberDotExpression": 4,
+                "anonymousFunction": 3,
+                "objectLiteral": 1,
+                "propertyAssignment": 4,
+                "stringLiteral": 3,
+                "formalParameterList": 1,
+                "then": 1
+            }
+        },
+        "input_dataset/jquery/build/tasks/sourcemap.js": {
+            "Levels": {
+                "A1": 19,
+                "A2": 10,
+                "B1": 9
+            },
+            "Class": {
+                "stringLiteral": 6,
+                "varModifier": 4,
+                "variableDeclaration": 4,
+                "arguments": 8,
+                "memberDotExpression": 9,
+                "anonymousFunction": 2,
+                "formalParameterList": 1,
+                "memberIndexExpression": 1,
+                "Object": 1,
+                "replace": 1,
+                "RegExp": 1
+            }
+        },
+        "input_dataset/jquery/build/tasks/node_smoke_tests.js": {
+            "Levels": {
+                "A1": 32,
+                "B1": 13,
+                "A2": 20
+            },
+            "Class": {
+                "stringLiteral": 6,
+                "memberDotExpression": 12,
+                "anonymousFunction": 4,
+                "arrowFunctionParameters": 3,
+                "formalParameterList": 3,
+                "varModifier": 5,
+                "variableDeclaration": 5,
+                "arguments": 14,
+                "RegExp": 4,
+                "arrayLiteral": 1,
+                "elementList": 1,
+                "filter": 1,
+                "logicalAndExpression": 1,
+                "additiveExpression": 1,
+                "foreach": 1,
+                "replace": 1,
+                "thisExpression": 1,
+                "push": 1
+            }
+        },
+        "input_dataset/jquery/build/tasks/amd.js": {
+            "Levels": {
+                "A1": 42,
+                "B1": 18,
+                "A2": 17,
+                "B2": 2
+            },
+            "Class": {
+                "stringLiteral": 16,
+                "memberDotExpression": 12,
+                "anonymousFunction": 3,
+                "formalParameterList": 1,
+                "varModifier": 10,
+                "variableDeclaration": 10,
+                "arguments": 15,
+                "objectLiteral": 2,
+                "propertyAssignment": 5,
+                "RegExp": 1,
+                "thisExpression": 1,
+                "tryStatement": 1,
+                "awaitExpression": 2
+            }
+        },
+        "input_dataset/jquery/build/tasks/lib/slim-build-flags.js": {
+            "Levels": {
+                "A1": 7,
+                "B1": 1,
+                "A2": 1
+            },
+            "Class": {
+                "stringLiteral": 6,
+                "memberDotExpression": 1,
+                "arrayLiteral": 1,
+                "elementList": 1
+            }
+        },
+        "input_dataset/jquery/build/tasks/lib/spawn_test.js": {
+            "Levels": {
+                "A1": 12,
+                "B1": 5,
+                "A2": 4
+            },
+            "Class": {
+                "stringLiteral": 4,
+                "memberDotExpression": 3,
+                "anonymousFunction": 2,
+                "formalParameterList": 2,
+                "varModifier": 1,
+                "variableDeclaration": 1,
+                "arguments": 4,
+                "objectLiteral": 1,
+                "propertyAssignment": 2,
+                "equalityExpression": 1
+            }
+        },
+        "input_dataset/jquery/build/tasks/lib/rollup-plugin-file-overrides.js": {
+            "Levels": {
+                "A1": 11,
+                "B1": 5,
+                "A2": 2,
+                "C1": 2
+            },
+            "Class": {
+                "stringLiteral": 2,
+                "memberDotExpression": 3,
+                "anonymousFunction": 1,
+                "arrowFunctionParameters": 1,
+                "formalParameterList": 2,
+                "returnStatement": 3,
+                "objectLiteral": 1,
+                "propertyAssignment": 2,
+                "ifStatement": 1,
+                "arguments": 2,
+                "getProperty": 2
+            }
+        },
+        "input_dataset/jquery/build/tasks/promises_aplus_tests.js": {
+            "Levels": {
+                "A1": 38,
+                "B1": 8,
+                "A2": 14
+            },
+            "Class": {
+                "stringLiteral": 17,
+                "memberDotExpression": 6,
+                "anonymousFunction": 3,
+                "arrowFunctionParameters": 1,
+                "varModifier": 2,
+                "variableDeclaration": 2,
+                "arguments": 8,
+                "RegExp": 5,
+                "arrayLiteral": 1,
+                "elementList": 1,
+                "thisExpression": 2,
+                "additiveExpression": 12
+            }
+        },
+        "input_dataset/jquery/build/tasks/dist.js": {
+            "Levels": {
+                "A1": 84,
+                "B1": 35,
+                "A2": 37
+            },
+            "Class": {
+                "stringLiteral": 25,
+                "memberDotExpression": 34,
+                "anonymousFunction": 5,
+                "formalParameterList": 4,
+                "varModifier": 4,
+                "variableDeclaration": 11,
+                "arguments": 25,
+                "arrayLiteral": 2,
+                "elementList": 2,
+                "additiveExpression": 14,
+                "RegExp": 7,
+                "replace": 3,
+                "Object": 2,
+                "thisExpression": 1,
+                "filter": 1,
+                "returnStatement": 2,
+                "equalityExpression": 2,
+                "foreach": 2,
+                "ifStatement": 4,
+                "length": 2,
+                "iterationStatement": 1,
+                "postIncrementExpression": 1,
+                "breakStatement": 1,
+                "assignmentOperator": 1
+            }
+        },
+        "input_dataset/jquery/build/tasks/build.js": {
+            "Levels": {
+                "A1": 279,
+                "B1": 124,
+                "A2": 120,
+                "C1": 6,
+                "B2": 3
+            },
+            "Class": {
+                "stringLiteral": 65,
+                "memberDotExpression": 106,
+                "anonymousFunction": 8,
+                "formalParameterList": 7,
+                "varModifier": 39,
+                "variableDeclaration": 39,
+                "arguments": 85,
+                "RegExp": 17,
+                "returnStatement": 4,
+                "split": 2,
+                "objectLiteral": 6,
+                "propertyAssignment": 9,
+                "memberIndexExpression": 11,
+                "replace": 8,
+                "Map": 2,
+                "map": 2,
+                "getProperty": 2,
+                "setProperty": 4,
+                "Set": 2,
+                "additiveExpression": 18,
+                "thisExpression": 6,
+                "tryStatement": 2,
+                "arrayLiteral": 5,
+                "elementList": 5,
+                "logicalAndExpression": 2,
+                "equalityExpression": 9,
+                "Object": 1,
+                "length": 5,
+                "deleteExpression": 2,
+                "ifStatement": 20,
+                "iterationStatement": 3,
+                "ForOfStatement": 2,
+                "arrowFunctionParameters": 3,
+                "reservedWord": 1,
+                "ternaryExpression": 6,
+                "foreach": 1,
+                "indexOf": 4,
+                "push": 3,
+                "logicalOrExpression": 1,
+                "remove": 1,
+                "include": 3,
+                "assignmentOperator": 3,
+                "forInStatement": 1,
+                "splice": 1,
+                "join": 3,
+                "awaitExpression": 2,
+                "Date": 1
+            }
+        },
+        "input_dataset/jquery/build/tasks/testswarm.js": {
+            "Levels": {
+                "A1": 66,
+                "B1": 37,
+                "A2": 23
+            },
+            "Class": {
+                "stringLiteral": 15,
+                "memberDotExpression": 27,
+                "anonymousFunction": 4,
+                "formalParameterList": 4,
+                "arguments": 15,
+                "varModifier": 1,
+                "variableDeclaration": 7,
+                "objectLiteral": 4,
+                "thisExpression": 2,
+                "RegExp": 7,
+                "logicalOrExpression": 3,
+                "memberIndexExpression": 5,
+                "ifStatement": 4,
+                "equalityExpression": 2,
+                "multiplicativeExpression": 2,
+                "arrayLiteral": 1,
+                "elementList": 1,
+                "additiveExpression": 13,
+                "foreach": 1,
+                "propertyAssignment": 8
+            }
+        },
+        "input_dataset/jquery/build/tasks/qunit_fixture.js": {
+            "Levels": {
+                "A1": 26,
+                "A2": 12,
+                "B1": 9
+            },
+            "Class": {
+                "stringLiteral": 12,
+                "varModifier": 2,
+                "variableDeclaration": 2,
+                "arguments": 8,
+                "memberDotExpression": 9,
+                "anonymousFunction": 2,
+                "formalParameterList": 1,
+                "RegExp": 4,
+                "additiveExpression": 5,
+                "toString": 1,
+                "replace": 1
+            }
+        },
+        "input_dataset/jquery/build/release.js": {
+            "Levels": {
+                "A1": 54,
+                "A2": 30,
+                "B1": 26
+            },
+            "Class": {
+                "stringLiteral": 22,
+                "varModifier": 7,
+                "variableDeclaration": 7,
+                "arguments": 17,
+                "memberDotExpression": 20,
+                "anonymousFunction": 6,
+                "formalParameterList": 4,
+                "arrayLiteral": 3,
+                "elementList": 3,
+                "RegExp": 10,
+                "replace": 1,
+                "objectLiteral": 1,
+                "propertyAssignment": 6,
+                "additiveExpression": 1,
+                "logicalOrExpression": 1,
+                "returnStatement": 1
+            }
+        },
+        "input_dataset/jquery/build/release/cdn.js": {
+            "Levels": {
+                "A1": 129,
+                "A2": 66,
+                "B1": 47
+            },
+            "Class": {
+                "stringLiteral": 53,
+                "varModifier": 3,
+                "variableDeclaration": 16,
+                "arguments": 41,
+                "RegExp": 19,
+                "objectLiteral": 3,
+                "propertyAssignment": 9,
+                "arrayLiteral": 2,
+                "elementList": 2,
+                "formalParameterList": 9,
+                "memberDotExpression": 38,
+                "Object": 1,
+                "foreach": 2,
+                "anonymousFunction": 5,
+                "memberIndexExpression": 1,
+                "replace": 6,
+                "additiveExpression": 20,
+                "ifStatement": 3,
+                "equalityExpression": 1,
+                "returnStatement": 2,
+                "throwStatement": 1,
+                "Map": 1,
+                "map": 1,
+                "ternaryExpression": 1,
+                "join": 1,
+                "push": 1
+            }
+        },
+        "input_dataset/jquery/build/release/dist.js": {
+            "Levels": {
+                "A1": 92,
+                "B1": 109,
+                "A2": 56,
+                "B2": 5
+            },
+            "Class": {
+                "stringLiteral": 42,
+                "memberDotExpression": 99,
+                "anonymousFunction": 5,
+                "formalParameterList": 4,
+                "varModifier": 10,
+                "variableDeclaration": 10,
+                "arguments": 45,
+                "replace": 3,
+                "RegExp": 3,
+                "arrayLiteral": 5,
+                "elementList": 5,
+                "returnStatement": 2,
+                "objectLiteral": 4,
+                "propertyAssignment": 10,
+                "asyncExpression": 1,
+                "awaitExpression": 4,
+                "Map": 1,
+                "map": 1,
+                "arrowFunctionParameters": 1,
+                "prompt": 1,
+                "message": 1,
+                "foreach": 2,
+                "push": 2,
+                "ternaryExpression": 1
+            }
+        },
+        "input_dataset/jquery/Gruntfile.js": {
+            "Levels": {
+                "A1": 335,
+                "B1": 194,
+                "A2": 152,
+                "B2": 1
+            },
+            "Class": {
+                "stringLiteral": 174,
+                "memberDotExpression": 44,
+                "anonymousFunction": 6,
+                "formalParameterList": 5,
+                "varModifier": 9,
+                "variableDeclaration": 9,
+                "arguments": 49,
+                "objectLiteral": 61,
+                "tryStatement": 1,
+                "propertyAssignment": 150,
+                "returnStatement": 3,
+                "RegExp": 56,
+                "logicalAndExpression": 1,
+                "split": 2,
+                "ternaryExpression": 4,
+                "additiveExpression": 4,
+                "ifStatement": 2,
+                "arrayLiteral": 41,
+                "elementList": 41,
+                "length": 1,
+                "remove": 1,
+                "include": 1,
+                "filter": 1,
+                "arrowFunctionParameters": 4,
+                "Map": 1,
+                "map": 1,
+                "equalityExpression": 1,
+                "memberIndexExpression": 1,
+                "slice": 1,
+                "exponentialLiteral": 1,
+                "multiplicativeExpression": 1,
+                "logicalOrExpression": 3,
+                "lastFormalParameterArg": 1,
+                "join": 1
+            }
+        }
+    }
+}

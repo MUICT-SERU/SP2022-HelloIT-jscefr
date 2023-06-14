@@ -1,0 +1,20 @@
+{
+    "yarn": {
+        "tree-helper.js": {
+            "Levels": {
+                "B1": 1
+            },
+            "Class": {
+                "importStatement": 1
+            }
+        },
+        "package-request.js": {
+            "Levels": {
+                "B1": 1
+            },
+            "Class": {
+                "importStatement": 1
+            }
+        }
+    }
+}
