@@ -5,20 +5,19 @@ import sys
 from alive_progress import alive_bar
 from time import sleep
 
-PROJECT = str(sys.argv[1])
+# PROJECT = str(sys.argv[1])
+PROJECT = 'react'
 
-# PROJECT = 'react'
 
 # Skipping A1 and A2
 skip = False
 
-PATH = '/Users/s/Desktop/git/SP2022-HelloIT-jscefr/report/DATA_JSON/' + PROJECT + '.json'
-# "/Users/s/Desktop/git/SP2022-HelloIT-jscefr/report/DATA_JSON/kit.json"
+PATH = '../../jscefr_tool/report/DATA_JSON/' + PROJECT + '.json'
 
 # SCORING_SYSTEM = "MAX" | "ALL"
 
-SCORING_SYSTEM = str(sys.argv[2])
-# SCORING_SYSTEM = "ALL"
+# SCORING_SYSTEM = str(sys.argv[2])
+SCORING_SYSTEM = "ALL"
 
 # "LAYER" | "LENGTH" | "TEST"
 CHOICE_LIST = ["LAYER", "LENGTH", "TEST"]

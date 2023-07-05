@@ -1,10 +1,14 @@
 #!/bin/sh
 
 # $1 = project name
-# $2 = scoring type
+# $2 = scoring type MAX | ALL
 
 # Run JSCEFR
-python jscefr.py directory input_dataset/$1
+pwd
+cd ../jscefr_tool
+python jscefr.py directory dataset/$1
+
+cd ../experiment
 
 # Run data extraction
 python report_generators/generate_dataset.py $1 $2
